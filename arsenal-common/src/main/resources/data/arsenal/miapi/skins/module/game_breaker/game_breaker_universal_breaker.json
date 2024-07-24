@@ -1,0 +1,45 @@
+{
+    "path": "game_breaker/universal_breaker_mindfaer",
+    "module": "blade_greatsword",
+    "replace": {
+        "model": {
+            "path": "miapi:models/item/sword/blade/greatsword/game_breaker_universal_breaker/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": -3.0,
+                    "y": -3.0,
+                    "z": 0.01
+                },
+                "scale": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 1
+                }
+            }
+        },
+        "gui_offset": {
+            "sizeX": 16,
+            "sizeY": 16
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "game_breaker",
+            "87764bed-05a7-46c2-9b19-43ef7d10db33"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    },
+    "hover": {
+        "text": "By TheWiseHedgehog"
+    }
+}

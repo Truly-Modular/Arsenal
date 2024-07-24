@@ -1,0 +1,79 @@
+{
+    "name": "blade_rapier",
+    "model": {
+        "path": "miapi:models/item/sword/blade/rapier/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "priority": 3,
+    "repair_priority": -1,
+    "material_property": [
+        "default",
+        "handheld",
+        "blade",
+        "head"
+    ],
+    "enchantments": {
+        "allowed": [
+            "miapi:edged",
+            "miapi:weapon"
+        ]
+    },
+    "allowed_in_slots": [
+        "sword_blade"
+    ],
+    "tag": [
+        "blade",
+        "polearm_halberd"
+    ],
+    "better_combat_config": {
+        "parent": "bettercombat:rapier"
+    },
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 1
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "0.3",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*0.9",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        }
+    ],
+    "durability": "[material.durability]* 0.2",
+    "armor_pen": "[material.hardness]*2.0 + 20",
+    "display_name": "miapi.module.blade_rapier.name",
+    "item_id": "miapi:modular_rapier"
+}

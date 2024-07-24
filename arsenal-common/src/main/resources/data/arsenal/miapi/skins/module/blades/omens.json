@@ -1,0 +1,64 @@
+{
+    "path": "omens",
+    "module": "blade_longsword",
+    "replace": {
+        "model": [
+            {
+                "path": "miapi:models/item/sword/blade/longsword/omens/[material.texture].json",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": -10.0,
+                        "y": -10.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 4,
+                        "y": 4,
+                        "z": 1
+                    }
+                }
+            },
+            {
+                "path": "miapi:models/item/sword/blade/longsword/omens/no_material.json",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": -10.0,
+                        "y": -10.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 4,
+                        "y": 4,
+                        "z": 1
+                    }
+                }
+            }
+        ],
+        "gui_offset": {
+            "sizeX": 7,
+            "sizeY": 7
+        }
+    },
+    "condition": {
+        "type": "advancement",
+        "advancement": "minecraft:story/enter_the_nether"
+    },
+    "hover": {
+        "text": "By RPGLordLight(ddd3)"
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

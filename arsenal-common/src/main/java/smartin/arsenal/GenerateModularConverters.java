@@ -1,24 +1,9 @@
 package smartin.arsenal;
 
-import dev.architectury.event.EventResult;
-import net.minecraft.item.*;
-import smartin.miapi.datapack.ReloadEvents;
-import smartin.miapi.events.MiapiEvents;
-import smartin.miapi.item.ModularItemStackConverter;
-import smartin.miapi.modules.ItemModule;
-import smartin.miapi.modules.material.GeneratedMaterial;
-import smartin.miapi.modules.material.Material;
-import smartin.miapi.modules.properties.ItemIdProperty;
-import smartin.miapi.registries.RegistryInventory;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-
 public class GenerateModularConverters {
-    public Map<Item, Converter> modularItem = new HashMap();
 
+            /*
+    public Map<Item, Converter> modularItem = new HashMap();
     public GenerateModularConverters() {
         ReloadEvents.START.subscribe(isClient -> {
             modularItem.clear();
@@ -217,4 +202,6 @@ public class GenerateModularConverters {
             return modularItem;
         });
     }
+
+             */
 }

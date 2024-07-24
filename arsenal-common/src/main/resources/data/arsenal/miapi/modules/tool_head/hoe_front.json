@@ -1,0 +1,168 @@
+{
+    "name": "hoe_front",
+    "model": [
+        {
+            "path": "miapi:models/item/sword/handle/extentions/type_1/[material.texture].json",
+            "color_provider": "parent",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 0.001
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "path": "miapi:models/item/sword/handle/extentions/type_3/[material.texture].json",
+            "color_provider": "parent",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 0.001
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "path": "miapi:models/item/tool/head/hoe_front/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": -8.0,
+                    "y": -7.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    ],
+    "priority": 3,
+    "repair_priority": -1,
+    "material_property": [
+        "default",
+        "handheld",
+        "tool",
+        "hoe",
+        "head"
+    ],
+    "allowed_in_slots": [
+        "tool_head"
+    ],
+    "abilities": [
+        "hoe_ability"
+    ],
+    "enchantments": {
+        "allowed": [
+            "miapi:tool",
+            "miapi:hoe"
+        ]
+    },
+    "slots": {
+        "0": {
+            "allowed": [
+                "tool_head_back"
+            ],
+            "translationKey": "miapi.slot.tool_back.name",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        }
+    },
+    "mining_level": {
+        "hoe": "[material.mining_level]"
+    },
+    "attributes": [
+        {
+            "attribute": "miapi:generic.reach",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.mining_speed.hoe",
+            "value": "[material.mining_speed] * 0.75",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_speed",
+            "value": "min(4,([material.hardness]-2)) - ceil(max(0,min(1, ([material.density] - [material.hardness]) ))) - 1.5",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "0",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        }
+    ],
+    "durability": "[material.durability]* 0.5",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "rod",
+            "crystal"
+        ],
+        "cost": 1
+    },
+    "display_name": "miapi.module.hoe_front.name",
+    "tag": [
+        "tool_head"
+    ],
+    "item_id": "miapi:modular_hoe"
+}

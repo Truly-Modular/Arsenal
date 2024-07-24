@@ -1,0 +1,20 @@
+{
+    "handle_tool": {
+        "condition": {
+            "type": "not",
+            "condition": {
+                "type": "otherModule",
+                "condition": {
+                    "type": "tag",
+                    "tag": "tool_head"
+                }
+            }
+        },
+        "merge": {
+            "gui_offset": {
+                "sizeX": 6,
+                "sizeY": 6
+            }
+        }
+    }
+}

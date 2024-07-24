@@ -1,0 +1,158 @@
+{
+    "name": "pickaxe_front",
+    "model": [
+        {
+            "path": "miapi:models/item/sword/handle/extentions/type_1/[material.texture].json",
+            "color_provider": "parent",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 0.001
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "path": "miapi:models/item/sword/handle/extentions/type_3/[material.texture].json",
+            "color_provider": "parent",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 0.001
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "path": "miapi:models/item/tool/head/pickaxe_front/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": -8.0,
+                    "y": -7.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    ],
+    "priority": 0,
+    "repair_priority": -1,
+    "material_property": [
+        "default",
+        "handheld",
+        "pickaxe",
+        "tool",
+        "head"
+    ],
+    "allowed_in_slots": [
+        "tool_head"
+    ],
+    "enchantments": {
+        "allowed": [
+            "miapi:tool",
+            "miapi:pickaxe"
+        ]
+    },
+    "slots": {
+        "0": {
+            "allowed": [
+                "tool_head_back"
+            ],
+            "translationKey": "miapi.slot.tool_back.name",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        }
+    },
+    "mining_level": {
+        "pickaxe": "[material.mining_level]-1"
+    },
+    "attributes": [
+        {
+            "attribute": "miapi:generic.reach",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.mining_speed.pickaxe",
+            "value": "[material.mining_speed]",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_speed",
+            "value": " - 0.5",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        }
+    ],
+    "durability": "[material.durability]* 0.5",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "rod",
+            "crystal"
+        ],
+        "cost": 2
+    },
+    "display_name": "miapi.module.pickaxe_front.name",
+    "tag": [
+        "tool_head"
+    ],
+    "item_id": "miapi:modular_pickaxe"
+}

@@ -1,0 +1,7 @@
+{
+    "path": "star_wars",
+    "header": {
+        "model": "miapi:textures/skin/skyrim/goldbrand.png",
+        "color": "00004489"
+    }
+}

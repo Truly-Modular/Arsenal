@@ -1,0 +1,59 @@
+{
+    "name": "guard_dual_socket",
+    "model": {
+        "path": "miapi:models/item/sword/guard/dual_socket/[material.texture].json",
+        "transform": {
+            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -4.0, "z": 0.001}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+        }
+    },
+    "allowed_in_slots": ["sword_guard"],
+    "slots": {
+        "-2": {
+            "allowed": ["gem_melee_small"],
+            "translationKey": "miapi.slot.gem.name",
+            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -5.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+        },
+        "-1": {
+            "allowed": ["gem_melee_small"],
+            "translationKey": "miapi.slot.gem.name",
+            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -5.0, "y": -4.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+        },
+        "0": {
+            "allowed": ["sword_blade","sword_blade_small","sword_blade_large"],
+            "translationKey": "miapi.slot.sword_blade.name",
+            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 2.0, "y": 2.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+        }
+    },
+    "tag": [
+        "guard",
+        "guard_normal"
+    ],
+    "material_property": [
+        "default",
+        "handheld"
+    ],
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "-0.1",
+            "operation": "*",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        }
+    ],
+    "priority": -3,
+    "repair_priority": 0,
+    "durability": "[material.durability]* 0.05",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 2
+    }
+}

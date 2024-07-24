@@ -1,0 +1,67 @@
+{
+    "path": "soul_slayer",
+    "module": "blade_greatsword",
+    "replace":
+    {
+        "model": [{
+            "path": "miapi:models/item/sword/blade/greatsword/souledge/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": -16.0,
+                    "y": -13.0,
+                    "z": 0.01
+                },
+                "scale": {
+                    "x": 4,
+                    "y": 4,
+                    "z": 1
+                }
+            }
+        },
+            {
+                "path": "miapi:models/item/sword/blade/greatsword/souledge/no_material.json",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": -16.0,
+                        "y": -13.0,
+                        "z": 0.01
+                    },
+                    "scale": {
+                        "x": 4,
+                        "y": 4,
+                        "z": 1
+                    }
+                }
+            }],
+        "gui_offset": {
+            "sizeX": 40,
+            "sizeY": 40
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "user",
+            "supporter",
+            "buster"
+        ]
+    },
+    "hover": {
+        "text": "By RPGLordLight(ddd3)"
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

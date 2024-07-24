@@ -1,0 +1,46 @@
+{
+    "path": "dragon_slayer",
+    "module": "blade_greatsword",
+    "replace": {
+        "model": {
+            "path": "miapi:models/item/sword/blade/greatsword/dragonslayer/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": -10.0,
+                    "y": -10.0,
+                    "z": 0.01
+                },
+                "scale": {
+                    "x": 4,
+                    "y": 4,
+                    "z": 1
+                }
+            }
+        },
+        "gui_offset": {
+            "sizeX": 40,
+            "sizeY": 40
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "user",
+            "supporter",
+            "buster"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    },
+    "hover": {
+        "text": "By RPGLordLight(ddd3)"
+    }
+}

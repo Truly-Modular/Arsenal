@@ -1,0 +1,96 @@
+{
+    "name": "arsenal_end_crystal_medium_gem_generic",
+    "allowed_in_slots": [
+        "gem_melee_medium"
+    ],
+    "material_property": [
+        "default",
+        "gem_melee_handheld",
+        "gem_melee_generic"
+    ],
+    "module_stats": {
+        "gem_power": 2
+    },
+    "tag": [
+        "gem_melee",
+        "gem_melee_medium",
+        "gem_melee_generic",
+        "gem_melee_medium_generic"
+    ],
+    "priority": 4,
+    "repair_priority": 0,
+    "crafting_condition": {
+        "craftable": {
+            "type": "material",
+            "material": "stone_obsidian",
+            "error": {
+                "translate": "miapi.crafting_condition.require_obsidian_socket"
+            }
+        },
+        "on_craft": {
+            "type": true
+        }
+    },
+    "allowChangeParent": {
+        "type": "not",
+        "condition": {
+            "type": "true"
+        },
+        "reason": {
+            "translate": "miapi.crafting_condition.cant_change_parent"
+        }
+    },
+    "rarity": "rare",
+    "entity_model": [
+        {
+            "id": "minecraft:end_crystal",
+            "nbt": {
+                "ShowBottom": false
+            },
+            "full_bright": true,
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -45.0
+                },
+                "translation": {
+                    "x": 0.45,
+                    "y": 0.45,
+                    "z": 0.5
+                },
+                "scale": {
+                    "x": 0.0625,
+                    "y": 0.0625,
+                    "z": 0.0625
+                }
+            }
+        }
+    ],
+    "on_kill_explosion": {
+        "destroyBlocks": false,
+        "strength": 3.0,
+        "entityMaxDamage": 12,
+        "entityStrength": 15,
+        "entityRadius": 7
+    },
+    "gui_stat": {
+        "explode_on_hit": {
+            "value": 6,
+            "min": 1,
+            "max": 7,
+            "header": {
+                "translate": "miapi.arsenal.gemstone_melee.unstable"
+            },
+            "description": {
+                "translate": "miapi.arsenal.gemstone_melee.unstable.description"
+            }
+        }
+    },
+    "allowed_material": {
+        "allowedMaterials": [
+            "end_crystal"
+        ],
+        "cost": 1
+    }
+}

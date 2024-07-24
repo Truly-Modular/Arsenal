@@ -1,0 +1,42 @@
+{
+    "path": "game_breaker/katana_sketano",
+    "module": "blade_katana",
+    "replace": {
+        "model": {
+            "path": "miapi:models/item/sword/blade/katana/game_breaker/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": -14.0,
+                    "y": -14.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 4,
+                    "y": 4,
+                    "z": 1
+                }
+            }
+        },
+        "gui_offset": {
+            "sizeX": 4,
+            "sizeY": 4
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["game_breaker","989d88f0-eb7e-436f-b0da-d72b97fa4079"]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    },
+    "hover": {
+        "text": "By Sketano"
+    }
+}

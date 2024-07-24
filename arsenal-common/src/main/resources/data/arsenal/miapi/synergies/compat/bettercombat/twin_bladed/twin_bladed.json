@@ -1,0 +1,19 @@
+{
+    "type": "tag",
+    "blade": {
+        "condition": {
+            "type": "otherModule",
+            "condition": {
+                "type": "tag",
+                "tag": "twin_handle"
+            }
+        },
+        "replace": {
+            "better_combat_config": {
+                "parent": "bettercombat:twin_blade"
+            },
+            "display_name": "miapi.module.twin_blade.name",
+            "item_id": "miapi:twin_blade"
+        }
+    }
+}

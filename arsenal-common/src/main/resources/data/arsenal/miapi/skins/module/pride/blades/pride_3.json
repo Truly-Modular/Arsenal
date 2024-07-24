@@ -1,0 +1,25 @@
+{
+    "path": "pride/pride-blade_3",
+    "module_tags": [
+        "blade"
+    ],
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "colorProvider": "material:rainbow_pride_3",
+                "modelTargetType": "path",
+                "modelTargetInfo": "",
+                "allowOtherModules": false
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["pride","supporter"]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

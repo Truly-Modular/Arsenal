@@ -1,0 +1,89 @@
+{
+    "name": "arsenal_heart_of_the_sea_medium_gem_generic",
+    "model": {
+        "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "allowed_in_slots": [
+        "gem_melee_medium"
+    ],
+    "material_property": [
+        "default",
+        "gem_melee_handheld",
+        "gem_melee_generic"
+    ],
+    "module_stats": {
+        "gem_power": 2
+    },
+    "tag": [
+        "gem_melee",
+        "gem_melee_medium",
+        "gem_melee_generic",
+        "gem_melee_medium_generic"
+    ],
+    "aquatic_damage": "3+[module.gem_power]/2",
+    "attributes": [
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": "0.10",
+            "operation": "*",
+            "slot": "mainhand",
+            "target_operation": "*"
+        }
+    ],
+    "on_attack_potion": [
+        {
+            "potion": "minecraft:conduit_power",
+            "amplifier": "0",
+            "duration": "20 * 10",
+            "showIcon": true,
+            "target_self": true
+        }
+    ],
+    "crafting_condition": {
+        "visible": {
+            "type": "not",
+            "condition": {
+                "type": "true"
+            }
+        },
+        "craftable": {
+            "type": "material",
+            "material": "stone_prismarine",
+            "error": {
+                "translate": "miapi.crafting_condition.require_prismarine_socket"
+            }
+        },
+        "on_craft": {
+            "type": true
+        }
+    },
+    "allowChangeParent": {
+        "type": "not",
+        "condition": {
+            "type": "true"
+        },
+        "error": {
+            "translate": "miapi.crafting_condition.cant_change_parent"
+        }
+    },
+    "rarity": "uncommon",
+    "priority": 1,
+    "repair_priority": 0
+}

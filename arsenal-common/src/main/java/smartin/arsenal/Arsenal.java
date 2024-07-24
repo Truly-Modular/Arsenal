@@ -7,6 +7,6 @@ public class Arsenal
 	public static final String MOD_ID = "arsenal";
 
 	public static void init() {
-		LifecycleEvent.SETUP.register(GenerateModularConverters::new);
+		//LifecycleEvent.SETUP.register(GenerateModularConverters::new);
 	}
 }

@@ -1,0 +1,46 @@
+{
+    "path": "bident",
+    "module": "blade_trident",
+    "replace": {
+        "model": [
+            {
+                "path": "miapi:models/item/sword/blade/trident/bident/[material.texture].json",
+                "color": "[material.color]",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": -5.0,
+                        "y": -5.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            }
+        ],
+        "gui_offset": {
+            "sizeX": -6,
+            "sizeY": -6
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "user",
+            "supporter",
+            "buster"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}
