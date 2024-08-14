@@ -1,119 +1,119 @@
 {
     "minecraft:wooden_shovel": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "shovel",
-                        "moduleData": {
-                            "properties": "{\"material\":\"wood\"}"
+                        "key": "arsenal:tool/shovel",
+                        "data": {
+                            "properties": {"material":"wood"}
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             }
         }
     },
     "minecraft:stone_shovel": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "shovel",
-                        "moduleData": {
-                            "properties": "{\"material\":\"stone\"}"
+                        "key": "arsenal:tool/shovel",
+                        "data": {
+                            "properties": {"material":"stone"}
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             }
         }
     },
     "minecraft:iron_shovel": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "shovel",
-                        "moduleData": {
-                            "properties": "{\"material\":\"iron\"}"
+                        "key": "arsenal:tool/shovel",
+                        "data": {
+                            "properties": {"material":"iron"}
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             }
         }
     },
     "minecraft:golden_shovel": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "shovel",
-                        "moduleData": {
-                            "properties": "{\"material\":\"gold\"}"
+                        "key": "arsenal:tool/shovel",
+                        "data": {
+                            "properties": {"material":"gold"}
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             }
         }
     },
     "minecraft:diamond_shovel": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "shovel",
-                        "moduleData": {
-                            "properties": "{\"material\":\"diamond\"}"
+                        "key": "arsenal:tool/shovel",
+                        "data": {
+                            "properties": {"material":"diamond"}
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             }
         }
     },
     "minecraft:netherite_shovel": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "shovel",
-                        "moduleData": {
-                            "properties": "{\"material\":\"netherite\"}"
+                        "key": "arsenal:tool/shovel",
+                        "data": {
+                            "properties": {"material":"netherite"}
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             }

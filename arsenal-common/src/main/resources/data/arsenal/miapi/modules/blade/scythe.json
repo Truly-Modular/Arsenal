@@ -1,0 +1,105 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/sword/blade/scythe/[material.texture].json",
+            "color": "[material.color]",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": -8.0,
+                    "y": -3.0,
+                    "z": -0.001
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    ],
+    "priority": 3,
+    "repair_priority": -1,
+    "material_property": [
+        "default",
+        "handheld",
+        "blade",
+        "head"
+    ],
+    "enchantments": {
+        "allowed": [
+            "miapi:edged",
+            "miapi:weapon",
+            "minecraft:loyalty"
+        ]
+    },
+    "allowed_in_slots": [
+        "polearm_blade"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 1
+    },
+    "abilities": [
+        "hoe_ability"
+    ],
+    "fake_enchant": {
+        "minecraft:sweeping": 3
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "+0.5",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*0.8",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        }
+    ],
+    "durability": "[material.durability]* 0.4",
+    "gui_offset": {
+        "sizeX": -7,
+        "sizeY": -7
+    },
+    "better_combat_config": {
+        "parent": "bettercombat:scythe"
+    },
+    "ability_context": {
+        "area_harvest_ability": {
+            "block_range": "[material.mining_level]"
+        }
+    },
+    "gui_stat": {
+        "area_harvest_ability": {
+            "value": "[material.mining_level]",
+            "min": 0,
+            "max": 4,
+            "header": {
+                "translate": "miapi.ability.area_harvest_ability.title"
+            },
+            "description": {
+                "translate": "miapi.ability.area_harvest_ability.description"
+            }
+        }
+    },
+    "display_name": "miapi.module.arsenal.blade.scythe.name",
+    "item_id": "miapi:modular_scythe"
+}

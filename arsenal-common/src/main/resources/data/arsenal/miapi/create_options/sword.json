@@ -1,4 +1,4 @@
 {
-    "module": "handle_normal",
+    "module": "arsenal:handle/sword",
     "translation": "miapi.create_item.sword"
 }

@@ -1,5 +1,5 @@
 {
-    "handle_tool": {
+    "arsenal:handle/tool": {
         "condition": {
             "type": "not",
             "condition": {

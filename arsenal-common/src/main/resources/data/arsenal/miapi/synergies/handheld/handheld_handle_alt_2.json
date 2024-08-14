@@ -1,5 +1,5 @@
 {
-    "handle_handheld": {
+    "arsenal:handheld/handle": {
         "condition": {
             "type": "otherModule",
             "condition": {

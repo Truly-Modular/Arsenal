@@ -1,6 +1,6 @@
 {
     "path": "masamune",
-    "module": "blade_katana",
+    "module": "arsenal:blade/katana",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/katana/masamune/[material.texture].json",

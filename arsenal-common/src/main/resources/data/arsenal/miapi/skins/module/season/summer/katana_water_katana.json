@@ -1,6 +1,6 @@
 {
     "path": "summer/katana-water_katana",
-    "module": "blade_katana",
+    "module": "arsenal:blade/katana",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/katana/water_katana/[material.texture].json",

@@ -1,6 +1,6 @@
 {
     "path": "spring/greatsword-trunk",
-    "module": "blade_greatsword",
+    "module": "arsenal:blade/greatsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/trunk/[material.texture].json",

@@ -1,0 +1,237 @@
+{
+    "model": [{
+        "path": "miapi:models/item/handheld/gauntlets/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    }],
+    "handheld_item":true,
+    "display_name": "miapi.module.handheld_gauntlets.name",
+    "item_id": "miapi:modular_gauntlets",
+    "enchantments": {
+        "allowed": [
+            "miapi:weapon"
+        ]
+    },
+    "tag": [
+        "knuckles",
+        "bludgening",
+        "handheld"
+    ],
+    "priority": 0,
+    "repair_priority": -1,
+    "allowed_in_slots": [
+        "handheld_blade"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 1
+    },
+    "attributes": [
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "0.0",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_speed",
+            "value": "+0.5",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*0.5",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        },
+        {
+            "attribute": "miapi:generic.stun_damage",
+            "value": "[material.flexibility]*0.1 + [material.hardness]*0.4",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "[material.flexibility]*0.5 + [material.hardness]*0.2",
+            "operation": "+",
+            "slot": "mainhand"
+        }
+    ],
+    "material_property": [
+        "default",
+        "blade",
+        "handheld",
+        "dual_wield",
+        "head"
+    ],
+    "modelTransform": {
+        "display": {
+            "thirdperson_righthand": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 2.75,
+                    "y": 0,
+                    "z": 2.5
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.8,
+                    "z": 0.8
+                }
+            },
+            "thirdperson_lefthand": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": -2.75,
+                    "y": 0,
+                    "z": 2.5
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.8,
+                    "z": 0.8
+                }
+            },
+            "firstperson_righthand": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "firstperson_lefthand": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "ground": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 2,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "head": {
+                "rotation": {
+                    "x": 90,
+                    "y": 90,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 13,
+                    "z": 7
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            },
+            "fixed": {
+                "translation": {
+                    "x": 3,
+                    "y": 0,
+                    "z": 1
+                },
+                "rotation": {
+                    "x": 90,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            },
+            "gui": {
+                "translation": {
+                    "x": 3.5,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 90,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    },
+    "durability": "[material.durability]* 0.5",
+    "better_combat_config": {
+        "parent": "bettercombat:fist"
+    }
+}

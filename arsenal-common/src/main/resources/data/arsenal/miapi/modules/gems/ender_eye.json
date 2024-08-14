@@ -1,5 +1,4 @@
 {
-    "name": "arsenal_ender_eye_medium_gem",
     "model": {
         "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
         "transform": {

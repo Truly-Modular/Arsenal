@@ -1,5 +1,5 @@
 {
-    "pickaxe_front": {
+    "arsenal:tool/pickaxe_front": {
         "condition": {
             "type": "child",
             "condition": {

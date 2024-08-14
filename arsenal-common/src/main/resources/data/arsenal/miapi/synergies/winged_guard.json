@@ -1,5 +1,5 @@
 {
-    "guard_winged": {
+    "arsenal:guard/winged": {
         "condition": {
             "type": "otherModule",
             "condition": {

@@ -1,5 +1,5 @@
 {
-    "hoe_front": {
+    "arsenal:tool/hoe_front": {
         "condition": {
             "type": "child",
             "condition": {

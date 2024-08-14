@@ -1,6 +1,6 @@
 {
     "path": "blade_dagger_knife",
-    "module": "blade_dagger",
+    "module": "arsenal:blade/dagger",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/dagger/knife/[material.texture].json",

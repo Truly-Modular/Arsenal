@@ -1,6 +1,6 @@
 {
     "path": "summer/sickle-water_blade",
-    "module": "blade_sickle",
+    "module": "arsenal:blade/sickle",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/sickle/water_blade/[material.texture].json",

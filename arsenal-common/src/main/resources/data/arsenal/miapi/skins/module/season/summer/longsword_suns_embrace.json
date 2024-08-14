@@ -1,6 +1,6 @@
 {
     "path": "summer/longsword-suns_embrace",
-    "module": "blade_longsword",
+    "module": "arsenal:blade/longsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/longsword/suns_embrace/[material.texture].json",

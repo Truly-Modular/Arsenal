@@ -1,6 +1,6 @@
 {
     "path": "autumn/longsword-falling_cherry",
-    "module": "blade_longsword",
+    "module": "arsenal:blade/longsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/longsword/falling_cherry/[material.texture].json",

@@ -1,0 +1,113 @@
+{
+    "model": {
+        "path": "miapi:models/item/sword/blade/greatsword/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": -0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "priority": 4,
+    "material_property": [
+        "default",
+        "handheld",
+        "blade",
+        "head"
+    ],
+    "repair_priority": -1,
+    "enchantments": {
+        "allowed": [
+            "miapi:edged",
+            "miapi:weapon"
+        ]
+    },
+    "allowed_in_slots": [
+        "sword_blade_large"
+    ],
+    "tag": [
+        "blade",
+        "blade_large",
+        "polearm_glaive",
+        "one_handed_sword"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    },
+    "better_combat_config": {
+        "parent": "bettercombat:claymore"
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*1.15",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        },
+        {
+            "attribute": "miapi:generic.shield_break",
+            "value": "2",
+            "operation": "+",
+            "slot": "mainhand"
+        }
+    ],
+    "durability": "[material.durability]* 0.25",
+    "gui_offset": {
+        "sizeX": 6,
+        "sizeY": 6
+    },
+    "display_name": "miapi.module.arsenal.blade.greatsword.name",
+    "abilities": [
+        "heavyAttack"
+    ],
+    "heavyAttack": {
+        "damage": 2,
+        "sweeping": 3,
+        "range": 5,
+        "minHold": 15,
+        "cooldown": 60,
+        "particle": {
+            "emit": {
+                "type":"minecraft:angry_villager"
+            },
+            "frequency": 1,
+            "count": 5,
+            "speed": 3,
+            "startAfter": 0
+        }
+    },
+    "item_id": "miapi:modular_greatsword",
+
+
+    "provideStats": {
+        "hammering": 5
+    }
+}

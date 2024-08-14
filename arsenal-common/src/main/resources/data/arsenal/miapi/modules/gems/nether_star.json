@@ -1,5 +1,4 @@
 {
-    "name": "arsenal_nether_star_medium_gem_generic",
     "model": {
         "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
         "transform": {

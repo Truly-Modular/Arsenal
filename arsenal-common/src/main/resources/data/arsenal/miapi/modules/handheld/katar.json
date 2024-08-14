@@ -1,0 +1,86 @@
+{
+    "name": "katar",
+    "model": [{
+        "path": "miapi:models/item/handheld/katars/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    }],
+    "handheld_item":true,
+    "display_name": "miapi.module.handheld_katar.name",
+    "item_id": "miapi:modular_katars",
+    "enchantments": {
+        "allowed": [
+            "miapi:edged",
+            "miapi:weapon"
+        ]
+    },
+    "tag": [
+        "blade_short",
+        "handheld"
+    ],
+    "priority": 0,
+    "repair_priority": -1,
+    "allowed_in_slots": [
+        "handheld_blade"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 1
+    },
+    "attributes": [
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "0.0",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_speed",
+            "value": "+0.5",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*0.6",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        }
+    ],
+    "material_property": [
+        "default",
+        "blade",
+        "handheld",
+        "dual_wield",
+        "head"
+    ],
+    "durability": "[material.durability]* 0.5",
+    "better_combat_config": {
+        "parent": "bettercombat:dagger"
+    }
+}

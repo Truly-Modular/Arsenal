@@ -1,5 +1,4 @@
 {
-    "name": "arsenal_large_gem_generic",
     "model": {
         "path": "miapi:models/item/arsenal/gems/large/[material.texture].json",
         "transform": {

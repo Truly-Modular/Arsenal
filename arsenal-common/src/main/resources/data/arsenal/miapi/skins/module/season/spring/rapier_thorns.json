@@ -1,6 +1,6 @@
 {
     "path": "spring/rapier-thorns",
-    "module": "blade_rapier",
+    "module": "arsenal:blade/rapier",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/rapier/thorn/[material.texture].json",

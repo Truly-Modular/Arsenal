@@ -1,6 +1,6 @@
 {
     "path": "spring/katana-leafblade",
-    "module": "blade_katana",
+    "module": "arsenal:blade/katana",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/katana/leafblade/[material.texture].json",

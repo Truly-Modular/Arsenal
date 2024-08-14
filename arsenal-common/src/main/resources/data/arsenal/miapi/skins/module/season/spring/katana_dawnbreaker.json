@@ -1,6 +1,6 @@
 {
     "path": "spring/katana-dawnbreaker",
-    "module": "blade_katana",
+    "module": "arsenal:blade/katana",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/katana/dawnbreaker/[material.texture].json",

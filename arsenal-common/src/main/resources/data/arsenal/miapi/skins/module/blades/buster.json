@@ -1,6 +1,6 @@
 {
     "path": "buster",
-    "module": "blade_greatsword",
+    "module": "arsenal:blade/greatsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/buster/[material.texture].json",

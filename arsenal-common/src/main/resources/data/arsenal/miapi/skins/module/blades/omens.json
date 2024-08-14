@@ -1,6 +1,6 @@
 {
     "path": "omens",
-    "module": "blade_longsword",
+    "module": "arsenal:blade/longsword",
     "replace": {
         "model": [
             {

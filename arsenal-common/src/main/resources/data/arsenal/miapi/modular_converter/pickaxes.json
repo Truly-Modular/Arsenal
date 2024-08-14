@@ -1,25 +1,25 @@
 {
     "minecraft:wooden_pickaxe": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "pickaxe_front",
-                        "moduleData": {
-                            "properties": "{\"material\":\"wood\"}"
+                        "key": "arsenal:tool/pickaxe_front",
+                        "data": {
+                            "properties": {"material":"wood"}
                         },
-                        "subModules": {
+                        "child": {
                             "0": {
-                                "module": "pickaxe_back",
-                                "moduleData": {
-                                    "properties": "{\"material\":\"wood\"}"
+                                "key": "arsenal:tool/pickaxe_back",
+                                "data": {
+                                    "properties": {"material":"wood"}
                                 },
-                                "subModules": {}
+                                "child": {}
                             }
                         }
                     }
@@ -28,26 +28,26 @@
         }
     },
     "minecraft:stone_pickaxe": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "pickaxe_front",
-                        "moduleData": {
-                            "properties": "{\"material\":\"stone\"}"
+                        "key": "arsenal:tool/pickaxe_front",
+                        "data": {
+                            "properties": {"material":"stone"}
                         },
-                        "subModules": {
+                        "child": {
                             "0": {
-                                "module": "pickaxe_back",
-                                "moduleData": {
-                                    "properties": "{\"material\":\"stone\"}"
+                                "key": "arsenal:tool/pickaxe_back",
+                                "data": {
+                                    "properties": {"material":"stone"}
                                 },
-                                "subModules": {}
+                                "child": {}
                             }
                         }
                     }
@@ -56,26 +56,26 @@
         }
     },
     "minecraft:iron_pickaxe": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "pickaxe_front",
-                        "moduleData": {
-                            "properties": "{\"material\":\"iron\"}"
+                        "key": "arsenal:tool/pickaxe_front",
+                        "data": {
+                            "properties": {"material":"iron"}
                         },
-                        "subModules": {
+                        "child": {
                             "0": {
-                                "module": "pickaxe_back",
-                                "moduleData": {
-                                    "properties": "{\"material\":\"iron\"}"
+                                "key": "arsenal:tool/pickaxe_back",
+                                "data": {
+                                    "properties": {"material":"iron"}
                                 },
-                                "subModules": {}
+                                "child": {}
                             }
                         }
                     }
@@ -84,26 +84,26 @@
         }
     },
     "minecraft:golden_pickaxe": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "pickaxe_front",
-                        "moduleData": {
-                            "properties": "{\"material\":\"gold\"}"
+                        "key": "arsenal:tool/pickaxe_front",
+                        "data": {
+                            "properties": {"material":"gold"}
                         },
-                        "subModules": {
+                        "child": {
                             "0": {
-                                "module": "pickaxe_back",
-                                "moduleData": {
-                                    "properties": "{\"material\":\"gold\"}"
+                                "key": "arsenal:tool/pickaxe_back",
+                                "data": {
+                                    "properties": {"material":"gold"}
                                 },
-                                "subModules": {}
+                                "child": {}
                             }
                         }
                     }
@@ -112,26 +112,26 @@
         }
     },
     "minecraft:diamond_pickaxe": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "pickaxe_front",
-                        "moduleData": {
-                            "properties": "{\"material\":\"diamond\"}"
+                        "key": "arsenal:tool/pickaxe_front",
+                        "data": {
+                            "properties": {"material":"diamond"}
                         },
-                        "subModules": {
+                        "child": {
                             "0": {
-                                "module": "pickaxe_back",
-                                "moduleData": {
-                                    "properties": "{\"material\":\"diamond\"}"
+                                "key": "arsenal:tool/pickaxe_back",
+                                "data": {
+                                    "properties": {"material":"diamond"}
                                 },
-                                "subModules": {}
+                                "child": {}
                             }
                         }
                     }
@@ -140,26 +140,26 @@
         }
     },
     "minecraft:netherite_pickaxe": {
-        "module": "handle_tool",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/tool",
+        "data": {
+            "properties": {"material":"wood"}
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "tool_adapter",
-                "subModules": {
+                "key": "arsenal:guard/tool_adapter",
+                "child": {
                     "0": {
-                        "module": "pickaxe_front",
-                        "moduleData": {
-                            "properties": "{\"material\":\"netherite\"}"
+                        "key": "arsenal:tool/pickaxe_front",
+                        "data": {
+                            "properties": {"material":"netherite"}
                         },
-                        "subModules": {
+                        "child": {
                             "0": {
-                                "module": "pickaxe_back",
-                                "moduleData": {
-                                    "properties": "{\"material\":\"netherite\"}"
+                                "key": "arsenal:tool/pickaxe_back",
+                                "data": {
+                                    "properties": {"material":"netherite"}
                                 },
-                                "subModules": {}
+                                "child": {}
                             }
                         }
                     }

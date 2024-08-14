@@ -1,6 +1,6 @@
 {
     "path": "guard_katana",
-    "module": "guard_slim",
+    "module": "arsenal:guard/slim",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/guard/katana/[material.texture].json",

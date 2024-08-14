@@ -1,5 +1,5 @@
 {
-    "pommel_spike": {
+    "arsenal:pommel/spike": {
         "condition": {
             "type": "not",
             "condition": {

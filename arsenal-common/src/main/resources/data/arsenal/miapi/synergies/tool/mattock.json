@@ -1,5 +1,5 @@
 {
-    "axe_front": {
+    "arsenal:tool/axe_front": {
         "condition": {
             "type": "child",
             "condition": {

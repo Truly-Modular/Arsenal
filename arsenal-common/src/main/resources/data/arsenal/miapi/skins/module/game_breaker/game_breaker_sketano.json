@@ -1,6 +1,6 @@
 {
     "path": "game_breaker/katana_sketano",
-    "module": "blade_katana",
+    "module": "arsenal:blade/katana",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/katana/game_breaker/[material.texture].json",

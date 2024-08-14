@@ -1,5 +1,5 @@
 {
-    "pommel_cross": {
+    "arsenal:pommel/cross": {
         "condition": {
             "type": "otherModule",
             "condition": {

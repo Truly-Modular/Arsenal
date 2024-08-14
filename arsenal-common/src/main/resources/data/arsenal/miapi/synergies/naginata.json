@@ -1,5 +1,5 @@
 {
-    "blade_katana": {
+    "arsenal:blade/katana": {
         "condition": {
             "type": "otherModule",
             "condition": {

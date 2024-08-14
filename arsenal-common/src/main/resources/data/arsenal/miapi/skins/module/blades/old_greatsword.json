@@ -1,6 +1,6 @@
 {
     "path": "old_greatsword",
-    "module": "blade_greatsword",
+    "module": "arsenal:blade/greatsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/old/[material.texture].json",

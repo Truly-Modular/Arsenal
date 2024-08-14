@@ -1,4 +1,4 @@
 {
-    "module": "handle_tool",
+    "module": "arsenal:handle/tool",
     "translation": "miapi.create_item.tool"
 }

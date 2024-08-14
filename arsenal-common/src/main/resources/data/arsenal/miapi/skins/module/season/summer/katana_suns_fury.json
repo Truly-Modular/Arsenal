@@ -1,6 +1,6 @@
 {
     "path": "summer/katana-suns_fury",
-    "module": "blade_katana",
+    "module": "arsenal:blade/katana",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/katana/suns_fury/[material.texture].json",

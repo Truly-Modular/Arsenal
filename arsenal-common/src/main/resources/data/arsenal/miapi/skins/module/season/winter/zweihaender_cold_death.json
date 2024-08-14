@@ -1,6 +1,6 @@
 {
     "path": "winter/zweihaender-cold_death",
-    "module": "blade_zweihaender",
+    "module": "arsenal:blade/zweihaender",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/zweihaender/cold_death/[material.texture].json",

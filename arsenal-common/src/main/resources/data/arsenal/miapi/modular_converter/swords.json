@@ -1,181 +1,229 @@
 {
     "minecraft:golden_sword": {
-        "module": "handle_normal",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/sword",
+        "data": {
+            "properties": {
+                "material": "wood"
+            }
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "guard_normal",
-                "moduleData": {
-                    "properties": "{\"material\":\"gold\"}"
+                "key": "arsenal:guard/normal",
+                "data": {
+                    "properties": {
+                        "material": "gold"
+                    }
                 },
-                "subModules": {
+                "child": {
                     "0": {
-                        "module": "blade_sword",
-                        "moduleData": {
-                            "properties": "{\"material\":\"gold\"}"
+                        "key": "arsenal:blade/normal",
+                        "data": {
+                            "properties": {
+                                "material": "gold"
+                            }
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             },
             "1": {
-                "module": "pommel_round",
-                "moduleData": {
-                    "properties": "{\"material\":\"gold\"}"
+                "key": "arsenal:pommel/round",
+                "data": {
+                    "properties": {
+                        "material": "gold"
+                    }
                 },
-                "subModules": {}
+                "child": {}
             }
         }
     },
     "minecraft:diamond_sword": {
-        "module": "handle_normal",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/sword",
+        "data": {
+            "properties": {
+                "material": "wood"
+            }
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "guard_normal",
-                "moduleData": {
-                    "properties": "{\"material\":\"diamond\"}"
+                "key": "arsenal:guard/normal",
+                "data": {
+                    "properties": {
+                        "material": "diamond"
+                    }
                 },
-                "subModules": {
+                "child": {
                     "0": {
-                        "module": "blade_sword",
-                        "moduleData": {
-                            "properties": "{\"material\":\"diamond\"}"
+                        "key": "arsenal:blade/normal",
+                        "data": {
+                            "properties": {
+                                "material": "diamond"
+                            }
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             },
             "1": {
-                "module": "pommel_round",
-                "moduleData": {
-                    "properties": "{\"material\":\"diamond\"}"
+                "key": "arsenal:pommel/round",
+                "data": {
+                    "properties": {
+                        "material": "diamond"
+                    }
                 },
-                "subModules": {}
+                "child": {}
             }
         }
     },
     "minecraft:iron_sword": {
-        "module": "handle_normal",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/sword",
+        "data": {
+            "properties": {
+                "material": "wood"
+            }
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "guard_normal",
-                "moduleData": {
-                    "properties": "{\"material\":\"iron\"}"
+                "key": "arsenal:guard/normal",
+                "data": {
+                    "properties": {
+                        "material": "iron"
+                    }
                 },
-                "subModules": {
+                "child": {
                     "0": {
-                        "module": "blade_sword",
-                        "moduleData": {
-                            "properties": "{\"material\":\"iron\"}"
+                        "key": "arsenal:blade/normal",
+                        "data": {
+                            "properties": {
+                                "material": "iron"
+                            }
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             },
             "1": {
-                "module": "pommel_round",
-                "moduleData": {
-                    "properties": "{\"material\":\"iron\"}"
+                "key": "arsenal:pommel/round",
+                "data": {
+                    "properties": {
+                        "material": "iron"
+                    }
                 },
-                "subModules": {}
+                "child": {}
             }
         }
     },
     "minecraft:wooden_sword": {
-        "module": "handle_normal",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/sword",
+        "data": {
+            "properties": {
+                "material": "wood"
+            }
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "guard_normal",
-                "moduleData": {
-                    "properties": "{\"material\":\"wood\"}"
+                "key": "arsenal:guard/normal",
+                "data": {
+                    "properties": {
+                        "material": "wood"
+                    }
                 },
-                "subModules": {
+                "child": {
                     "0": {
-                        "module": "blade_sword",
-                        "moduleData": {
-                            "properties": "{\"material\":\"wood\"}"
+                        "key": "arsenal:blade/normal",
+                        "data": {
+                            "properties": {
+                                "material": "wood"
+                            }
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             },
             "1": {
-                "module": "pommel_round",
-                "moduleData": {
-                    "properties": "{\"material\":\"wood\"}"
+                "key": "arsenal:pommel/round",
+                "data": {
+                    "properties": {
+                        "material": "wood"
+                    }
                 },
-                "subModules": {}
+                "child": {}
             }
         }
     },
     "minecraft:stone_sword": {
-        "module": "handle_normal",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/sword",
+        "data": {
+            "properties": {
+                "material": "wood"
+            }
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "guard_normal",
-                "moduleData": {
-                    "properties": "{\"material\":\"stone\"}"
+                "key": "arsenal:guard/normal",
+                "data": {
+                    "properties": {
+                        "material": "stone"
+                    }
                 },
-                "subModules": {
+                "child": {
                     "0": {
-                        "module": "blade_sword",
-                        "moduleData": {
-                            "properties": "{\"material\":\"stone\"}"
+                        "key": "arsenal:blade/normal",
+                        "data": {
+                            "properties": {
+                                "material": "stone"
+                            }
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             },
             "1": {
-                "module": "pommel_round",
-                "moduleData": {
-                    "properties": "{\"material\":\"stone\"}"
+                "key": "arsenal:pommel/round",
+                "data": {
+                    "properties": {
+                        "material": "stone"
+                    }
                 },
-                "subModules": {}
+                "child": {}
             }
         }
     },
     "minecraft:netherite_sword": {
-        "module": "handle_normal",
-        "moduleData": {
-            "properties": "{\"material\":\"wood\"}"
+        "key": "arsenal:handle/sword",
+        "data": {
+            "properties": {
+                "material": "wood"
+            }
         },
-        "subModules": {
+        "child": {
             "0": {
-                "module": "guard_normal",
-                "moduleData": {
-                    "properties": "{\"material\":\"netherite\"}"
+                "key": "arsenal:guard/normal",
+                "data": {
+                    "properties": {
+                        "material": "netherite"
+                    }
                 },
-                "subModules": {
+                "child": {
                     "0": {
-                        "module": "blade_sword",
-                        "moduleData": {
-                            "properties": "{\"material\":\"netherite\"}"
+                        "key": "arsenal:blade/normal",
+                        "data": {
+                            "properties": {
+                                "material": "netherite"
+                            }
                         },
-                        "subModules": {}
+                        "child": {}
                     }
                 }
             },
             "1": {
-                "module": "pommel_round",
-                "moduleData": {
-                    "properties": "{\"material\":\"netherite\"}"
+                "key": "arsenal:pommel/round",
+                "data": {
+                    "properties": {
+                        "material": "netherite"
+                    }
                 },
-                "subModules": {}
+                "child": {}
             }
         }
     }

@@ -1,0 +1,68 @@
+{
+    "model": {
+        "path": "miapi:models/item/sword/pommel/cross/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": -4.0,
+                "y": -5.0,
+                "z": 0.001
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "priority": 2,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "handheld"
+    ],
+    "allowed_in_slots": [
+        "sword_pommel"
+    ],
+    "slots": {
+    },
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "rod",
+            "crystal"
+        ],
+        "cost": 1
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "-0.2 + [material.density]*0.04",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "0.1",
+            "operation": "*",
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        }
+    ],
+    "durability": "[material.durability]* 0.25",
+    "gui_offset": {
+        "x": 1,
+        "y": 1,
+        "sizeX": 1,
+        "sizeY": 1
+    }
+}
