@@ -131,8 +131,7 @@
                                 "data": {
                                     "properties": {"material":"miapi:crystal/diamond"}
                                 },
-                                "child": {
-                                }
+                                "child": {}
                             }
                         }
                     }
@@ -160,8 +159,7 @@
                                 "data": {
                                     "properties": {"material":"miapi:metal/netherite"}
                                 },
-                                "child": {
-                                }
+                                "child": {}
                             }
                         }
                     }
