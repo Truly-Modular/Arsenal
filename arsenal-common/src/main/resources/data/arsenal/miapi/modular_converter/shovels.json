@@ -2,7 +2,7 @@
     "minecraft:wooden_shovel": {
         "key": "arsenal:handle/tool",
         "data": {
-            "properties": {"material":"wood"}
+            "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "0": {
@@ -11,7 +11,7 @@
                     "0": {
                         "key": "arsenal:tool/shovel",
                         "data": {
-                            "properties": {"material":"wood"}
+                            "properties": {"material":"miapi:wood/wood"}
                         },
                         "child": {}
                     }
@@ -22,7 +22,7 @@
     "minecraft:stone_shovel": {
         "key": "arsenal:handle/tool",
         "data": {
-            "properties": {"material":"wood"}
+            "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "0": {
@@ -31,7 +31,7 @@
                     "0": {
                         "key": "arsenal:tool/shovel",
                         "data": {
-                            "properties": {"material":"stone"}
+                            "properties": {"material":"miapi:stone/stone"}
                         },
                         "child": {}
                     }
@@ -42,7 +42,7 @@
     "minecraft:iron_shovel": {
         "key": "arsenal:handle/tool",
         "data": {
-            "properties": {"material":"wood"}
+            "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "0": {
@@ -51,7 +51,7 @@
                     "0": {
                         "key": "arsenal:tool/shovel",
                         "data": {
-                            "properties": {"material":"iron"}
+                            "properties": {"material":"miapi:metal/iron"}
                         },
                         "child": {}
                     }
@@ -62,7 +62,7 @@
     "minecraft:golden_shovel": {
         "key": "arsenal:handle/tool",
         "data": {
-            "properties": {"material":"wood"}
+            "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "0": {
@@ -71,7 +71,7 @@
                     "0": {
                         "key": "arsenal:tool/shovel",
                         "data": {
-                            "properties": {"material":"gold"}
+                            "properties": {"material":"miapi:metal/gold"}
                         },
                         "child": {}
                     }
@@ -82,7 +82,7 @@
     "minecraft:diamond_shovel": {
         "key": "arsenal:handle/tool",
         "data": {
-            "properties": {"material":"wood"}
+            "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "0": {
@@ -91,7 +91,7 @@
                     "0": {
                         "key": "arsenal:tool/shovel",
                         "data": {
-                            "properties": {"material":"diamond"}
+                            "properties": {"material":"miapi:crystal/diamond"}
                         },
                         "child": {}
                     }
@@ -102,7 +102,7 @@
     "minecraft:netherite_shovel": {
         "key": "arsenal:handle/tool",
         "data": {
-            "properties": {"material":"wood"}
+            "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "0": {
@@ -111,7 +111,7 @@
                     "0": {
                         "key": "arsenal:tool/shovel",
                         "data": {
-                            "properties": {"material":"netherite"}
+                            "properties": {"material":"miapi:metal/netherite"}
                         },
                         "child": {}
                     }
