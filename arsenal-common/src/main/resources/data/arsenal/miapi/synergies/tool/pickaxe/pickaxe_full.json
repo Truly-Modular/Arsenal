@@ -9,7 +9,11 @@
         },
         "replace": {
             "mining_level": {
-                "pickaxe": "0"
+                "axe": {
+                    "blocks": "minecraft:mineable/pickaxe",
+                    "use_material": true,
+                    "speed": "[material.mining_speed]/2"
+                }
             },
             "attributes": [
                 {

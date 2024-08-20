@@ -61,15 +61,13 @@
             "attribute": "generic.attack_speed",
             "value": "0.0",
             "operation": "+",
-            "slot": "mainhand",
-            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+            "slot": "mainhand"
         },
         {
             "attribute": "generic.attack_damage",
             "value": "[material.hardness]*1.0",
             "operation": "+",
-            "slot": "mainhand",
-            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+            "slot": "mainhand"
         }
     ],
     "durability": "[material.durability]* 0.25",
@@ -77,7 +75,7 @@
         "sizeX": 3,
         "sizeY": 3
     },
-    "healthPercent": "[material.density]*2.0 + 20",
+    "health_percent": "[material.density]*2.0 + 20",
     "armor_pen": "-[material.flexibility]*2.0 - 27",
     "display_name": "miapi.module.arsenal.blade.katana.name",
     "item_id": "miapi:modular_katana"

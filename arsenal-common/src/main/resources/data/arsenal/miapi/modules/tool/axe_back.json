@@ -53,7 +53,10 @@
         "parent": "bettercombat:double_axe"
     },
     "mining_level": {
-        "axe": "[material.mining_level]-1"
+        "axe": {
+            "blocks": "minecraft:mineable/axe",
+            "speed": "[material.mining_speed]/2"
+        }
     },
     "attributes": [
         {

@@ -1,25 +1,27 @@
 {
-    "model": [{
-        "path": "miapi:models/item/handheld/gauntlets/[material.texture].json",
-        "transform": {
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "translation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+    "model": [
+        {
+            "path": "miapi:models/item/handheld/gauntlets/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
             }
         }
-    }],
-    "handheld_item":true,
+    ],
+    "handheld_item": true,
     "display_name": "miapi.module.handheld_gauntlets.name",
     "item_id": "miapi:modular_gauntlets",
     "enchantments": {
@@ -90,143 +92,141 @@
         "dual_wield",
         "head"
     ],
-    "modelTransform": {
-        "display": {
-            "thirdperson_righthand": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 2.75,
-                    "y": 0,
-                    "z": 2.5
-                },
-                "scale": {
-                    "x": 0.8,
-                    "y": 0.8,
-                    "z": 0.8
-                }
+    "model_transform": {
+        "thirdperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
-            "thirdperson_lefthand": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": -2.75,
-                    "y": 0,
-                    "z": 2.5
-                },
-                "scale": {
-                    "x": 0.8,
-                    "y": 0.8,
-                    "z": 0.8
-                }
+            "translation": {
+                "x": 2.75,
+                "y": 0,
+                "z": 2.5
             },
-            "firstperson_righthand": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
+            "scale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.8
+            }
+        },
+        "thirdperson_lefthand": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
-            "firstperson_lefthand": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
+            "translation": {
+                "x": -2.75,
+                "y": 0,
+                "z": 2.5
             },
-            "ground": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 2,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 0.5,
-                    "y": 0.5,
-                    "z": 0.5
-                }
+            "scale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.8
+            }
+        },
+        "firstperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
-            "head": {
-                "rotation": {
-                    "x": 90,
-                    "y": 90,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 13,
-                    "z": 7
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                }
+            "translation": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
             },
-            "fixed": {
-                "translation": {
-                    "x": 3,
-                    "y": 0,
-                    "z": 1
-                },
-                "rotation": {
-                    "x": 90,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                }
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "firstperson_lefthand": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
-            "gui": {
-                "translation": {
-                    "x": 3.5,
-                    "y": 0,
-                    "z": 0
-                },
-                "rotation": {
-                    "x": 90,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                }
+            "translation": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "ground": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 2,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        },
+        "head": {
+            "rotation": {
+                "x": 90,
+                "y": 90,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 13,
+                "z": 7
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "fixed": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 1
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "gui": {
+            "translation": {
+                "x": 3.5,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         }
     },

@@ -110,7 +110,11 @@
         }
     },
     "mining_level": {
-        "hoe": "[material.mining_level]"
+        "hoe": {
+            "blocks": "minecraft:mineable/hoe",
+            "use_material": true,
+            "speed": "[material.mining_speed]"
+        }
     },
     "attributes": [
         {

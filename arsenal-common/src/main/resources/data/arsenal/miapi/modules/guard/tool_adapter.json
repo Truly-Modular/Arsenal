@@ -4,7 +4,7 @@
         "tool_adapter"
     ],
     "priority": -5,
-    "copyParentMaterial": true,
+    "copy_parent_material": true,
     "slots": {
         "0": {
             "allowed": [

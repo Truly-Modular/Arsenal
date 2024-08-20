@@ -111,7 +111,11 @@
         "cost": 2
     },
     "mining_level": {
-        "axe": "[material.mining_level]"
+        "axe": {
+            "blocks": "minecraft:mineable/axe",
+            "use_material": true,
+            "speed": "[material.mining_speed]/2"
+        }
     },
     "attributes": [
         {

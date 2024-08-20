@@ -260,7 +260,7 @@
         }
     ],
     "durability": "[material.durability]* 0.25",
-    "isWeapon": true,
+    "is_weapon": true,
     "display_name": "miapi.module.arsenal.handle.twin.name",
     "item_id": "miapi:modular_handle"
 }

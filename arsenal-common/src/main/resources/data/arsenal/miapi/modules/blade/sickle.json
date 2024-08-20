@@ -56,7 +56,11 @@
         "cost": 2
     },
     "mining_level": {
-        "hoe": "max(1,[material.mining_level]-1)"
+        "hoe": {
+            "blocks": "minecraft:mineable/hoe",
+            "use_material": true,
+            "speed": "[material.mining_speed]* 0.7"
+        }
     },
     "attributes": [
         {
@@ -79,12 +83,6 @@
             "operation": "+",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
-        },
-        {
-            "attribute": "miapi:generic.mining_speed.hoe",
-            "value": "[material.mining_speed] * 0.5",
-            "operation": "+",
-            "slot": "mainhand"
         }
     ],
     "durability": "[material.durability]* 0.15",

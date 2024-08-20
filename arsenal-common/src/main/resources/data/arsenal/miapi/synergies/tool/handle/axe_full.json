@@ -30,6 +30,16 @@
                     "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
                 }
             ],
+            "mining_level": {
+                "axe": {
+                    "blocks": "minecraft:mineable/pickaxe",
+                    "use_material": true,
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.1"
+                    }
+                }
+            },
             "durability": "[material.durability]* 0.5"
         }
     }

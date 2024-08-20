@@ -76,7 +76,11 @@
         "cost": 4
     },
     "mining_level": {
-        "pickaxe": "[material.mining_level]"
+        "pickaxe": {
+            "blocks": "minecraft:mineable/pickaxe",
+            "use_material": true,
+            "speed": "[material.mining_speed]"
+        }
     },
     "attributes": [
         {

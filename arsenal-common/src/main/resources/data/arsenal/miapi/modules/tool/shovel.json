@@ -64,7 +64,11 @@
         ]
     },
     "mining_level": {
-        "shovel": "[material.mining_level]"
+        "shovel": {
+            "blocks": "minecraft:mineable/shovel",
+            "use_material": true,
+            "speed": "[material.mining_speed]"
+        }
     },
     "attributes": [
         {

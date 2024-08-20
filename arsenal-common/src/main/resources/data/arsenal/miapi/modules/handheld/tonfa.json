@@ -1,5 +1,4 @@
 {
-    "name": "tonfa",
     "model": [{
         "path": "miapi:models/item/handheld/tonfa/[material.texture].json",
         "transform": {

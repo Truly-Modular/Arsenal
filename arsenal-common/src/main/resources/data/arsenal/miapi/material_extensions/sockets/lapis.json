@@ -1,5 +1,5 @@
 {
-    "key": "lapis_lazuli",
+    "key": "miapi:crystal/lapis_lazuli",
     "hidden_groups": [
         "gem_melee"
     ],

@@ -107,7 +107,11 @@
         }
     },
     "mining_level": {
-        "pickaxe": "[material.mining_level]-1"
+        "pickaxe": {
+            "blocks": "minecraft:mineable/pickaxe",
+            "use_material": true,
+            "speed": "[material.mining_speed]/2"
+        }
     },
     "attributes": [
         {

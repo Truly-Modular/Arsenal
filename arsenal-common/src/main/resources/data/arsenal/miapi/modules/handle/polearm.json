@@ -267,7 +267,7 @@
     "abilities": [
         "circleAttack"
     ],
-    "isWeapon": true,
+    "is_weapon": true,
     "display_name": "miapi.module.arsenal.handle.polearm.name",
     "item_id": "miapi:modular_handle"
 }

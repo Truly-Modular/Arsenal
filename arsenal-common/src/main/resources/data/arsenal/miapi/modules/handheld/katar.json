@@ -1,5 +1,4 @@
 {
-    "name": "katar",
     "model": [{
         "path": "miapi:models/item/handheld/katars/[material.texture].json",
         "transform": {

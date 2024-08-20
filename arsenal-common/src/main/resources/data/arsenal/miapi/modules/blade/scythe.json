@@ -74,6 +74,13 @@
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
         }
     ],
+    "mining_level": {
+        "hoe": {
+            "blocks": "minecraft:mineable/hoe",
+            "use_material": true,
+            "speed": "[material.mining_speed]* 0.5"
+        }
+    },
     "durability": "[material.durability]* 0.4",
     "gui_offset": {
         "sizeX": -7,

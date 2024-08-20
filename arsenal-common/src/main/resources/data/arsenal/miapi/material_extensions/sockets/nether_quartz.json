@@ -1,5 +1,5 @@
 {
-    "key": "nether_quartz",
+    "key": "miapi:crystal/nether_quartz",
     "hidden_groups": [
         "gem_melee"
     ],

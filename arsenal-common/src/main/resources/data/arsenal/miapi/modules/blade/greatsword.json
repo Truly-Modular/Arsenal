@@ -85,29 +85,23 @@
         "sizeY": 6
     },
     "display_name": "miapi.module.arsenal.blade.greatsword.name",
-    "abilities": [
-        "heavyAttack"
-    ],
-    "heavyAttack": {
-        "damage": 2,
-        "sweeping": 3,
-        "range": 5,
-        "minHold": 15,
-        "cooldown": 60,
-        "particle": {
-            "emit": {
-                "type":"minecraft:angry_villager"
-            },
-            "frequency": 1,
-            "count": 5,
-            "speed": 3,
-            "startAfter": 0
+    "ability_context": {
+        "miapi:heavy_attack": {
+            "damage": 2,
+            "sweeping": 3,
+            "range": 5,
+            "minHold": 15,
+            "cooldown": 60,
+            "particle": {
+                "emit": {
+                    "type": "minecraft:angry_villager"
+                },
+                "frequency": 1,
+                "count": 5,
+                "speed": 3,
+                "startAfter": 0
+            }
         }
     },
-    "item_id": "miapi:modular_greatsword",
-
-
-    "provideStats": {
-        "hammering": 5
-    }
+    "item_id": "miapi:modular_greatsword"
 }

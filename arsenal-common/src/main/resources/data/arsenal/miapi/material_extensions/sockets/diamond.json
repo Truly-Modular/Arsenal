@@ -1,5 +1,5 @@
 {
-    "key": "diamond",
+    "key": "miapi:crystal/diamond",
     "hidden_groups": [
         "gem_melee"
     ],

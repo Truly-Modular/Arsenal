@@ -1,5 +1,5 @@
 {
-    "key": "redstone",
+    "key": "miapi:stone/redstone",
     "hidden_groups": [
         "gem_melee"
     ],

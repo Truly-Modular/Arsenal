@@ -30,6 +30,28 @@
             "miapi:basic"
         ]
     },
+    "mining_level": {
+        "pickaxe": {
+            "blocks": "minecraft:mineable/pickaxe",
+            "speed": 1
+        },
+        "axe": {
+            "blocks": "minecraft:mineable/axe",
+            "speed": 1
+        },
+        "shovel": {
+            "blocks": "minecraft:mineable/shovel",
+            "speed": 1
+        },
+        "hoe": {
+            "blocks": "minecraft:mineable/hoe",
+            "speed": 1
+        },
+        "sword": {
+            "blocks": "minecraft:mineable/sword",
+            "speed": 1
+        }
+    },
     "allowed_in_slots": [
         "melee"
     ],
@@ -59,7 +81,7 @@
             }
         }
     },
-    "model_transform":  {
+    "model_transform": {
         "thirdperson_righthand": {
             "rotation": {
                 "x": 0,
@@ -231,7 +253,7 @@
         }
     ],
     "durability": "[material.durability]* 0.25",
-    "isWeapon": false,
+    "is_weapon": false,
     "display_name": "miapi.module.arsenal.handle.tool.name",
     "item_id": "miapi:modular_handle"
 }
