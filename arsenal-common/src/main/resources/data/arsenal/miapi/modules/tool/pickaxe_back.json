@@ -44,14 +44,6 @@
             "speed": "[material.mining_speed]/2"
         }
     },
-    "attributes": [
-        {
-            "attribute": "miapi:generic.mining_speed.pickaxe",
-            "value": "[material.mining_speed]/2",
-            "operation": "+",
-            "slot": "mainhand"
-        }
-    ],
     "durability": "[material.durability]* 0.5",
     "tag": [
         "tool_head"

@@ -35,32 +35,6 @@
             "miapi:tool"
         ]
     },
-    "attributes": [
-        {
-            "attribute": "miapi:generic.mining_speed.shovel",
-            "value": "0.1",
-            "operation": "*",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.mining_speed.hoe",
-            "value": "1 / 0.75 -1",
-            "operation": "*",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.mining_speed.pickaxe",
-            "value": "0.1",
-            "operation": "*",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.mining_speed.axe",
-            "value": "1 / 0.75 -1",
-            "operation": "*",
-            "slot": "mainhand"
-        }
-    ],
     "durability": "[material.durability]* 0.5",
     "tag": [
         "tool_head"
