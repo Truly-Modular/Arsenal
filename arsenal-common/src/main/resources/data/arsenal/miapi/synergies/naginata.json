@@ -4,7 +4,7 @@
             "type": "otherModule",
             "condition": {
                 "type": "module",
-                "module": "handle_polearm"
+                "module": "miapi:handle/polearm"
             }
         },
         "replace": {

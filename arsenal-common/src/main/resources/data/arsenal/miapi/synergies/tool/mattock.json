@@ -4,7 +4,7 @@
             "type": "child",
             "condition": {
                 "type": "module",
-                "module": "pickaxe_back"
+                "module": "arsenal:tool/pickaxe_back"
             }
         },
         "replace": {

@@ -1,5 +1,5 @@
 {
-    "arsenal:tool/pickaxe_back": {
+    "arsenal:tool/pickaxe_back_old": {
         "condition": {
             "type": "parent",
             "condition": {
