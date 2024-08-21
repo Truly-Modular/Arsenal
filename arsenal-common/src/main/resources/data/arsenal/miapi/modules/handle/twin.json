@@ -25,11 +25,12 @@
         "twin_handle"
     ],
     "slots": {
-        "0": {
+        "guard": {
             "allowed": [
                 "sword_guard",
                 "sword_blade_small"
             ],
+            "priority": 0,
             "translationKey": "miapi.slot.guard.name",
             "transform": {
                 "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
@@ -37,13 +38,14 @@
                 "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
             }
         },
-        "1": {
+        "guard-inverse": {
             "allowed": [
                 "tool_head",
                 "sword_guard",
                 "sword_blade_small"
             ],
-            "translationKey": "miapi.slot.pommel.name",
+            "priority": -1,
+            "translationKey": "miapi.slot.guard.name",
             "transform": {
                 "rotation": {"x": 0.0, "y": 0.0, "z": 180.0},
                 "translation": {"x": 4.0, "y": 4.0, "z": 0.0},
@@ -199,18 +201,6 @@
             "slot": "mainhand"
         },
         {
-            "attribute": "generic.attack_damage",
-            "value": "0.5",
-            "operation": "**",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.projectile_damage",
-            "value": "0.5",
-            "operation": "**",
-            "slot": "mainhand"
-        },
-        {
             "attribute": "generic.attack_speed",
             "value": "-2.6",
             "operation": "+",
@@ -224,11 +214,54 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "0.0",
-            "operation": "*",
+            "value": "-0.5",
+            "operation": "**",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.projectile_damage",
+            "value": "-0.5",
+            "operation": "**",
             "slot": "mainhand"
         }
     ],
+    "mining_level": {
+        "pickaxe": {
+            "blocks": "minecraft:mineable/pickaxe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.60"
+            }
+        },
+        "axe": {
+            "blocks": "minecraft:mineable/axe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.60"
+            }
+        },
+        "shovel": {
+            "blocks": "minecraft:mineable/shovel",
+            "speed": {
+                "operation": "**",
+                "value": "-0.60"
+            }
+        },
+        "hoe": {
+            "blocks": "minecraft:mineable/hoe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.60"
+            }
+        },
+        "sword": {
+            "blocks": "minecraft:mineable/sword",
+            "speed": {
+                "operation": "**",
+                "value": "-0.60"
+            }
+        }
+    },
     "durability": "[material.durability]* 0.25",
     "is_weapon": true,
     "display_name": "miapi.module.arsenal.handle.twin.name",

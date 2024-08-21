@@ -7,20 +7,26 @@
     },
     "allowed_in_slots": ["sword_guard"],
     "slots": {
-        "-2": {
+        "blade": {
+            "allowed": ["sword_blade","sword_blade_small","sword_blade_large"],
+            "allowedMerge": ["small_blade","medium_blade","large_blade"],
+            "translationKey": "miapi.slot.sword_blade.name",
+            "priority": 0,
+            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 2.0, "y": 2.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+        },
+        "socket_small_left": {
             "allowed": ["gem_melee_small"],
+            "allowedMerge": ["socket_small"],
             "translationKey": "miapi.slot.gem.name",
+            "priority": -10,
             "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -5.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
         },
-        "-1": {
+        "socket_right": {
             "allowed": ["gem_melee_small"],
+            "allowedMerge": ["socket_small"],
             "translationKey": "miapi.slot.gem.name",
+            "priority": -10,
             "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -5.0, "y": -4.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
-        },
-        "0": {
-            "allowed": ["sword_blade","sword_blade_small","sword_blade_large"],
-            "translationKey": "miapi.slot.sword_blade.name",
-            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 2.0, "y": 2.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
         }
     },
     "tag": [

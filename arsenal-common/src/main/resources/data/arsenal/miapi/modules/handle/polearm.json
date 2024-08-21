@@ -229,6 +229,43 @@
             "slot": "mainhand"
         }
     ],
+    "mining_level": {
+        "pickaxe": {
+            "blocks": "minecraft:mineable/pickaxe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.30"
+            }
+        },
+        "axe": {
+            "blocks": "minecraft:mineable/axe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.30"
+            }
+        },
+        "shovel": {
+            "blocks": "minecraft:mineable/shovel",
+            "speed": {
+                "operation": "**",
+                "value": "-0.30"
+            }
+        },
+        "hoe": {
+            "blocks": "minecraft:mineable/hoe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.30"
+            }
+        },
+        "sword": {
+            "blocks": "minecraft:mineable/sword",
+            "speed": {
+                "operation": "**",
+                "value": "-0.30"
+            }
+        }
+    },
     "durability": "[material.durability]* 0.25",
     "gui_offset": {
         "x": 3,

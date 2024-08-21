@@ -32,31 +32,26 @@
     },
     "mining_level": {
         "pickaxe": {
-            "blocks": "minecraft:mineable/pickaxe",
-            "speed": 1
+            "blocks": "minecraft:mineable/pickaxe"
         },
         "axe": {
-            "blocks": "minecraft:mineable/axe",
-            "speed": 1
+            "blocks": "minecraft:mineable/axe"
         },
         "shovel": {
-            "blocks": "minecraft:mineable/shovel",
-            "speed": 1
+            "blocks": "minecraft:mineable/shovel"
         },
         "hoe": {
-            "blocks": "minecraft:mineable/hoe",
-            "speed": 1
+            "blocks": "minecraft:mineable/hoe"
         },
         "sword": {
-            "blocks": "minecraft:mineable/sword",
-            "speed": 1
+            "blocks": "minecraft:mineable/sword"
         }
     },
     "allowed_in_slots": [
         "melee"
     ],
     "slots": {
-        "0": {
+        "guard": {
             "allowed": [
                 "sword_guard",
                 "sword_blade_small"

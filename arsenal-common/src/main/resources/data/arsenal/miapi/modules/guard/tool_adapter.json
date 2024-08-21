@@ -6,10 +6,11 @@
     "priority": -5,
     "copy_parent_material": true,
     "slots": {
-        "0": {
+        "tool_head": {
             "allowed": [
                 "tool_head"
             ],
+            "allowedMerge": ["tool_head"],
             "translationKey": "miapi.slot.tool_head.name",
             "transform": {
                 "rotation": {

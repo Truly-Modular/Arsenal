@@ -66,7 +66,7 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness]*1.15",
+            "value": "[material.hardness] * 1.0 + [material.density]*0.2",
             "operation": "+",
             "slot": "mainhand"
         },

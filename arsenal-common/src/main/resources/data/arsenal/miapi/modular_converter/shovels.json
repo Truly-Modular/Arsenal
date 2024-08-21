@@ -5,10 +5,10 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:wood/wood"}
@@ -25,10 +25,10 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:stone/stone"}
@@ -45,10 +45,10 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:metal/iron"}
@@ -65,10 +65,10 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:metal/gold"}
@@ -85,10 +85,10 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:crystal/diamond"}
@@ -105,10 +105,10 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:metal/netherite"}

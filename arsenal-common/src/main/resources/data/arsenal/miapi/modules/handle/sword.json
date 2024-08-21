@@ -38,12 +38,13 @@
         ]
     },
     "slots": {
-        "0": {
+        "guard": {
             "allowed": [
                 "sword_guard",
                 "sword_blade_small"
             ],
             "translationKey": "miapi.slot.guard.name",
+            "priority": 0,
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -62,11 +63,12 @@
                 }
             }
         },
-        "1": {
+        "pommel": {
             "allowed": [
                 "sword_pommel"
             ],
             "translationKey": "miapi.slot.pommel.name",
+            "priority": -1,
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -241,6 +243,43 @@
             "slot": "mainhand"
         }
     ],
+    "mining_level": {
+        "pickaxe": {
+            "blocks": "minecraft:mineable/pickaxe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.50"
+            }
+        },
+        "axe": {
+            "blocks": "minecraft:mineable/axe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.50"
+            }
+        },
+        "shovel": {
+            "blocks": "minecraft:mineable/shovel",
+            "speed": {
+                "operation": "**",
+                "value": "-0.50"
+            }
+        },
+        "hoe": {
+            "blocks": "minecraft:mineable/hoe",
+            "speed": {
+                "operation": "**",
+                "value": "-0.50"
+            }
+        },
+        "sword": {
+            "blocks": "minecraft:mineable/sword",
+            "speed": {
+                "operation": "**",
+                "value": "-0.50"
+            }
+        }
+    },
     "durability": "[material.durability]* 0.25",
     "is_weapon": true,
     "display_name": "miapi.module.arsenal.handle.sword.name",

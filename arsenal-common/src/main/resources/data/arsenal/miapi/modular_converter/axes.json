@@ -5,16 +5,16 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/axe_front",
                         "data": {
                             "properties": {"material":"miapi:wood/wood"}
                         },
                         "child": {
-                            "0": {
+                            "tool_back": {
                                 "key": "arsenal:tool/tool_back",
                                 "data": {
                                     "properties": {"material":"miapi:wood/wood"}
@@ -33,16 +33,16 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/axe_front",
                         "data": {
                             "properties": {"material":"miapi:stone/stone"}
                         },
                         "child": {
-                            "0": {
+                            "tool_back": {
                                 "key": "arsenal:tool/tool_back",
                                 "data": {
                                     "properties": {"material":"miapi:stone/stone"}
@@ -61,16 +61,16 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/axe_front",
                         "data": {
                             "properties": {"material":"miapi:metal/iron"}
                         },
                         "child": {
-                            "0": {
+                            "tool_back": {
                                 "key": "arsenal:tool/tool_back",
                                 "data": {
                                     "properties": {"material":"miapi:metal/iron"}
@@ -89,16 +89,16 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/axe_front",
                         "data": {
                             "properties": {"material":"miapi:metal/gold"}
                         },
                         "child": {
-                            "0": {
+                            "tool_back": {
                                 "key": "arsenal:tool/tool_back",
                                 "data": {
                                     "properties": {"material":"miapi:metal/gold"}
@@ -117,16 +117,16 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/axe_front",
                         "data": {
                             "properties": {"material":"miapi:crystal/diamond"}
                         },
                         "child": {
-                            "0": {
+                            "tool_back": {
                                 "key": "arsenal:tool/tool_back",
                                 "data": {
                                     "properties": {"material":"miapi:crystal/diamond"}
@@ -145,16 +145,16 @@
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/tool_adapter",
                 "child": {
-                    "0": {
+                    "tool_head": {
                         "key": "arsenal:tool/axe_front",
                         "data": {
                             "properties": {"material":"miapi:metal/netherite"}
                         },
                         "child": {
-                            "0": {
+                            "tool_back": {
                                 "key": "arsenal:tool/tool_back",
                                 "data": {
                                     "properties": {"material":"miapi:metal/netherite"}

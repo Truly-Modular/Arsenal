@@ -7,7 +7,7 @@
             }
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/normal",
                 "data": {
                     "properties": {
@@ -15,7 +15,7 @@
                     }
                 },
                 "child": {
-                    "0": {
+                    "blade": {
                         "key": "arsenal:blade/normal",
                         "data": {
                             "properties": {
@@ -26,7 +26,7 @@
                     }
                 }
             },
-            "1": {
+            "pommel": {
                 "key": "arsenal:pommel/round",
                 "data": {
                     "properties": {
@@ -45,7 +45,7 @@
             }
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/normal",
                 "data": {
                     "properties": {
@@ -53,7 +53,7 @@
                     }
                 },
                 "child": {
-                    "0": {
+                    "blade": {
                         "key": "arsenal:blade/normal",
                         "data": {
                             "properties": {
@@ -64,7 +64,7 @@
                     }
                 }
             },
-            "1": {
+            "pommel": {
                 "key": "arsenal:pommel/round",
                 "data": {
                     "properties": {
@@ -83,7 +83,7 @@
             }
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/normal",
                 "data": {
                     "properties": {
@@ -91,7 +91,7 @@
                     }
                 },
                 "child": {
-                    "0": {
+                    "blade": {
                         "key": "arsenal:blade/normal",
                         "data": {
                             "properties": {
@@ -102,7 +102,7 @@
                     }
                 }
             },
-            "1": {
+            "pommel": {
                 "key": "arsenal:pommel/round",
                 "data": {
                     "properties": {
@@ -121,7 +121,7 @@
             }
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/normal",
                 "data": {
                     "properties": {
@@ -129,7 +129,7 @@
                     }
                 },
                 "child": {
-                    "0": {
+                    "blade": {
                         "key": "arsenal:blade/normal",
                         "data": {
                             "properties": {
@@ -140,7 +140,7 @@
                     }
                 }
             },
-            "1": {
+            "pommel": {
                 "key": "arsenal:pommel/round",
                 "data": {
                     "properties": {
@@ -159,7 +159,7 @@
             }
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/normal",
                 "data": {
                     "properties": {
@@ -167,7 +167,7 @@
                     }
                 },
                 "child": {
-                    "0": {
+                    "blade": {
                         "key": "arsenal:blade/normal",
                         "data": {
                             "properties": {
@@ -178,7 +178,7 @@
                     }
                 }
             },
-            "1": {
+            "pommel": {
                 "key": "arsenal:pommel/round",
                 "data": {
                     "properties": {
@@ -197,7 +197,7 @@
             }
         },
         "child": {
-            "0": {
+            "guard": {
                 "key": "arsenal:guard/normal",
                 "data": {
                     "properties": {
@@ -205,7 +205,7 @@
                     }
                 },
                 "child": {
-                    "0": {
+                    "blade": {
                         "key": "arsenal:blade/normal",
                         "data": {
                             "properties": {
@@ -216,7 +216,7 @@
                     }
                 }
             },
-            "1": {
+            "pommel": {
                 "key": "arsenal:pommel/round",
                 "data": {
                     "properties": {
