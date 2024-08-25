@@ -48,14 +48,14 @@
             "condition": {
                 "type": "pickaxe"
             },
-            "modifiers": {
+            "modifier": {
                 "require_same": true
             },
-            "collapseMode": {
+            "mode": {
                 "type": "staggered",
                 "speed": 4
             },
-            " ": {
+            "shape": {
                 "type": "cube",
                 "width": 3,
                 "height": 3,

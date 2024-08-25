@@ -1,7 +1,7 @@
 {
     "arsenal:blade/katana": {
         "condition": {
-            "type": "otherModule",
+            "type": "other_module",
             "condition": {
                 "type": "module",
                 "module": "miapi:handle/polearm"

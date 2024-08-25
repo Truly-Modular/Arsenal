@@ -1,7 +1,7 @@
 {
     "arsenal:handheld/handle": {
         "condition": {
-            "type": "otherModule",
+            "type": "other_module",
             "condition": {
                 "type": "tag",
                 "tag": "handle_alt_3"

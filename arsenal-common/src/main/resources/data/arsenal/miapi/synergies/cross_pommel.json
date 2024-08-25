@@ -1,7 +1,7 @@
 {
     "arsenal:pommel/cross": {
         "condition": {
-            "type": "otherModule",
+            "type": "other_module",
             "condition": {
                 "type": "tag",
                 "tag": "blade_large"

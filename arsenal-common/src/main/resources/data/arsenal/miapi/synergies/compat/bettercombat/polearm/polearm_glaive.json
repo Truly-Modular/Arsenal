@@ -2,7 +2,7 @@
     "type": "tag",
     "polearm_glaive": {
         "condition": {
-            "type": "otherModule",
+            "type": "other_module",
             "condition": {
                 "type": "tag",
                 "tag": "polearm_handle"

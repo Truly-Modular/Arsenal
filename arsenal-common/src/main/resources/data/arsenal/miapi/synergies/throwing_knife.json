@@ -3,7 +3,7 @@
         "condition": {
             "type": "not",
             "condition": {
-                "type": "otherModule",
+                "type": "other_module",
                 "condition": {
                     "type": "tag",
                     "tag": "no_crossbow_ammo"
@@ -11,7 +11,7 @@
             }
         },
         "replace": {
-            "crossbowAmmunition": true
+            "crossbow_ammunition": true
         }
     }
 }

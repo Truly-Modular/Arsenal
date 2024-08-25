@@ -2,7 +2,7 @@
     "type": "tag",
     "blade": {
         "condition": {
-            "type": "otherModule",
+            "type": "other_module",
             "condition": {
                 "type": "tag",
                 "tag": "twin_handle"
