@@ -32,8 +32,10 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:edged",
-            "miapi:weapon",
+            "minecraft:enchantable/sword",
+            "minecraft:enchantable/fire_aspect",
+            "minecraft:enchantable/sharp_weapon",
+            "minecraft:enchantable/weapon",
             "minecraft:loyalty"
         ]
     },

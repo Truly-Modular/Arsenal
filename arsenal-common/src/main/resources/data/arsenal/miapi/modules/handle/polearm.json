@@ -27,7 +27,9 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:basic"
+            "minecraft:enchantable/durability",
+            "minecraft:enchantable/equippable",
+            "minecraft:enchantable/vanishing"
         ]
     },
     "allowed_in_slots": [

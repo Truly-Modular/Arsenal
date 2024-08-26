@@ -80,8 +80,10 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:tool",
-            "miapi:hoe"
+            "minecraft:enchantable/mining",
+            "minecraft:enchantable/mining_loot",
+            "c:enchtantable/hoe",
+            "minecraft:hoes"
         ]
     },
     "slots": {

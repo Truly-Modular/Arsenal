@@ -59,8 +59,10 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:tool",
-            "miapi:shovel"
+            "minecraft:enchantable/mining",
+            "minecraft:enchantable/mining_loot",
+            "c:enchtantable/shovel",
+            "minecraft:shovels"
         ]
     },
     "mining_level": {

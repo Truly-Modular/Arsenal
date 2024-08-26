@@ -32,7 +32,8 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:tool"
+            "minecraft:enchantable/mining",
+            "minecraft:enchantable/mining_loot"
         ]
     },
     "durability": "[material.durability]* 0.5",

@@ -83,8 +83,10 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:tool",
-            "miapi:axe"
+            "minecraft:enchantable/mining",
+            "minecraft:enchantable/mining_loot",
+            "c:enchtantable/axe",
+            "minecraft:axes"
         ]
     },
     "slots": {

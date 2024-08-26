@@ -12,7 +12,9 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:basic"
+            "minecraft:enchantable/durability",
+            "minecraft:enchantable/equippable",
+            "minecraft:enchantable/vanishing"
         ]
     },
     "material_property": [

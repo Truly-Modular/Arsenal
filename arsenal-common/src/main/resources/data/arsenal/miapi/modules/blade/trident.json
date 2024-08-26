@@ -26,7 +26,7 @@
     "repair_priority": -1,
     "enchantments": {
         "allowed": [
-            "miapi:trident"
+            "minecraft:enchantable/trident"
         ]
     },
     "allowed_in_slots": [

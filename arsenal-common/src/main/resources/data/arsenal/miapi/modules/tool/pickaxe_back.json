@@ -33,8 +33,10 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:tool",
-            "miapi:pickaxe"
+            "minecraft:enchantable/mining",
+            "minecraft:enchantable/mining_loot",
+            "c:enchtantable/pickaxe",
+            "minecraft:pickaxes"
         ]
     },
     "mining_level": {
