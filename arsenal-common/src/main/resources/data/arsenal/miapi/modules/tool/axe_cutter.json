@@ -57,9 +57,10 @@
     "allowed_in_slots": [
         "tool_head"
     ],
-    "abilities": [
-        "axe_ability"
-    ],
+    "ability_context": {
+        "axe_ability": {
+        }
+    },
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/mining",
@@ -85,7 +86,9 @@
         {
             "condition": {
                 "type": "block_tag",
-                "tags": ["minecraft:logs"]
+                "tags": [
+                    "minecraft:logs"
+                ]
             },
             "mode": {
                 "type": "staggered"

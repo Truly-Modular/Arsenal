@@ -98,9 +98,11 @@
         }
     ],
     "durability": "[material.durability]* 0.65",
-    "abilities": [
-        "throw"
-    ],
+    "ability_context": {
+        "throw": {
+
+        }
+    },
     "water_drag": "0.95",
     "gui_offset": {
         "sizeX": -7,

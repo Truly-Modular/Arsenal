@@ -51,9 +51,10 @@
         "tool",
         "head"
     ],
-    "abilities": [
-        "shovel_ability"
-    ],
+    "ability_context": {
+        "shovel_ability": {
+        }
+    },
     "allowed_in_slots": [
         "tool_head"
     ],

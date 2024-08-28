@@ -32,10 +32,11 @@
     ],
     "priority": -1,
     "repair_priority": 0,
-    "blocking": "58 + ceil([material.flexibility])",
-    "abilities": [
-        "block"
-    ],
+    "ability_context": {
+        "block": {
+            "blocking": "58 + ceil([material.flexibility])"
+        }
+    },
     "tag": [
         "guard",
         "guard_large"

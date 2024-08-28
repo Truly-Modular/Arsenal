@@ -91,12 +91,11 @@
     "better_combat_config": {
         "parent": "bettercombat:sickle"
     },
-    "abilities": [
-        "hoe_ability"
-    ],
     "ability_context": {
         "area_harvest_ability": {
             "block_range": "[material.mining_level]"
+        },
+        "hoe_ability": {
         }
     },
     "gui_stat": {

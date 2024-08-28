@@ -55,9 +55,6 @@
         ],
         "cost": 1
     },
-    "abilities": [
-        "hoe_ability"
-    ],
     "fake_enchant": {
         "minecraft:sweeping": 3
     },
@@ -93,6 +90,8 @@
     "ability_context": {
         "area_harvest_ability": {
             "block_range": "[material.mining_level]"
+        },
+        "hoe_ability": {
         }
     },
     "gui_stat": {

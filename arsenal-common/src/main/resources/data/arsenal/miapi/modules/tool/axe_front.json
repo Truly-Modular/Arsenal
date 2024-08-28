@@ -78,9 +78,10 @@
     "allowed_in_slots": [
         "tool_head"
     ],
-    "abilities": [
-        "axe_ability"
-    ],
+    "ability_context": {
+        "axe_ability": {
+        }
+    },
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/mining",

@@ -99,9 +99,11 @@
         }
     ],
     "durability": "[material.durability]* 0.15",
-    "abilities": [
-        "throw"
-    ],
+    "ability_context": {
+        "throw": {
+
+        }
+    },
     "display_name": "miapi.module.arsenal.blade.throwing_knife.name",
     "item_id": "miapi:modular_throwing_knife"
 }
