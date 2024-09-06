@@ -72,13 +72,13 @@
         },
         {
             "attribute": "miapi:generic.stun_damage",
-            "value": "[material.flexibility]*0.1 + [material.hardness]*0.4",
+            "value": "[material.flexibility]*0.3 + [material.hardness]*0.3",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "minecraft:generic.armor",
-            "value": "[material.flexibility]*0.5 + [material.hardness]*0.2",
+            "value": "[material.flexibility]*0.2 + [material.hardness]*0.6",
             "operation": "+",
             "slot": "mainhand"
         }

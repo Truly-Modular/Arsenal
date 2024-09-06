@@ -55,7 +55,7 @@
         ],
         "cost": 1
     },
-    "fake_enchant": {
+    "fake_enchantments": {
         "minecraft:sweeping": 3
     },
     "attributes": [

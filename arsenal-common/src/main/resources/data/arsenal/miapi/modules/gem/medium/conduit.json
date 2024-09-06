@@ -68,7 +68,7 @@
             "type": true
         }
     },
-    "allowChangeParent": {
+    "allow_change_parent": {
         "type": "not",
         "condition": {
             "type": "true"
