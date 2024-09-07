@@ -3,8 +3,8 @@
         "blur": false
     },
     "animation": {
-        "interpolate": false,
-        "frametime": 14,
+        "interpolate": true,
+        "frametime": 9,
         "width": 32,
         "height": 32
     }
