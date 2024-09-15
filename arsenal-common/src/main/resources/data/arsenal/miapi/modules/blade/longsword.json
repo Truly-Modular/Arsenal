@@ -43,8 +43,7 @@
     "tag": [
         "blade",
         "blade_large",
-        "polearm_halberd",
-        "one_handed_sword"
+        "polearm_halberd"
     ],
     "better_combat_config": {
         "parent": "bettercombat:claymore"

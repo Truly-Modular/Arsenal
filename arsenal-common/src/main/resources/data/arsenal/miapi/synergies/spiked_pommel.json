@@ -14,7 +14,7 @@
             "attributes": [
                 {
                     "attribute": "generic.attack_damage",
-                    "value": "1.05",
+                    "value": "0.05",
                     "operation": "**",
                     "slot": "mainhand"
                 }

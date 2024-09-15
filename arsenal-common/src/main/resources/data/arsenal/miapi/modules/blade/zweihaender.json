@@ -41,8 +41,7 @@
     "tag": [
         "blade",
         "blade_large",
-        "polearm_glaive",
-        "one_handed_sword"
+        "polearm_glaive"
     ],
     "allowed_material": {
         "allowedMaterials": [

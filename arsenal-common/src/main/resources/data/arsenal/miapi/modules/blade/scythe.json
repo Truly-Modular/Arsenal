@@ -58,6 +58,10 @@
     "fake_enchantments": {
         "minecraft:sweeping": 3
     },
+    "tag": [
+        "blade",
+        "blade_short"
+    ],
     "attributes": [
         {
             "attribute": "generic.attack_speed",

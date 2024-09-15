@@ -24,6 +24,10 @@
     ],
     "priority": 2,
     "repair_priority": -1,
+    "tag": [
+        "blade",
+        "blade_short"
+    ],
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/trident"

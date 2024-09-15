@@ -42,6 +42,7 @@
     },
     "tag": [
         "blade",
+        "blade_large",
         "polearm_glaive"
     ],
     "allowed_in_slots": [

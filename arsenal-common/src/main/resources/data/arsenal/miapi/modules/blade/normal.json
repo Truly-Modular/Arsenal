@@ -25,6 +25,7 @@
         "default",
         "handheld",
         "blade",
+        "blade_medium",
         "head"
     ],
     "enchantments": {

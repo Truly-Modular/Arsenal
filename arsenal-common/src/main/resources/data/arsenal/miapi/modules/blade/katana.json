@@ -38,8 +38,8 @@
     },
     "tag": [
         "blade",
-        "polearm_glaive",
-        "one_handed_sword"
+        "blade_medium",
+        "polearm_glaive"
     ],
     "allowed_in_slots": [
         "sword_blade_large"
@@ -78,7 +78,7 @@
         "sizeX": 3,
         "sizeY": 3
     },
-    "health_percent": "[material.density]*2.0 + 20",
+    "slashing": "[material.hardness]",
     "armor_pen": "-[material.flexibility]*2.0 - 27",
     "display_name": "miapi.module.arsenal.blade.katana.name",
     "item_id": "miapi:modular_katana"
