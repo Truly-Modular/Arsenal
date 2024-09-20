@@ -19,6 +19,9 @@
             }
         }
     },
+    "module_stats": {
+        "blade_size": 1.2
+    },
     "priority": 2,
     "material_property": [
         "default",
@@ -78,7 +81,7 @@
         "sizeX": 3,
         "sizeY": 3
     },
-    "slashing": "[material.hardness]",
+    "slashing": "[material.hardness] * 1.2 /  [collect.add.module.blade_size]",
     "armor_pen": "-[material.flexibility]*2.0 - 27",
     "display_name": "miapi.module.arsenal.blade.katana.name",
     "item_id": "miapi:modular_katana"

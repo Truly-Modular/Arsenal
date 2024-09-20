@@ -37,6 +37,9 @@
             "minecraft:enchantable/weapon"
         ]
     },
+    "module_stats": {
+        "blade_size": 1
+    },
     "tag": [
         "blade",
         "polearm_spear"

@@ -63,6 +63,9 @@
         ],
         "cost": 2
     },
+    "module_stats": {
+        "blade_size": 1.2
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",

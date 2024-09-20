@@ -216,15 +216,17 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "-0.5",
+            "value": "1/[collect.add.module.blade_size]-1",
             "operation": "**",
-            "slot": "mainhand"
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
         },
         {
             "attribute": "miapi:generic.projectile_damage",
-            "value": "-0.5",
+            "value": "1/[collect.add.module.blade_size]-1",
             "operation": "**",
-            "slot": "mainhand"
+            "slot": "mainhand",
+            "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
         }
     ],
     "mining_level": {

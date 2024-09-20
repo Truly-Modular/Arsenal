@@ -62,6 +62,9 @@
         "blade",
         "blade_short"
     ],
+    "module_stats": {
+        "blade_size": 1
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",

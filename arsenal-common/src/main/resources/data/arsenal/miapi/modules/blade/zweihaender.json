@@ -19,6 +19,9 @@
             }
         }
     },
+    "module_stats": {
+        "blade_size": 1.2
+    },
     "priority": 4.5,
     "material_property": [
         "default",
@@ -86,9 +89,9 @@
     "display_name": "miapi.module.arsenal.blade.zweihaender.name",
     "ability_context": {
         "block": {
-            "blocking": "[material.flexibility]* 3 + 15"
+            "blocking": "[material.flexibility]* 3 + 15 / [collect.add.module.blade_size]"
         }
     },
-    "armor_pen": "[material.hardness]*1.5 + 10",
+    "armor_pen": "[material.hardness]*1.5 + 10 / [collect.add.module.blade_size]",
     "item_id": "miapi:modular_greatsword"
 }

@@ -99,6 +99,9 @@
         }
     ],
     "durability": "[material.durability]* 0.15",
+    "module_stats": {
+        "blade_size": 1
+    },
     "ability_context": {
         "throw": {
 

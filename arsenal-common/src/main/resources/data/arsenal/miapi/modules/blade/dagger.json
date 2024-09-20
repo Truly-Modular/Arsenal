@@ -53,16 +53,19 @@
         ],
         "cost": 1
     },
+    "module_stats": {
+        "blade_size": 1
+    },
     "attributes": [
         {
             "attribute": "miapi:generic.attack_range",
-            "value": "-0.75",
+            "value": "-0.3",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "miapi:generic.back_stab",
-            "value": "2",
+            "value": "2 / [collect.add.module.blade_size]",
             "operation": "*",
             "slot": "mainhand",
             "target_operation": "*"
