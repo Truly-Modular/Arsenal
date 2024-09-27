@@ -1,4 +1,5 @@
 {
     "module": "arsenal:handheld/handle",
-    "translation": "miapi.create_item.handheld"
+    "translation": "miapi.create_item.handheld",
+    "priority":-5
 }

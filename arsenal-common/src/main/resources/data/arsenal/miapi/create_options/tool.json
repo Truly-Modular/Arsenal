@@ -1,4 +1,5 @@
 {
     "module": "arsenal:handle/tool",
-    "translation": "miapi.create_item.tool"
+    "translation": "miapi.create_item.tool",
+    "priority": -9
 }
