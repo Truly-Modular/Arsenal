@@ -80,6 +80,21 @@
             "slot": "mainhand"
         }
     ],
+    "mining_level": {
+        "sword": {
+            "blocks": "minecraft:sword_efficient",
+            "use_material": false,
+            "speed": "1.5"
+        },
+        "cobweb": {
+            "block_list": [
+                "minecraft:cobweb"
+            ],
+            "use_material": false,
+            "correct_for_drops": true,
+            "speed": "15"
+        }
+    },
     "durability": "[material.durability]* 0.3",
     "display_name": "miapi.module.arsenal.blade.longsword.name",
     "item_id": "miapi:modular_longsword"

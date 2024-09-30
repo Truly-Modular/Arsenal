@@ -74,7 +74,7 @@
     },
     "gui_stat": {
         "ht_treechop_gui": {
-            "value": "ceil( min(200,(([material.mining_level] + [material.hardness] / 10 ) ^ 3 + 2))-0.5)",
+            "value": "ceil( min(200,(([material.tier] + [material.hardness] / 10 ) ^ 3 + 2))-0.5)",
             "min": 0,
             "max": 20,
             "header": {
@@ -102,7 +102,7 @@
             "shape": {
                 "type": "vein",
                 "size": 50,
-                "max": " min(200,(([material.mining_level] + [material.hardness] / 10 ) ^ 3 + 2))"
+                "max": " min(200,(([material.tier] + [material.hardness] / 10 ) ^ 3 + 2))"
             }
         }
     ],

@@ -81,6 +81,21 @@
         "sizeX": 3,
         "sizeY": 3
     },
+    "mining_level": {
+        "sword": {
+            "blocks": "minecraft:sword_efficient",
+            "use_material": false,
+            "speed": "1.5"
+        },
+        "cobweb": {
+            "block_list": [
+                "minecraft:cobweb"
+            ],
+            "use_material": false,
+            "correct_for_drops": true,
+            "speed": "15"
+        }
+    },
     "slashing": "[material.hardness] * 1.2 /  [collect.add.module.blade_size]",
     "armor_pen": "-[material.flexibility]*2.0 - 27",
     "display_name": "miapi.module.arsenal.blade.katana.name",
