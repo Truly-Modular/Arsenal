@@ -124,6 +124,10 @@
     "miapi.ability.block.lore": "Right Click to Block",
     "miapi.ability.throw.lore": "Throwable",
 
+    "miapi.module.arsenal.blade.mace": "Heavy Core",
+    "miapi.module.arsenal.blade.mace.name": "Mace",
+    "miapi.module.arsenal.blade.mace.description": "A rare Mace Head.",
+
     "miapi.module.arsenal.blade.dagger": "Dagger Blade",
     "miapi.module.arsenal.blade.dagger.name": "%s Dagger",
     "miapi.module.arsenal.blade.dagger.description": "A common blade head, often used by thieves and scoundrels.",
