@@ -35,7 +35,7 @@ tasks.register('buildBoth') {
                 from forgeJar
                 into project.file('Merged')
                 rename { fileName ->
-                    "Truly-Modular-Arsenal-${modVersion}-${minecraftVersion}-snapshot-forge.jar"
+                    "Truly-Modular-Arsenal-${modVersion}-${minecraftVersion}-snapshot-neoforge.jar"
                 }
             }
         }
@@ -84,7 +84,7 @@ subprojects {
                 "credits"                   : rootProject.credits
         ]
 
-        filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', '*.mixins.json']) {
+        filesMatching(['pack.mcmeta', 'fabric.mod.json','META-INF/neoforge.mods.toml', 'META-INF/mods.toml', '*.mixins.json']) {
             expand expandProps
         }
     }
