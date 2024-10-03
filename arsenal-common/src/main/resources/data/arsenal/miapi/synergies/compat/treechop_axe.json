@@ -8,10 +8,10 @@
             "mining_shape"
         ],
         "replace": {
-            "ht_treechop_swing": "[material.mining_level]+2",
+            "ht_treechop_swing": "[material.tier]-1+2",
             "gui_stat": {
                 "ht_treechop_gui": {
-                    "value": "[material.mining_level]+2",
+                    "value": "([material.tier]-1)+2",
                     "min": 0,
                     "max": 1,
                     "header": {

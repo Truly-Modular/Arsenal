@@ -110,14 +110,14 @@
     },
     "ability_context": {
         "area_harvest_ability": {
-            "block_range": "[material.mining_level]"
+            "block_range": "[material.tier]-1"
         },
         "hoe_ability": {
         }
     },
     "gui_stat": {
         "area_harvest_ability": {
-            "value": "[material.mining_level]",
+            "value": "([material.tier]-1)",
             "min": 0,
             "max": 4,
             "header": {
