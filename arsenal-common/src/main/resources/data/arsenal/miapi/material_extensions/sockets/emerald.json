@@ -5,12 +5,9 @@
     ],
     "properties": {
         "gem_melee_generic": {
-            "enchantment_transformers": [
-                {
-                    "enchantment": "minecraft:fortune",
-                    "level": "[old_level]+1"
-                }
-            ],
+            "fake_enchants": {
+                "minecraft:fortune": "[old_level]+1"
+            },
             "gui_stat": {
                 "fortune": {
                     "value": "1",
