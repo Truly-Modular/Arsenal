@@ -1,7 +1,7 @@
 {
     "model": [
         {
-            "path": "miapi:models/item/tool/head/hammer/[material.texture].json",
+            "path": "miapi:models/item/tool/head/excavator/[material.texture].json",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -9,8 +9,8 @@
                     "z": 0.0
                 },
                 "translation": {
-                    "x": -7.0,
-                    "y": -7.0,
+                    "x": -2.0,
+                    "y": -2.0,
                     "z": 0.0
                 },
                 "scale": {
@@ -21,6 +21,10 @@
             }
         }
     ],
+    "gui_offset": {
+        "sizeX": 1,
+        "sizeY": 1
+    },
     "module_stats": {
         "blade_size": 1
     },
@@ -29,8 +33,8 @@
     "material_property": [
         "default",
         "handheld",
-        "pickaxe",
-        "hammer",
+        "shovel",
+        "excavator",
         "tool",
         "head"
     ],
@@ -44,15 +48,15 @@
         "allowed": [
             "minecraft:enchantable/mining",
             "minecraft:enchantable/mining_loot",
-            "c:enchtantable/pickaxe",
-            "minecraft:pickaxes"
+            "c:enchtantable/shovel",
+            "minecraft:shovel"
         ]
     },
     "mining_shape": [
         {
             "condition": {
                 "type": "block_tag",
-                "tags": ["mineable/pickaxe"]
+                "tags": ["mineable/shovel"]
             },
             "modifier": {
                 "require_same": true
@@ -82,8 +86,8 @@
         "cost": 4
     },
     "mining_level": {
-        "pickaxe": {
-            "blocks": "minecraft:mineable/pickaxe",
+        "shovel": {
+            "blocks": "minecraft:mineable/shovel",
             "use_material": true,
             "speed": "[material.mining_speed]"
         }
@@ -106,18 +110,12 @@
             "value": " - 1.0",
             "operation": "+",
             "slot": "mainhand"
-        },
-        {
-            "attribute": "generic.attack_damage",
-            "value": "[material.hardness]/2+3",
-            "operation": "+",
-            "slot": "mainhand"
         }
     ],
     "durability": "[material.durability]* 0.5",
     "tag": [
         "tool_head"
     ],
-    "display_name": "miapi.module.arsenal.tool.hammer.name",
-    "item_id": "miapi:modular_hammer"
+    "display_name": "miapi.module.arsenal.tool.excavator.name",
+    "item_id": "miapi:modular_shovel"
 }
