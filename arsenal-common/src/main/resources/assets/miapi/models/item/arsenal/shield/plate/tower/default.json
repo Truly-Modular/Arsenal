@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "miapi:item/arsenal/shield/plate/tower"
+	},
+	"elements": [
+		{
+			"from": [-5, -10, 0],
+			"to": [5, 10, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-5, -10, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 5], "texture": "#particle"},
+				"east": {"uv": [2.25, 0, 2.5, 5], "texture": "#particle"},
+				"south": {"uv": [3.25, 0, 5.75, 5], "texture": "#particle"},
+				"west": {"uv": [0, 0, 0.25, 5], "texture": "#particle"},
+				"up": {"uv": [0, 0, 2.5, 0.25], "texture": "#particle"},
+				"down": {"uv": [0, 4.75, 2.5, 5], "texture": "#particle"}
+			}
+		}
+	]
+}
