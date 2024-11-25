@@ -96,8 +96,7 @@
             "speed": "15"
         }
     },
-    "slashing": "[material.hardness] * 1.2 /  [collect.add.module.blade_size]",
-    "armor_pen": "-[material.flexibility]*2.0 - 27",
+    "slashing": "[material.hardness] * 0.6 /  [collect.add.module.blade_size]",
     "display_name": "miapi.module.arsenal.blade.katana.name",
     "item_id": "miapi:modular_katana"
 }
