@@ -5,7 +5,7 @@
     ],
     "properties": {
         "gem_melee_generic": {
-            "luminiousLearning": "1 + [module.gem_power] * 2",
+            "luminious_learning": "1 + [module.gem_power] * 2",
             "enchantability": 50
         }
     }
