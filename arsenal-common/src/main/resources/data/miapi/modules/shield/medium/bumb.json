@@ -1,0 +1,31 @@
+{
+	"name": "medium_shield_bumb",
+	"texture": [
+		{
+			"path": "miapi:models/item/arsenal/shield/round_shield/round_shield_stun.json",
+			"transform": {
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"translation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"scale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				}
+			}
+		}
+	],
+	"allowedInSlots": ["medium_shield_attachment"],
+	"allowedMaterial": {
+		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
+		"cost": 1
+	}
+}
+

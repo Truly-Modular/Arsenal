@@ -1,0 +1,278 @@
+{
+	"name": "medium_shield",
+	"texture": [
+		{
+			"path": "miapi:models/item/arsenal/shield/round_shield/round_shield_plate.json",
+			"transform": {
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"translation": {
+					"x": -2.3,
+					"y": -3.1,
+					"z": -2.5
+				},
+				"scale": {
+					"x": 1.3,
+					"y": 1.3,
+					"z": 1.3
+				}
+			}
+		},
+		{
+			"path": "miapi:models/item/arsenal/shield/round_shield/round_shield_rim.json",
+			"transform": {
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"translation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"scale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				}
+			}
+		},
+		{
+			"path": "miapi:models/item/arsenal/shield/round_shield/round_shield_handle.json",
+			"color_provider": "parent",
+			"transform": {
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"translation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"scale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				}
+			}
+		}
+	],
+	"handheld_item": true,
+	"displayName": "miapi.module.medium_shield.name",
+	"itemId": "miapi:modular_medium_shield",
+	"enchantments": {
+		"allowed": ["miapi:weapon"]
+	},
+	"tag": ["custom_handle", "shield", "handheld","medium_shield","parry_shield"],
+	"priority": -3,
+	"repairPriority": -1,
+	"allowedInSlots": ["handheld_blade"],
+	"allowedMaterial": {
+		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
+		"cost": 1
+	},
+	"attributes": [
+		{
+			"attribute": "miapi:generic.attack_range",
+			"value": "0.0",
+			"operation": "+",
+			"slot": "mainhand"
+		},
+		{
+			"attribute": "generic.attack_speed",
+			"value": "[material.flexibility]/0.8",
+			"operation": "+",
+			"slot": "mainhand",
+			"uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+		},
+		{
+			"attribute": "generic.attack_damage",
+			"value": "[material.hardness]*0.5",
+			"operation": "+",
+			"slot": "mainhand",
+			"uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+		},
+		{
+			"attribute": "miapi:generic.stun_damage",
+			"value": "[material.flexibility]0.6 + [material.hardness]*0.6",
+			"operation": "+",
+			"slot": "mainhand"
+		},
+		{
+			"attribute": "minecraft:generic.armor",
+			"value": "[material.flexibility]*0.5 + [material.hardness]*0.2",
+			"operation": "+",
+			"slot": "mainhand"
+		}
+	],
+	"materialProperty": ["default", "blade", "handheld", "dual_wield", "head"],
+	"modelTransform": {
+		"display": {
+			"thirdperson_righthand": {
+				"rotation": {
+					"x": 0,
+					"y": 270,
+					"z": 0
+				},
+				"translation": {
+					"x": 3,
+					"y": -4,
+					"z": 2.5
+				},
+				"scale": {
+					"x": 0.8,
+					"y": 0.8,
+					"z": 0.8
+				}
+			},
+			"thirdperson_lefthand": {
+				"rotation": {
+					"x": 0,
+					"y": 90,
+					"z": 0
+				},
+				"translation": {
+					"x": 3,
+					"y": -4,
+					"z": 2.5
+				},
+				"scale": {
+					"x": 0.8,
+					"y": 0.8,
+					"z": 0.8
+				}
+			},
+			"firstperson_righthand": {
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"translation": {
+					"x": -0.5,
+					"y": -4,
+					"z": 2
+				},
+				"scale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				}
+			},
+			"firstperson_lefthand": {
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"translation": {
+					"x": -0.5,
+					"y": -4,
+					"z": 2
+				},
+				"scale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				}
+			},
+			"ground": {
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"translation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"scale": {
+					"x": 0.5,
+					"y": 0.5,
+					"z": 0.5
+				}
+			},
+			"fixed": {
+				"translation": {
+					"x": 1.5,
+					"y": -1.5,
+					"z": -0.5
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 45
+				},
+				"scale": {
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"gui": {
+				"translation": {
+					"x": -1,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": -30,
+					"y": 140,
+					"z": 90
+				},
+				"scale": {
+					"x": 0.8,
+					"y": 0.8,
+					"z": 0.8
+				}
+			}
+		}
+	},
+	"durability": "[material.durability]",
+	"better_combat_config": {
+		"parent": "bettercombat:fist"
+	},
+	"slots": {
+		"0": {
+			"allowed": ["medium_shield_attachment"],
+			"translationKey": "miapi.slot.shield.medium.attachment.name",
+			"transform": {
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"translation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"scale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				}
+			}
+		}
+	},
+	"ability_context": {
+		"parry_block": {
+			"pose_id": "miapi:medium_shield_block",
+			"max_hold_time": "20",
+			"cooldown_attacker_weapon": "0",
+			"cooldown": "40",
+			"cooldown_miss_time": "40",
+			"sound_volume": 10000,
+			"sound_pitch": 0.5,
+			"sound": "minecraft:music_disc.5"
+		}
+	}
+}
+

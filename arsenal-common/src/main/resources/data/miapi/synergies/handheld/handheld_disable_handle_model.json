@@ -1,0 +1,14 @@
+{
+    "handle_handheld": {
+        "condition": {
+            "type": "otherModule",
+            "condition": {
+                "type": "tag",
+                "tag": "custom_handle"
+            }
+        },
+        "replace": {
+            "texture": []
+        }
+    }
+}
