@@ -4,11 +4,11 @@
             "type": "other_module",
             "condition": {
                 "type": "module",
-                "module": "miapi:handle/polearm"
+                "module": "arsenal:handle/polearm"
             }
         },
         "replace": {
-            "display_name": "miapi.module.blade_naginata.name",
+            "display_name": "miapi.module.arsenal.blade.naginata.name",
             "item_id": "miapi:modular_naginata"
         }
     }
