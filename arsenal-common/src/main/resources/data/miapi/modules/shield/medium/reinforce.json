@@ -1,31 +1,44 @@
 {
-	"name": "medium_shield_reinforce",
-	"texture": [
-		{
-			"path": "miapi:models/item/arsenal/shield/round_shield/round_shield_reinforcement.json",
-			"transform": {
-				"rotation": {
-					"x": 0.0,
-					"y": 0.0,
-					"z": 0.0
-				},
-				"translation": {
-					"x": 0.0,
-					"y": 0.0,
-					"z": 0.0
-				},
-				"scale": {
-					"x": 1.0,
-					"y": 1.0,
-					"z": 1.0
-				}
-			}
-		}
-	],
-	"allowedMaterial": {
-		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
-		"cost": 1
-	},
-	"allowedInSlots": ["medium_shield_attachment"]
+    "name": "medium_shield_reinforce",
+    "texture": [
+        {
+            "path": "miapi:models/item/arsenal/shield/round_shield/round_shield_reinforcement.json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        }
+    ],
+    "allowedMaterial": {
+        "allowedMaterials": [
+            "fabric",
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 2
+    },
+    "allowedInSlots": [
+        "medium_shield_attachment"
+    ],
+    "durability": "[material.durability]/3",
+    "max_hold_blocking": "5 + [material.flexibility]/2"
 }
 

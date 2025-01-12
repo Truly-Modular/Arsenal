@@ -26,6 +26,8 @@
 	"allowedMaterial": {
 		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
 		"cost": 1
-	}
+	},
+	"durability": "[material.durability]/4",
+	"inflict_cooldown_blocking": "log([material.density])*5 +10"
 }
 

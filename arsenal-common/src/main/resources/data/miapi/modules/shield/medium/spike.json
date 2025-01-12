@@ -23,9 +23,11 @@
 		}
 	],
 	"allowedInSlots": ["medium_shield_attachment"],
+	"reflect_damage_blocking": "log([material.density])*5+20",
 	"allowedMaterial": {
 		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
-		"cost": 1
-	}
+		"cost": 3
+	},
+	"durability": "[material.durability]/4"
 }
 

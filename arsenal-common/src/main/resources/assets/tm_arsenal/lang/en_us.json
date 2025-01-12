@@ -98,6 +98,30 @@
     "miapi.slot.guard.name" : "Empty Guard Slot",
     "miapi.slot.gem.name" : "Empty Socket",
 
+    "miapi.module.medium_shield": "Medium Shield Plate",
+    "miapi.module.medium_shield.name": "[translation.[material.translation]]Medium Shield",
+    "miapi.module.medium_shield.description": "Medium Shield,\nHigh risk high reward parry mechanics.",
+
+    "miapi.slot.shield.medium.rim.name": "Shield Rim",
+    "miapi.slot.shield.medium.attachment.name": "Attachment",
+    "miapi.shield.banner.name": "Front Cosmetic",
+
+    "miapi.module.medium_shield_bumb": "Large Bumb",
+    "miapi.module.medium_shield_bumb.description": "Stuns Enemies when parrying.",
+
+    "miapi.module.medium_shield_reinforce": "Plate Reinforcement",
+    "miapi.module.medium_shield_reinforce.description": "Increases Parry-Time window.",
+
+    "miapi.module.medium_shield_rim": "Basic Rim",
+    "miapi.module.medium_shield_rim.description": "Increases Durability.",
+
+    "miapi.module.medium_shield_spike": "Large Spike",
+    "miapi.module.medium_shield_spike.description": "A Large Spike, reflects damage when parrying",
+
+    "miapi.module.banner_shield_cosmetic": "Banner",
+    "miapi.module.banner_shield_cosmetic.description": "Cosmetic Banner",
+
+
     "miapi.module.handheld_gauntlets": "Gauntlets",
     "miapi.module.handheld_gauntlets.name": "[translation.[material.translation]]Gauntlets",
     "miapi.module.handheld_gauntlets.description": "Gauntlets are a great protection of your hands while smashing them into something.",
