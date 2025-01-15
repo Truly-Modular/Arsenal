@@ -1,0 +1,61 @@
+{
+    "path": "guard_skyrim_large",
+    "module": "guard_blocking",
+    "replace": {
+        "texture": [{
+            "path": "miapi:models/item/sword/guard/winged/skyrim/[material.texture].json",
+            "transform": {
+                "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -4.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            }
+        },{
+            "path": "miapi:models/item/sword/guard/winged/skyrim/handle/[material.texture].json",
+            "color_provider": "parent",
+            "transform": {
+                "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -4.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            }
+        }],
+        "slots": {
+            "0": {
+                "allowed": [
+                    "sword_blade",
+                    "sword_blade_small",
+                    "sword_blade_large"
+                ],
+                "translationKey": "miapi.slot.sword_blade.name",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": 6.0,
+                        "y": 6.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            }
+        },
+        "guiOffset": {
+            "sizeX": 4,
+            "sizeY": 4
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "winter",
+            "supporter"
+        ]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

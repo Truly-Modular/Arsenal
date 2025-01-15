@@ -18,6 +18,7 @@
     "miapi.skin.name.katana_sketano": "Sketanos Breaker",
     "miapi.skin.name.blade_dagger_knife": "Knife",
     "miapi.skin.name.guard_dizzymii": "Masamune guard",
+    "miapi.skin.name.guard_skyrim_large": "Skyrim Guard",
 
 
     "miapi.skin.name.katar_alt_1": "Stealth Blades",
@@ -106,7 +107,7 @@
     "miapi.slot.shield.medium.attachment.name": "Attachment",
     "miapi.shield.banner.name": "Front Cosmetic",
 
-    "miapi.module.medium_shield_bumb": "Large Bumb",
+    "miapi.module.medium_shield_bumb": "Boss",
     "miapi.module.medium_shield_bumb.description": "Stuns Enemies when parrying.",
 
     "miapi.module.medium_shield_reinforce": "Plate Reinforcement",
@@ -348,6 +349,8 @@
     "miapi.material.custom.end_crystal": "End Crystal ",
     "miapi.material.custom.nether_star": "Nether Star ",
     "miapi.material.custom.heart_of_the_sea": "Heart of the Sea ",
+
+    "miapi.skin.name.heater": "Heater Shield",
 
     "miapi.skin.name.pride-blade_1": "Rainbow Reaver",
     "miapi.skin.name.pride-blade_2": "Spectrum Slicer",

@@ -1,0 +1,35 @@
+{
+    "medium_shield_rim": {
+        "condition": {
+            "type": "otherModule",
+            "condition": {
+                "type": "tag",
+                "tag": "heater_shield"
+            }
+        },
+        "replace": {
+            "texture": [
+                {
+                    "path": "miapi:models/item/arsenal/shield/heater_shield/heater_shield_rim.json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "translation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
