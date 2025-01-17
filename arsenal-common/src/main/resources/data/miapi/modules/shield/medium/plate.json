@@ -3,6 +3,7 @@
 	"texture": [
 		{
 			"path": "miapi:models/item/arsenal/shield/round_shield/round_shield_plate.json",
+			"banner_mode": "40.banner",
 			"transform": {
 				"rotation": {
 					"x": 0.0,
