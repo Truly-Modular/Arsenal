@@ -45,9 +45,7 @@
         "blade_large",
         "polearm_halberd"
     ],
-    "better_combat_config": {
-        "parent": "bettercombat:claymore"
-    },
+    "better_combat_config": "bettercombat:claymore",
     "allowed_in_slots": [
         "sword_blade_large"
     ],

@@ -126,9 +126,7 @@
             "speed": "15"
         }
     },
-    "better_combat_config": {
-        "parent": "bettercombat:spear"
-    },
+    "better_combat_config": "bettercombat:spear",
     "display_name": "miapi.module.arsenal.blade.spear.name",
     "item_id": "miapi:modular_spear"
 }

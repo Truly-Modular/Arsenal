@@ -47,9 +47,7 @@
         "blade_medium",
         "polearm_halberd"
     ],
-    "better_combat_config": {
-        "parent": "bettercombat:rapier"
-    },
+    "better_combat_config": "bettercombat:rapier",
     "allowed_material": {
         "allowedMaterials": [
             "wood",

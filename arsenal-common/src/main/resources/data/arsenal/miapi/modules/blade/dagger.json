@@ -89,9 +89,7 @@
         "head"
     ],
     "durability": "[material.durability]* 0.15",
-    "better_combat_config": {
-        "parent": "bettercombat:dagger"
-    },
+    "better_combat_config": "bettercombat:dagger",
     "crafting_condition": {
         "craftable": {
             "type": "true"

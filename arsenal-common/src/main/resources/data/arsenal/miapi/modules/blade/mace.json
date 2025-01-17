@@ -83,9 +83,7 @@
     ],
     "rarity": "epic",
     "durability": "400",
-    "better_combat_config": {
-        "parent": "bettercombat:mace"
-    },
+    "better_combat_config": "bettercombat:mace",
     "gui_offset": {
         "sizeX": -2,
         "sizeY": -2

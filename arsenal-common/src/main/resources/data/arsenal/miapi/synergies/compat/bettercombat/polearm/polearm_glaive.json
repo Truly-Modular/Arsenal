@@ -9,9 +9,7 @@
             }
         },
         "replace": {
-            "better_combat_config": {
-                "parent": "bettercombat:glaive"
-            }
+            "better_combat_config": "bettercombat:glaive"
         }
     }
 }

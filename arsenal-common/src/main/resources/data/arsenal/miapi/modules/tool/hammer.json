@@ -34,9 +34,7 @@
         "tool",
         "head"
     ],
-    "better_combat_config": {
-        "parent": "bettercombat:hammer"
-    },
+    "better_combat_config": "bettercombat:hammer",
     "allowed_in_slots": [
         "tool_head"
     ],

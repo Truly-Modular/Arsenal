@@ -9,9 +9,7 @@
             }
         },
         "replace": {
-            "better_combat_config": {
-                "parent": "bettercombat:halberd"
-            }
+            "better_combat_config": "bettercombat:halberd"
         }
     }
 }

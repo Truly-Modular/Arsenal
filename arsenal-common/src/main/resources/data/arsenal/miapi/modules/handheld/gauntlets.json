@@ -229,7 +229,5 @@
         }
     },
     "durability": "[material.durability]* 0.5",
-    "better_combat_config": {
-        "parent": "bettercombat:fist"
-    }
+    "better_combat_config": "bettercombat:fist"
 }

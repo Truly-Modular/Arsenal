@@ -9,9 +9,7 @@
             }
         },
         "replace": {
-            "better_combat_config": {
-                "parent": "bettercombat:spear"
-            }
+            "better_combat_config": "bettercombat:spear"
         }
     }
 }

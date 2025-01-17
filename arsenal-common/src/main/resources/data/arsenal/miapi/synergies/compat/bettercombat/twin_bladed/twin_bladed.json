@@ -9,9 +9,7 @@
             }
         },
         "replace": {
-            "better_combat_config": {
-                "parent": "bettercombat:twin_blade"
-            },
+            "better_combat_config": "bettercombat:twin_blade",
             "display_name": "miapi.module.arsenal.twin_blade.name",
             "item_id": "miapi:twin_blade"
         }

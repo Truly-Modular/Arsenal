@@ -51,9 +51,7 @@
         ],
         "cost": 2
     },
-    "better_combat_config": {
-        "parent": "bettercombat:double_axe"
-    },
+    "better_combat_config": "bettercombat:double_axe",
     "mining_level": {
         "axe": {
             "blocks": "minecraft:mineable/axe",

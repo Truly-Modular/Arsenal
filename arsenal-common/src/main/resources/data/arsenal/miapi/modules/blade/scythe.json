@@ -104,9 +104,7 @@
         "sizeX": -7,
         "sizeY": -7
     },
-    "better_combat_config": {
-        "parent": "bettercombat:scythe"
-    },
+    "better_combat_config": "bettercombat:scythe",
     "ability_context": {
         "area_harvest_ability": {
             "block_range": "[material.tier]-1"

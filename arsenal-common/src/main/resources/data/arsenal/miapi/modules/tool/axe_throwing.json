@@ -75,9 +75,7 @@
         "tool",
         "head"
     ],
-    "better_combat_config": {
-        "parent": "bettercombat:axe"
-    },
+    "better_combat_config": "bettercombat:axe",
     "allowed_in_slots": [
         "tool_head"
     ],
