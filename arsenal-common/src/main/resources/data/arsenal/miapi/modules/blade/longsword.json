@@ -41,7 +41,7 @@
         ]
     },
     "keybind_ability_context": {
-        "miapi:miapi/key_binding/test": {
+        "miapi:test": {
             "miapi:heavy_attack": {
                 "damage": 2,
                 "sweeping": 3,
