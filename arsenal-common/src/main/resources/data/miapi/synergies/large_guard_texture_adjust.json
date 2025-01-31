@@ -1,0 +1,29 @@
+{
+    "guard_blocking": {
+        "condition": {
+            "type": "true"
+        },
+        "replace": {
+            "texture": {
+                "path": "miapi:models/item/sword/guard/winged/[material.texture].json",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": -4.0,
+                        "y": -4.0,
+                        "z": -0.001
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            }
+        }
+    }
+}
