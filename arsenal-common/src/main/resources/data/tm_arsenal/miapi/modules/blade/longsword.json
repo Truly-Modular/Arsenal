@@ -1,0 +1,119 @@
+{
+    "model": {
+        "path": "miapi:models/item/sword/blade/longsword/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "priority": 1,
+    "material_property": [
+        "default",
+        "handheld",
+        "blade",
+        "head"
+    ],
+    "repair_priority": -1,
+    "gui_offset": {
+        "sizeX": 2,
+        "sizeY": 2
+    },
+    "enchantments": {
+        "allowed": [
+
+            "minecraft:enchantable/sword",
+            "minecraft:enchantable/fire_aspect",
+            "minecraft:enchantable/sharp_weapon",
+            "minecraft:enchantable/weapon"
+        ]
+    },
+    "keybind_ability_context": {
+        "miapi:test": {
+            "miapi:heavy_attack": {
+                "damage": 2,
+                "sweeping": 3,
+                "range": 5,
+                "minHold": 15,
+                "cooldown": 60,
+                "particle": {
+                    "emit": {
+                        "type": "minecraft:angry_villager"
+                    },
+                    "frequency": 1,
+                    "count": 5,
+                    "speed": 3,
+                    "startAfter": 0
+                }
+            }
+        }
+    },
+    "tag": [
+        "blade",
+        "blade_large",
+        "polearm_halberd"
+    ],
+    "better_combat_config": "bettercombat:claymore",
+    "allowed_in_slots": [
+        "sword_blade_large"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 2
+    },
+    "module_stats": {
+        "blade_size": 1.2
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "-0.2",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*1.1",
+            "operation": "+",
+            "slot": "mainhand"
+        }
+    ],
+    "mining_level": {
+        "sword": {
+            "blocks": "minecraft:sword_efficient",
+            "use_material": false,
+            "speed": "1.5"
+        },
+        "cobweb": {
+            "block_list": [
+                "minecraft:cobweb"
+            ],
+            "use_material": false,
+            "correct_for_drops": true,
+            "speed": "15"
+        }
+    },
+    "durability": "[material.durability]* 0.3",
+    "display_name": "miapi.module.tm_arsenal.blade.longsword.name",
+    "item_id": "miapi:modular_longsword"
+}

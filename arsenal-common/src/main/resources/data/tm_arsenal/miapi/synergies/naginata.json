@@ -1,0 +1,15 @@
+{
+    "arsenal:blade/katana": {
+        "condition": {
+            "type": "other_module",
+            "condition": {
+                "type": "module",
+                "module": "arsenal:handle/polearm"
+            }
+        },
+        "replace": {
+            "display_name": "miapi.module.tm_arsenal.blade.naginata.name",
+            "item_id": "miapi:modular_naginata"
+        }
+    }
+}

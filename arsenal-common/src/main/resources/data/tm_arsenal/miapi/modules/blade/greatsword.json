@@ -1,0 +1,123 @@
+{
+    "model": {
+        "path": "miapi:models/item/sword/blade/greatsword/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": -0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "priority": 4,
+    "material_property": [
+        "default",
+        "handheld",
+        "blade",
+        "head"
+    ],
+    "repair_priority": -1,
+    "enchantments": {
+        "allowed": [
+
+            "minecraft:enchantable/sword",
+            "minecraft:enchantable/fire_aspect",
+            "minecraft:enchantable/sharp_weapon",
+            "minecraft:enchantable/weapon"
+        ]
+    },
+    "allowed_in_slots": [
+        "sword_blade_large"
+    ],
+    "tag": [
+        "blade",
+        "blade_large",
+        "polearm_glaive"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    },
+    "better_combat_config":"bettercombat:claymore",
+    "module_stats": {
+        "blade_size": 1.5
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness] * 1.0 + [material.density]*0.2",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.shield_break",
+            "value": "3 / [collect.add.module.blade_size]",
+            "operation": "+",
+            "slot": "mainhand"
+        }
+    ],
+    "durability": "[material.durability]* 0.25",
+    "gui_offset": {
+        "sizeX": 6,
+        "sizeY": 6
+    },
+    "display_name": "miapi.module.tm_arsenal.blade.greatsword.name",
+    "ability_context": {
+        "miapi:heavy_attack": {
+            "damage": 2,
+            "sweeping": 3,
+            "range": 5,
+            "minHold": 15,
+            "cooldown": 60,
+            "particle": {
+                "emit": {
+                    "type": "minecraft:angry_villager"
+                },
+                "frequency": 1,
+                "count": 5,
+                "speed": 3,
+                "startAfter": 0
+            }
+        }
+    },
+    "mining_level": {
+        "sword": {
+            "blocks": "minecraft:sword_efficient",
+            "use_material": false,
+            "speed": "1.5"
+        },
+        "cobweb": {
+            "block_list": [
+                "minecraft:cobweb"
+            ],
+            "use_material": false,
+            "correct_for_drops": true,
+            "speed": "15"
+        }
+    },
+    "item_id": "miapi:modular_greatsword"
+}

@@ -11,19 +11,19 @@ logoFile="icon.png" #optional
 credits="${credits}" #optional
 authors="${mod_author}" #optional
 description='''${mod_description}'''
-[[dependencies.arsenal]] #optional
+[[dependencies.tm_arsenal]] #optional
    modId="neoforge" #mandatory
    mandatory=true #mandatory
    versionRange="[1,)" #mandatory
    ordering="NONE"
    side="BOTH"
-[[dependencies.arsenal]]
+[[dependencies.tm_arsenal]]
    modId="minecraft"
    mandatory=true
    versionRange="[${minecraft_version},)"
    ordering="NONE"
    side="BOTH"
-[[dependencies.arsenal]]
+[[dependencies.tm_arsenal]]
    modId="miapi"
    mandatory=true
    versionRange="[${miapi_version},)"
