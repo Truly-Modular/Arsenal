@@ -78,5 +78,9 @@
     "tag": [
         "tool_head"
     ],
+    "material_indication": {
+        "durability": 1,
+        "mining_speed": 1
+    },
     "durability": "[material.durability]* 0.5"
 }

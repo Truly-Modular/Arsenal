@@ -45,6 +45,9 @@
             "slot": "mainhand"
         }
     ],
+    "material_indication": {
+        "durability": 1
+    },
     "priority": -3,
     "repair_priority": 0,
     "durability": "[material.durability]* 0.05",

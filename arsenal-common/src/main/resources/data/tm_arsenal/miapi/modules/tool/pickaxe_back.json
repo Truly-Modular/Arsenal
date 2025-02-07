@@ -46,6 +46,10 @@
             "speed": "[material.mining_speed]/2"
         }
     },
+    "material_indication": {
+        "durability": 1,
+        "mining_speed": 1
+    },
     "durability": "[material.durability]* 0.5",
     "tag": [
         "tool_head"

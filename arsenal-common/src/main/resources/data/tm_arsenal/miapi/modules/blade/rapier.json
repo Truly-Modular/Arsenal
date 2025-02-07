@@ -60,6 +60,11 @@
         ],
         "cost": 1
     },
+    "material_indication": {
+        "hardness": 3,
+        "flexibility": 2,
+        "durability": 1
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",

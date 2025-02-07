@@ -62,6 +62,10 @@
         "polearm_spear",
         "spear"
     ],
+    "material_indication": {
+        "hardness": 2,
+        "durability": 1
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",

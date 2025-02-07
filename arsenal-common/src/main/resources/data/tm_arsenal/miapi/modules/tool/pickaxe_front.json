@@ -138,6 +138,10 @@
             "slot": "mainhand"
         }
     ],
+    "material_indication": {
+        "durability": 1,
+        "mining_speed": 1
+    },
     "durability": "[material.durability]* 0.5",
     "allowed_material": {
         "allowedMaterials": [

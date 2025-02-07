@@ -83,6 +83,11 @@
             }
         }
     },
+    "material_indication": {
+        "durability": 1,
+        "tier": 3,
+        "mining_speed": 1
+    },
     "mining_shape": [
         {
             "condition": {

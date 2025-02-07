@@ -84,6 +84,10 @@
     "module_stats": {
         "blade_size": 1.2
     },
+    "material_indication": {
+        "hardness": 3,
+        "durability": 1
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",

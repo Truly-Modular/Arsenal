@@ -40,6 +40,9 @@
     "tag": [
         "tool_head"
     ],
+    "material_indication": {
+        "durability": 1
+    },
     "allowed_material": {
         "allowedMaterials": [
             "wood",

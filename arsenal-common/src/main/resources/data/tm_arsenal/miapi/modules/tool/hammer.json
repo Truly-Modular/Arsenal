@@ -86,6 +86,10 @@
             "speed": "[material.mining_speed]"
         }
     },
+    "material_indication": {
+        "density": 3,
+        "durability": 1
+    },
     "attributes": [
         {
             "attribute": "miapi:generic.reach",
@@ -95,7 +99,7 @@
         },
         {
             "attribute": "miapi:generic.attack_range",
-            "value": "-0.5",
+            "value": "-0.5+[material.density]",
             "operation": "+",
             "slot": "mainhand"
         },

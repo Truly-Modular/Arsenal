@@ -44,5 +44,8 @@
         ],
         "cost": 1
     },
+    "material_indication": {
+        "durability": 1
+    },
     "durability": "[material.durability]* 0.02"
 }

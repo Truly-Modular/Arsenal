@@ -219,6 +219,9 @@
         }
     ],
     "durability": "[material.durability]* 0.25",
+    "material_indication": {
+        "durability": 1
+    },
     "is_weapon": true,
     "display_name": "miapi.module.handle_handheld.name",
     "item_id": "miapi:modular_handheld"

@@ -85,6 +85,17 @@
     "miapi.tm_arsenal.gemstone_melee.quickening": "Quickening!",
     "miapi.tm_arsenal.gemstone_melee.quickening.description": "Applies Speed effect on wielder when hitting a Entity",
 
+    "tm_arsenal.miapi.material_extensions.sockets.heart_of_the_sea": "Heart of the Sea Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.redstone": "Redstone Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.emerald": "Emerald Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.diamond": "Diamond Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.nether_quartz": "Nether Quartz Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.lapis": "Lapis Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.conduit": "Conduit Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.end_crystal": "End Crystal Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.nether_star": "Nether Star Socket",
+    "tm_arsenal.miapi.material_extensions.sockets.amethyst": "Amethyst Socket",
+
     "miapi.create_item.sword": "Sword",
     "miapi.create_item.polearm": "Polearm",
     "miapi.create_item.tool": "Tool",

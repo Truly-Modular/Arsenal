@@ -32,6 +32,10 @@
     ],
     "priority": -1,
     "repair_priority": 0,
+    "material_indication": {
+        "flexibility": 2,
+        "durability": 1
+    },
     "ability_context": {
         "block": {
             "blocking": "58 + ceil([material.flexibility])"

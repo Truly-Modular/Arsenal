@@ -22,6 +22,14 @@
             }
         }
     ],
+    "material_indication": {
+        "hardness": {
+            "strength": 2,
+            "into": "tm_arsenal.material_indication.blade.hardness"
+        },
+        "flexibility": 1,
+        "durability": 1
+    },
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/sword",
@@ -77,7 +85,7 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness]*0.45 + [material.flexibility]*0.1",
+            "value": "[material.hardness]*0.35 + [material.flexibility]*0.2",
             "operation": "+",
             "slot": "mainhand"
         }

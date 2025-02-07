@@ -75,6 +75,11 @@
             "slot": "mainhand"
         }
     ],
+    "material_indication": {
+        "hardness": 3,
+        "flexibility": 1,
+        "durability": 1
+    },
     "material_property": [
         "default",
         "blade",

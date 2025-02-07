@@ -246,6 +246,9 @@
         }
     ],
     "durability": "[material.durability]* 0.25",
+    "material_indication": {
+        "durability": 1
+    },
     "is_weapon": false,
     "display_name": "miapi.module.tm_arsenal.handle.tool.name",
     "item_id": "miapi:modular_handle"

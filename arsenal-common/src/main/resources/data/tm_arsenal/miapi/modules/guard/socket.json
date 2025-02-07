@@ -36,6 +36,9 @@
     ],
     "priority": -3,
     "repair_priority": 0,
+    "material_indication": {
+        "durability": 1
+    },
     "durability": "[material.durability]* 0.05",
     "allowed_material": {
         "allowedMaterials": [

@@ -90,6 +90,10 @@
             "minecraft:hoes"
         ]
     },
+    "material_indication": {
+        "durability": 1,
+        "mining_speed": 1
+    },
     "slots": {
         "tool_back": {
             "allowed": [

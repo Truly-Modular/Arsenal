@@ -65,6 +65,12 @@
     "module_stats": {
         "blade_size": 1
     },
+    "material_indication": {
+        "hardness": 2,
+        "durability": 1,
+        "mining_speed": 1,
+        "tier": 1
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",

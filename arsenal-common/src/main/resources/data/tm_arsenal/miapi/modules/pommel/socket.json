@@ -28,6 +28,9 @@
     "priority": 0,
     "repair_priority": 0,
     "durability": "[material.durability]* 0.25",
+    "material_indication": {
+        "durability": 1
+    },
     "allowed_material": {
         "allowedMaterials": [
             "wood",

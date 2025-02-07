@@ -60,6 +60,11 @@
     "module_stats": {
         "blade_size": 1.5
     },
+    "material_indication": {
+        "hardness": 3,
+        "density": 1,
+        "durability": 1
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",
@@ -69,7 +74,7 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness] * 1.0 + [material.density]*0.2",
+            "value": "[material.hardness] * 0.9 + [material.density]*0.3",
             "operation": "+",
             "slot": "mainhand"
         },

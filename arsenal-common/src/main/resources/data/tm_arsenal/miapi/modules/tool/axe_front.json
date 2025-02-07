@@ -135,6 +135,10 @@
             "speed": "[material.mining_speed]"
         }
     },
+    "material_indication": {
+        "durability": 1,
+        "mining_speed": 1
+    },
     "attributes": [
         {
             "attribute": "miapi:generic.reach",

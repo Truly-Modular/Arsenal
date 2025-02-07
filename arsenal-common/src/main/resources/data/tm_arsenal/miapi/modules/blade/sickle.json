@@ -63,6 +63,12 @@
         ],
         "cost": 2
     },
+    "material_indication": {
+        "hardness": 2,
+        "durability": 1,
+        "mining_speed": 1,
+        "tier": 1
+    },
     "mining_level": {
         "hoe": {
             "blocks": "minecraft:mineable/hoe",
