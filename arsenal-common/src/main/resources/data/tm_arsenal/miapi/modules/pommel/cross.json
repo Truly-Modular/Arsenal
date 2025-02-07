@@ -58,7 +58,14 @@
     ],
     "material_indication": {
         "durability": 1,
-        "density": 1
+        "density": {
+            "strength": 1,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.attack_speed",
+                "color": "dark_gray"
+            }
+        }
     },
     "durability": "[material.durability]* 0.25",
     "gui_offset": {

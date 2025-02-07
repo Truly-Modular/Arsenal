@@ -64,10 +64,31 @@
         "cost": 2
     },
     "material_indication": {
-        "hardness": 2,
         "durability": 1,
-        "mining_speed": 1,
-        "tier": 1
+        "hardness": {
+            "strength": 2,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        },
+        "tier": {
+            "strength": 1,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.scythe.tier",
+                "color": "dark_gray"
+            }
+        },
+        "mining_speed": {
+            "strength": 1,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.default.mining_speed",
+                "color": "dark_gray"
+            }
+        }
     },
     "mining_level": {
         "hoe": {

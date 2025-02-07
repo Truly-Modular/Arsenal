@@ -25,7 +25,14 @@
     "durability": "[material.durability]* 0.25",
     "material_indication": {
         "durability": 1,
-        "hardness": 1
+        "hardness": {
+            "strength": 1,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        }
     },
     "allowed_material": {
         "allowedMaterials": [

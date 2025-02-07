@@ -101,6 +101,15 @@
     "miapi.create_item.tool": "Tool",
     "miapi.create_item.handheld": "Handheld",
 
+    "tm_arsenal.material_indication.blade.damage": "Attack damage scales with directly with this",
+    "tm_arsenal.material_indication.blade.attack_speed": "Attack speed scales with directly with this",
+    "tm_arsenal.material_indication.blade.blocking": "Blocking scales with directly with this",
+    "tm_arsenal.material_indication.blade.stunning": "Stunning scales with directly with this",
+    "tm_arsenal.material_indication.default.mining_speed": "The tools mining speed and level is set by this material",
+    "tm_arsenal.material_indication.scythe.tier": "The Harvest Radius is set by the material tier",
+    "tm_arsenal.material_indication.axe_cutter.tier": "Amount of logs scales with material tier",
+    "tm_arsenal.material_indication.blade.damage_projectile.negative": "Negatively impacts projectile damage",
+
     "miapi.slot.tool_head.name": "Empty Tool Head Slot",
     "miapi.slot.tool_back.name": "Empty Tool Back Slot",
     "miapi.slot.sword_blade.name": "Empty Blade Slot",

@@ -33,7 +33,14 @@
     "priority": -1,
     "repair_priority": 0,
     "material_indication": {
-        "flexibility": 2,
+        "flexibility": {
+            "strength": 2,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.blocking",
+                "color": "dark_gray"
+            }
+        },
         "durability": 1
     },
     "ability_context": {

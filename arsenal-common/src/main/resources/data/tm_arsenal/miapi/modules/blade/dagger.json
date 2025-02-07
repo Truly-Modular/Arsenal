@@ -25,9 +25,20 @@
     "material_indication": {
         "hardness": {
             "strength": 2,
-            "into": "tm_arsenal.material_indication.blade.hardness"
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
         },
-        "flexibility": 1,
+        "flexibility": {
+            "strength": 1,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        },
         "durability": 1
     },
     "enchantments": {

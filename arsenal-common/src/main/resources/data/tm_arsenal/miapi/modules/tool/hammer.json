@@ -87,7 +87,14 @@
         }
     },
     "material_indication": {
-        "density": 3,
+        "density": {
+            "strength": 3,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        },
         "durability": 1
     },
     "attributes": [

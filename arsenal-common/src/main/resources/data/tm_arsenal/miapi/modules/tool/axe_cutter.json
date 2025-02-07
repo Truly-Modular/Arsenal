@@ -85,7 +85,14 @@
     },
     "material_indication": {
         "durability": 1,
-        "tier": 3,
+        "tier": {
+            "strength": 3,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.axe_cutter.tier",
+                "color": "dark_gray"
+            }
+        },
         "mining_speed": 1
     },
     "mining_shape": [

@@ -52,8 +52,22 @@
         "cost": 1
     },
     "material_indication": {
-        "hardness": 3,
-        "flexibility": 2,
+        "hardness": {
+            "strength": 3,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        },
+        "flexibility": {
+            "strength": 2,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.stunning",
+                "color": "dark_gray"
+            }
+        },
         "durability": 1
     },
     "attributes": [

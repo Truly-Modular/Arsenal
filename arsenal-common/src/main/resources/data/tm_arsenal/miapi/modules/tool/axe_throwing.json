@@ -111,10 +111,24 @@
         }
     },
     "material_indication": {
-        "hardness": 2,
         "durability": 1,
         "mining_speed": 1,
-        "density": -1
+        "hardness": {
+            "strength": 2,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        },
+        "density": {
+            "strength": -1,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage_projectile.negative",
+                "color": "dark_gray"
+            }
+        }
     },
     "attributes": [
         {
