@@ -13,7 +13,7 @@
     {
       "predicate": {
         "miapi:damaged": 1,
-        "miapi:damage": 0.30
+        "miapi:damage": 0.80
       },
       "model": "miapi:item/sword/blade/sword/damaged_default"
     }
