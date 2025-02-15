@@ -19,10 +19,10 @@
                     "min": 0,
                     "max": 3,
                     "header": {
-                        "translate": "miapi.arsenal.gemstone_melee.quickening"
+                        "translate": "miapi.tm_arsenal.gemstone_melee.quickening"
                     },
                     "description": {
-                        "translate": "miapi.arsenal.gemstone_melee.quickening.description"
+                        "translate": "miapi.tm_arsenal.gemstone_melee.quickening.description"
                     }
                 }
             }

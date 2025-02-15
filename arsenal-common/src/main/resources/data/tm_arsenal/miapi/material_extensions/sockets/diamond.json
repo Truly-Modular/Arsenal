@@ -29,10 +29,10 @@
                     "min": 0,
                     "max": 2,
                     "header": {
-                        "translate": "miapi.arsenal.gemstone_melee.armoring"
+                        "translate": "miapi.tm_arsenal.gemstone_melee.armoring"
                     },
                     "description": {
-                        "translate": "miapi.arsenal.gemstone_melee.armoring.description"
+                        "translate": "miapi.tm_arsenal.gemstone_melee.armoring.description"
                     }
                 }
             }
