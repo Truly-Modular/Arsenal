@@ -42,8 +42,8 @@
             }
         },
         "guiOffset": {
-            "sizeX": 4,
-            "sizeY": 4
+            "sizeX": 8,
+            "sizeY": 8
         }
     },
     "condition": {
