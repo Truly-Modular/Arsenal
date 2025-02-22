@@ -7,14 +7,12 @@
                     "type": "otherModule",
                     "condition": {
                         "type": "tag",
-                        "module": "katar"
+                        "tag": "katar"
                     }
                 },
                 {
-                    "condition": {
-                        "type": "mod_loaded",
-                        "mod": "bettercombat"
-                    }
+                    "type": "mod_loaded",
+                    "mod": "bettercombat"
                 }
             ]
         },

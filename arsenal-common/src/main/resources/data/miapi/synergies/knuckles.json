@@ -1,10 +1,10 @@
 {
-    "handle_handheld\"": {
+    "handle_handheld": {
         "condition": {
             "type": "otherModule",
             "condition": {
                 "type": "tag",
-                "module": "knuckles"
+                "tag": "knuckles"
             }
         },
         "replace": {
