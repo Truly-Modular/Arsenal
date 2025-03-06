@@ -6,5 +6,6 @@ import smartin.arsenal.Arsenal;
 @Mod(Arsenal.MOD_ID)
 public class ArsenalForge {
     public ArsenalForge() {
+        Arsenal.init();
     }
 }

@@ -1,21 +1,21 @@
 {
     "minecraft:wooden_pickaxe": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/pickaxe_front",
+                        "key": "tm_arsenal:tool/pickaxe_front",
                         "data": {
                             "properties": {"material":"miapi:wood/wood"}
                         },
                         "child": {
                             "tool_back": {
-                                "key": "arsenal:tool/pickaxe_back",
+                                "key": "tm_arsenal:tool/pickaxe_back",
                                 "data": {
                                     "properties": {"material":"miapi:wood/wood"}
                                 },
@@ -28,22 +28,22 @@
         }
     },
     "minecraft:stone_pickaxe": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/pickaxe_front",
+                        "key": "tm_arsenal:tool/pickaxe_front",
                         "data": {
                             "properties": {"material":"miapi:stone/stone"}
                         },
                         "child": {
                             "tool_back": {
-                                "key": "arsenal:tool/pickaxe_back",
+                                "key": "tm_arsenal:tool/pickaxe_back",
                                 "data": {
                                     "properties": {"material":"miapi:stone/stone"}
                                 },
@@ -56,22 +56,22 @@
         }
     },
     "minecraft:iron_pickaxe": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/pickaxe_front",
+                        "key": "tm_arsenal:tool/pickaxe_front",
                         "data": {
                             "properties": {"material":"miapi:metal/iron"}
                         },
                         "child": {
                             "tool_back": {
-                                "key": "arsenal:tool/pickaxe_back",
+                                "key": "tm_arsenal:tool/pickaxe_back",
                                 "data": {
                                     "properties": {"material":"miapi:metal/iron"}
                                 },
@@ -84,22 +84,22 @@
         }
     },
     "minecraft:golden_pickaxe": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/pickaxe_front",
+                        "key": "tm_arsenal:tool/pickaxe_front",
                         "data": {
                             "properties": {"material":"miapi:metal/gold"}
                         },
                         "child": {
                             "tool_back": {
-                                "key": "arsenal:tool/pickaxe_back",
+                                "key": "tm_arsenal:tool/pickaxe_back",
                                 "data": {
                                     "properties": {"material":"miapi:metal/gold"}
                                 },
@@ -112,22 +112,22 @@
         }
     },
     "minecraft:diamond_pickaxe": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/pickaxe_front",
+                        "key": "tm_arsenal:tool/pickaxe_front",
                         "data": {
                             "properties": {"material":"miapi:crystal/diamond"}
                         },
                         "child": {
                             "tool_back": {
-                                "key": "arsenal:tool/pickaxe_back",
+                                "key": "tm_arsenal:tool/pickaxe_back",
                                 "data": {
                                     "properties": {"material":"miapi:crystal/diamond"}
                                 },
@@ -140,22 +140,22 @@
         }
     },
     "minecraft:netherite_pickaxe": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/pickaxe_front",
+                        "key": "tm_arsenal:tool/pickaxe_front",
                         "data": {
                             "properties": {"material":"miapi:metal/netherite"}
                         },
                         "child": {
                             "tool_back": {
-                                "key": "arsenal:tool/pickaxe_back",
+                                "key": "tm_arsenal:tool/pickaxe_back",
                                 "data": {
                                     "properties": {"material":"miapi:metal/netherite"}
                                 },

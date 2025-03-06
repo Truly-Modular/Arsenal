@@ -1,6 +1,6 @@
 {
     "path": "spring/sword-green_assault",
-    "module": "arsenal:blade/normal",
+    "module": "tm_arsenal:blade/normal",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/sword/green_assault/[material.texture].json",

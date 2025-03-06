@@ -1,6 +1,6 @@
 {
     "path": "summer/greatsword-ice_cream",
-    "module": "arsenal:blade/greatsword",
+    "module": "tm_arsenal:blade/greatsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/game_breaker_icecream/[material.texture].json",

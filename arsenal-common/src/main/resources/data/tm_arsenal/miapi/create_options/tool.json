@@ -1,5 +1,5 @@
 {
-    "module": "arsenal:handle/tool",
+    "module": "tm_arsenal:handle/tool",
     "translation": "miapi.create_item.tool",
     "priority": -9
 }

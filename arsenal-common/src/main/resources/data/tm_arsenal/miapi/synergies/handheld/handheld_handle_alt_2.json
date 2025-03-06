@@ -1,5 +1,5 @@
 {
-    "arsenal:handheld/handle": {
+    "tm_arsenal:handheld/handle": {
         "condition": {
             "type": "other_module",
             "condition": {

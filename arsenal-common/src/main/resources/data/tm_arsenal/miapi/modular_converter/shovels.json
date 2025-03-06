@@ -1,15 +1,15 @@
 {
     "minecraft:wooden_shovel": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/shovel",
+                        "key": "tm_arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:wood/wood"}
                         },
@@ -20,16 +20,16 @@
         }
     },
     "minecraft:stone_shovel": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/shovel",
+                        "key": "tm_arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:stone/stone"}
                         },
@@ -40,16 +40,16 @@
         }
     },
     "minecraft:iron_shovel": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/shovel",
+                        "key": "tm_arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:metal/iron"}
                         },
@@ -60,16 +60,16 @@
         }
     },
     "minecraft:golden_shovel": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/shovel",
+                        "key": "tm_arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:metal/gold"}
                         },
@@ -80,16 +80,16 @@
         }
     },
     "minecraft:diamond_shovel": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/shovel",
+                        "key": "tm_arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:crystal/diamond"}
                         },
@@ -100,16 +100,16 @@
         }
     },
     "minecraft:netherite_shovel": {
-        "key": "arsenal:handle/tool",
+        "key": "tm_arsenal:handle/tool",
         "data": {
             "properties": {"material":"miapi:wood/wood"}
         },
         "child": {
             "guard": {
-                "key": "arsenal:guard/tool_adapter",
+                "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
-                        "key": "arsenal:tool/shovel",
+                        "key": "tm_arsenal:tool/shovel",
                         "data": {
                             "properties": {"material":"miapi:metal/netherite"}
                         },

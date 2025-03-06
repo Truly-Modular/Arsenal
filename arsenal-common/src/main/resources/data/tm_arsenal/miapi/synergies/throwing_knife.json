@@ -1,5 +1,5 @@
 {
-    "arsenal:blade/throwing_knife": {
+    "tm_arsenal:blade/throwing_knife": {
         "condition": {
             "type": "not",
             "condition": {

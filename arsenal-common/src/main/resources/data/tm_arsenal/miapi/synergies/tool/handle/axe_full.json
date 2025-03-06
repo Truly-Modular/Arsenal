@@ -1,5 +1,5 @@
 {
-    "arsenal:tool/axe_back": {
+    "tm_arsenal:tool/axe_back": {
         "condition": {
             "type": "parent",
             "condition": {

@@ -1,10 +1,10 @@
 {
-    "arsenal:tool/axe_front": {
+    "tm_arsenal:tool/axe_front": {
         "condition": {
             "type": "child",
             "condition": {
                 "type": "module",
-                "module": "arsenal:tool/pickaxe_back"
+                "module": "tm_arsenal:tool/pickaxe_back"
             }
         },
         "replace": {

@@ -1,5 +1,5 @@
 {
-    "module": "arsenal:handle/polearm",
+    "module": "tm_arsenal:handle/polearm",
     "translation": "miapi.create_item.polearm",
     "priority":-7
 }

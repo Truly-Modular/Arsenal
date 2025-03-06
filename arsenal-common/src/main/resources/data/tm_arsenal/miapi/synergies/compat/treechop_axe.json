@@ -1,5 +1,5 @@
 {
-    "arsenal:tool/axe_cutter": {
+    "tm_arsenal:tool/axe_cutter": {
         "condition": {
             "type": "mod_loaded",
             "mod": "treechop"

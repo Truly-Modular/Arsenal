@@ -1,6 +1,6 @@
 {
     "path": "uzui",
-    "module": "arsenal:blade/katana",
+    "module": "tm_arsenal:blade/katana",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/katana/uzui/[material.texture].json",

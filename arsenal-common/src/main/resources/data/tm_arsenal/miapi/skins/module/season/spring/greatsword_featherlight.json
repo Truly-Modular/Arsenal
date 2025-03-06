@@ -1,6 +1,6 @@
 {
     "path": "spring/greatsword-featherlight",
-    "module": "arsenal:blade/greatsword",
+    "module": "tm_arsenal:blade/greatsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/featherlight/[material.texture].json",

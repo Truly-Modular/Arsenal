@@ -1,6 +1,6 @@
 {
     "path": "autumn/zweihaender-stalagmite",
-    "module": "arsenal:blade/zweihaender",
+    "module": "tm_arsenal:blade/zweihaender",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/zweihaender/stalagmite/[material.texture].json",

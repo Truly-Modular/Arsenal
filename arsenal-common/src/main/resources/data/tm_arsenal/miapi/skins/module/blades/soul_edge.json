@@ -1,6 +1,6 @@
 {
     "path": "soul_slayer",
-    "module": "arsenal:blade/greatsword",
+    "module": "tm_arsenal:blade/greatsword",
     "replace":
     {
         "model": [{

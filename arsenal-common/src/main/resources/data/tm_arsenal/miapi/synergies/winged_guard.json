@@ -1,5 +1,5 @@
 {
-    "arsenal:guard/large": {
+    "tm_arsenal:guard/large": {
         "condition": {
             "type": "other_module",
             "condition": {

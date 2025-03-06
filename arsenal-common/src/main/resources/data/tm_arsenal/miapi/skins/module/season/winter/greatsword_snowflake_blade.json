@@ -1,6 +1,6 @@
 {
     "path": "winter/greatsword-snowflake_blade",
-    "module": "arsenal:blade/greatsword",
+    "module": "tm_arsenal:blade/greatsword",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/snowflake_blade/[material.texture].json",

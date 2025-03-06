@@ -1,6 +1,6 @@
 {
     "path": "autumn/rapier-splinter",
-    "module": "arsenal:blade/rapier",
+    "module": "tm_arsenal:blade/rapier",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/rapier/splinter/[material.texture].json",

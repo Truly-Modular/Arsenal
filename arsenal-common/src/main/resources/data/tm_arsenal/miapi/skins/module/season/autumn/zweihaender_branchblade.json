@@ -1,6 +1,6 @@
 {
     "path": "autumn/zweihaender-branchblade",
-    "module": "arsenal:blade/zweihaender",
+    "module": "tm_arsenal:blade/zweihaender",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/zweihaender/branchblade/[material.texture].json",

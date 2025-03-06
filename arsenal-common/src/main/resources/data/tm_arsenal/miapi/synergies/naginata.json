@@ -1,10 +1,10 @@
 {
-    "arsenal:blade/katana": {
+    "tm_arsenal:blade/katana": {
         "condition": {
             "type": "other_module",
             "condition": {
                 "type": "module",
-                "module": "arsenal:handle/polearm"
+                "module": "tm_arsenal:handle/polearm"
             }
         },
         "replace": {

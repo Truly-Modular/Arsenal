@@ -1,6 +1,6 @@
 {
     "path": "bident",
-    "module": "arsenal:blade/trident",
+    "module": "tm_arsenal:blade/trident",
     "replace": {
         "model": [
             {

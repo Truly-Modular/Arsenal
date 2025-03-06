@@ -1,6 +1,6 @@
 {
     "path": "bday/sword-ying_yang",
-    "module": "arsenal:blade/normal",
+    "module": "tm_arsenal:blade/normal",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/sword/ying_yang/[material.texture].json",
