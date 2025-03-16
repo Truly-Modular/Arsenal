@@ -84,8 +84,8 @@
         "thirdperson_lefthand": {
             "rotation": {
                 "x": 0,
-                "y": 90,
-                "z": -45
+                "y": -90,
+                "z": 45
             },
             "translation": {
                 "x": 0,
@@ -177,7 +177,9 @@
                 "y": 1,
                 "z": 1
             }
-        }
+        },
+        "overwrite": true,
+        "fix_left": true
     },
     "allowed_material": {
         "allowedMaterials": [
@@ -223,6 +225,6 @@
         "durability": 1
     },
     "is_weapon": true,
-    "display_name": "miapi.module.handle_handheld.name",
+    "display_name": "miapi.module.tm_arsenal.handheld.handle.name",
     "item_id": "miapi:modular_handheld"
 }

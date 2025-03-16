@@ -120,10 +120,11 @@
     "miapi.module.tm_arsenal.handheld.gauntlets": "Gauntlets",
     "miapi.module.tm_arsenal.handheld.gauntlets.name": "%s Gauntlets",
     "miapi.module.tm_arsenal.handheld.gauntlets.description": "Gauntlets are a great protection of your hands while smashing them into something.",
+    "miapi.module.tm_arsenal.handheld.gauntlets.glove.name": "%s Gloves",
 
-    "miapi.module.tm_arsenal.handle.handheld": "Handheld",
-    "miapi.module.tm_arsenal.handle.handheld.name": "%s Handle",
-    "miapi.module.tm_arsenal.handle.handheld.description": "A Handle for Single hand small Weapons.",
+    "miapi.module.tm_arsenal.handheld.handle": "Handheld",
+    "miapi.module.tm_arsenal.handheld.handle.name": "%s Handle",
+    "miapi.module.tm_arsenal.handheld.handle.description": "A Handle for Single hand small Weapons.",
 
     "miapi.module.tm_arsenal.handheld.katar": "Katars",
     "miapi.module.tm_arsenal.handheld.katar.name": "%s Katars",
@@ -265,6 +266,10 @@
     "miapi.module.tm_arsenal.tool.hammer": "Hammer Head",
     "miapi.module.tm_arsenal.tool.hammer.name": "%s Hammer",
     "miapi.module.tm_arsenal.tool.hammer.description": "A massive Hammer, can mine 3x3 Areas.",
+
+    "miapi.module.tm_arsenal.tool.excavator": "Excavator Head",
+    "miapi.module.tm_arsenal.tool.excavator.name": "%s Excavator",
+    "miapi.module.tm_arsenal.tool.excavator.description": "A massive Shovel, can mine 3x3 Areas.",
 
     "miapi.module.tm_arsenal.tool.axe_cutter": "Lumber Axe",
     "miapi.module.tm_arsenal.tool.axe_cutter.name": "%s Lumber Axe",

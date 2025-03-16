@@ -1,10 +1,10 @@
 {
     "tm_arsenal:handheld/handle": {
         "condition": {
-            "type": "other_module",
+            "type": "tag",
             "condition": {
                 "type": "tag",
-                "tag": "knuckles"
+                "tag": "knuckles_old"
             }
         },
         "replace": {
@@ -144,7 +144,8 @@
                         "y": 1,
                         "z": 1
                     }
-                }
+                },
+                "fix_left": true
             }
         }
     }

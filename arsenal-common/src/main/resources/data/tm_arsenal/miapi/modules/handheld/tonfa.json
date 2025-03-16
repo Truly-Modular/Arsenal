@@ -20,7 +20,7 @@
         }
     }],
     "handheld_item":true,
-    "display_name": "miapi.module.handheld_tonfa.name",
+    "display_name": "miapi.module.tm_arsenal.handheld.tonfa.name",
     "item_id": "miapi:modular_tonfa",
     "enchantments": {
         "allowed": [

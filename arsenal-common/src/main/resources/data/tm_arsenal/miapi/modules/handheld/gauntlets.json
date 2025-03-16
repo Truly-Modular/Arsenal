@@ -22,7 +22,7 @@
         }
     ],
     "handheld_item": true,
-    "display_name": "miapi.module.handheld_gauntlets.name",
+    "display_name": "miapi.module.tm_arsenal.handheld.gauntlets.name",
     "item_id": "miapi:modular_gauntlets",
     "enchantments": {
         "allowed": [
@@ -30,7 +30,7 @@
         ]
     },
     "tag": [
-        "knuckles",
+        "gauntlets",
         "bludgening",
         "handheld"
     ],
@@ -47,7 +47,9 @@
             "bone",
             "stone",
             "crystal",
-            "glass"
+            "glass",
+            "wool",
+            "fabric"
         ],
         "cost": 1
     },
@@ -245,7 +247,8 @@
                 "y": 1,
                 "z": 1
             }
-        }
+        },
+        "fix_left": true
     },
     "durability": "[material.durability]* 0.5",
     "better_combat_config": "bettercombat:fist"
