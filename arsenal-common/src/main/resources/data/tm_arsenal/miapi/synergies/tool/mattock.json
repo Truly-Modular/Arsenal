@@ -8,7 +8,7 @@
             }
         },
         "replace": {
-            "display_name": "miapi.module.mattock.name",
+            "display_name": "miapi.module.tm_arsenal.tool.mattock.name",
             "item_id": "miapi:modular_mattock"
         }
     }
