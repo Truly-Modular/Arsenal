@@ -152,7 +152,7 @@
             "slot": "mainhand"
         }
     ],
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]* 0.66",
     "allowed_material": {
         "allowedMaterials": [
             "wood",

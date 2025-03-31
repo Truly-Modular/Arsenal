@@ -1,33 +1,37 @@
 {
-    "tm_arsenal:handheld/handle": {
+    "type": "module",
+    "module": "tm_arsenal:handheld/handle",
+    "condition": {
+        "type": "other_module",
         "condition": {
-            "type": "other_module",
-            "condition": {
-                "type": "tag",
-                "tag": "handle_alt_1"
-            }
-        },
+            "type": "tag",
+            "tag": "handle_alt_1"
+        }
+    },
+    "properties": {
         "replace": {
-            "model": [{
-                "path": "miapi:models/item/handheld/handle/alt_1/[material.texture].json",
-                "transform": {
-                    "rotation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "translation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
+            "model": [
+                {
+                    "path": "miapi:models/item/handheld/handle/alt_1/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "translation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
                     }
                 }
-            }]
+            ]
         }
     }
 }

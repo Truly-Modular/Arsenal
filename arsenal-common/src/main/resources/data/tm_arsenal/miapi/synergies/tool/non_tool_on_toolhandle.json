@@ -1,15 +1,17 @@
 {
-    "tm_arsenal:handle/tool": {
+    "type": "module",
+    "module": "tm_arsenal:handle/tool",
+    "condition": {
+        "type": "not",
         "condition": {
-            "type": "not",
+            "type": "other_module",
             "condition": {
-                "type": "other_module",
-                "condition": {
-                    "type": "tag",
-                    "tag": "tool_head"
-                }
+                "type": "tag",
+                "tag": "tool_head"
             }
-        },
+        }
+    },
+    "properties": {
         "merge": {
             "gui_offset": {
                 "sizeX": 6,

@@ -4,14 +4,15 @@
         "type": "mod_loaded",
         "mod": "epicfight"
     },
-    "polearm_glaive": {
+    "tag": "polearm_glaive",
+    "condition": {
+        "type": "other_module",
         "condition": {
-            "type": "other_module",
-            "condition": {
-                "type": "tag",
-                "tag": "polearm_handle"
-            }
-        },
+            "type": "tag",
+            "tag": "polearm_handle"
+        }
+    },
+    "properties": {
         "replace": {
             "epic_fight": {
                 "type": "epicfight:trident",

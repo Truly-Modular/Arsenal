@@ -36,7 +36,7 @@
             "minecraft:enchantable/mining_loot"
         ]
     },
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]* 0.33",
     "tag": [
         "tool_head"
     ],

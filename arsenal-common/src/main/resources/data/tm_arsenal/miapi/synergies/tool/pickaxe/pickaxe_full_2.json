@@ -1,12 +1,14 @@
 {
-    "tm_arsenal:tool/pickaxe_front": {
+    "type": "module",
+    "module": "tm_arsenal:tool/pickaxe_front",
+    "condition": {
+        "type": "child",
         "condition": {
-            "type": "child",
-            "condition": {
-                "type": "module",
-                "module": "pickaxe_back"
-            }
-        },
+            "type": "module",
+            "module": "pickaxe_back"
+        }
+    },
+    "properties": {
         "replace": {
             "mining_level": {
                 "axe": {

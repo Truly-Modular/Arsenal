@@ -142,7 +142,7 @@
         "durability": 1,
         "mining_speed": 1
     },
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]* 0.66",
     "allowed_material": {
         "allowedMaterials": [
             "wood",

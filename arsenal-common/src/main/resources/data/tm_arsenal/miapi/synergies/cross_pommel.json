@@ -1,12 +1,14 @@
 {
-    "tm_arsenal:pommel/cross": {
+    "type": "module",
+    "module": "tm_arsenal:pommel/cross",
+    "condition": {
+        "type": "other_module",
         "condition": {
-            "type": "other_module",
-            "condition": {
-                "type": "tag",
-                "tag": "blade_large"
-            }
-        },
+            "type": "tag",
+            "tag": "blade_large"
+        }
+    },
+    "properties": {
         "merge": {
             "attributes": [
                 {

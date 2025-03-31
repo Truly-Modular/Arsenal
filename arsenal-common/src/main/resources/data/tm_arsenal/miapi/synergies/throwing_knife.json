@@ -1,15 +1,17 @@
 {
-    "tm_arsenal:blade/throwing_knife": {
+    "type": "module",
+    "module": "tm_arsenal:blade/throwing_knife",
+    "condition": {
+        "type": "not",
         "condition": {
-            "type": "not",
+            "type": "other_module",
             "condition": {
-                "type": "other_module",
-                "condition": {
-                    "type": "tag",
-                    "tag": "no_crossbow_ammo"
-                }
+                "type": "tag",
+                "tag": "no_crossbow_ammo"
             }
-        },
+        }
+    },
+    "properties": {
         "replace": {
             "crossbow_ammunition": true
         }

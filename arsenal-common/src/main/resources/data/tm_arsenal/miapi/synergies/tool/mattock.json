@@ -1,12 +1,14 @@
 {
-    "tm_arsenal:tool/axe_front": {
+    "type": "module",
+    "module": "tm_arsenal:tool/axe_front",
+    "condition": {
+        "type": "child",
         "condition": {
-            "type": "child",
-            "condition": {
-                "type": "module",
-                "module": "tm_arsenal:tool/pickaxe_back"
-            }
-        },
+            "type": "module",
+            "module": "tm_arsenal:tool/pickaxe_back"
+        }
+    },
+    "properties": {
         "replace": {
             "display_name": "miapi.module.tm_arsenal.tool.mattock.name",
             "item_id": "miapi:modular_mattock"

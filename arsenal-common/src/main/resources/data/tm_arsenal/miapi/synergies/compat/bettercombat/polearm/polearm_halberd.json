@@ -1,13 +1,14 @@
 {
     "type": "tag",
-    "polearm_halberd": {
+    "tag": "polearm_halberd2",
+    "condition": {
+        "type": "other_module",
         "condition": {
-            "type": "other_module",
-            "condition": {
-                "type": "tag",
-                "tag": "polearm_handle"
-            }
-        },
+            "type": "tag",
+            "tag": "polearm_handle"
+        }
+    },
+    "properties": {
         "replace": {
             "better_combat_config": "bettercombat:halberd"
         }

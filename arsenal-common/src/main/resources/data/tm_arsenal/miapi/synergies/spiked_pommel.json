@@ -1,15 +1,17 @@
 {
-    "tm_arsenal:pommel/spike": {
+    "type": "module",
+    "module": "tm_arsenal:pommel/spike",
+    "condition": {
+        "type": "not",
         "condition": {
-            "type": "not",
+            "type": "other_module",
             "condition": {
-                "type": "other_module",
-                "condition": {
-                    "type": "tag",
-                    "tag": "guard"
-                }
+                "type": "tag",
+                "tag": "guard"
             }
-        },
+        }
+    },
+    "properties": {
         "merge": {
             "attributes": [
                 {

@@ -1,9 +1,11 @@
 {
-    "tm_arsenal:tool/axe_cutter": {
-        "condition": {
-            "type": "mod_loaded",
-            "mod": "treechop"
-        },
+    "type": "module",
+    "module": "tm_arsenal:tool/axe_cutter",
+    "condition": {
+        "type": "mod_loaded",
+        "mod": "treechop"
+    },
+    "properties": {
         "remove": [
             "mining_shape"
         ],

@@ -1,12 +1,14 @@
 {
-    "tm_arsenal:tool/hoe_front": {
+    "type": "module",
+    "module": "tm_arsenal:tool/hoe_front",
+    "condition": {
+        "type": "child",
         "condition": {
-            "type": "child",
-            "condition": {
-                "type": "module",
-                "module": "tool_back"
-            }
-        },
+            "type": "module",
+            "module": "tool_back"
+        }
+    },
+    "properties": {
         "replace": {
             "attributes": [
                 {

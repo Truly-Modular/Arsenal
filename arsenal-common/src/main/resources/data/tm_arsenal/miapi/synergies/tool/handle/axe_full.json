@@ -1,12 +1,14 @@
 {
-    "tm_arsenal:tool/axe_back": {
+    "type": "module",
+    "module": "tm_arsenal:tool/axe_back",
+    "condition": {
+        "type": "parent",
         "condition": {
-            "type": "parent",
-            "condition": {
-                "type": "module",
-                "module": "axe_front"
-            }
-        },
+            "type": "module",
+            "module": "axe_front"
+        }
+    },
+    "properties": {
         "replace": {
             "attributes": [
                 {

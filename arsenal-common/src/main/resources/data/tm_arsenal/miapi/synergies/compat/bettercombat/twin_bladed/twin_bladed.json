@@ -1,13 +1,14 @@
 {
     "type": "tag",
-    "blade": {
+    "tag": "blade",
+    "condition": {
+        "type": "other_module",
         "condition": {
-            "type": "other_module",
-            "condition": {
-                "type": "tag",
-                "tag": "twin_handle"
-            }
-        },
+            "type": "tag",
+            "tag": "twin_handle"
+        }
+    },
+    "properties": {
         "replace": {
             "better_combat_config": "bettercombat:twin_blade",
             "display_name": "miapi.module.tm_arsenal.twin_blade.name",

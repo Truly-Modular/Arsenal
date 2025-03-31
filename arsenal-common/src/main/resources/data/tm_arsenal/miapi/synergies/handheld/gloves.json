@@ -1,9 +1,11 @@
 {
-    "tm_arsenal:handheld/gauntlets": {
-        "condition": {
-            "type": "material_group",
-            "material_group": "fabric"
-        },
+    "type": "module",
+    "module": "tm_arsenal:handheld/gauntlets",
+    "condition": {
+        "type": "material_group",
+        "material_group": "fabric"
+    },
+    "properties": {
         "replace": {
             "display_name": "miapi.module.tm_arsenal.handheld.gauntlets.glove.name"
         }
