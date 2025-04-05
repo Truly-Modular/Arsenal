@@ -2,25 +2,19 @@
     "minecraft:golden_sword": {
         "key": "tm_arsenal:handle/sword",
         "data": {
-            "properties": {
-                "material": "miapi:wood/wood"
-            }
+            "material": "miapi:wood/wood"
         },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/normal",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/gold"
-                    }
+                    "material": "miapi:metal/gold"
                 },
                 "child": {
                     "blade": {
                         "key": "tm_arsenal:blade/normal",
                         "data": {
-                            "properties": {
-                                "material": "miapi:metal/gold"
-                            }
+                            "material": "miapi:metal/gold"
                         },
                         "child": {}
                     }
@@ -29,9 +23,7 @@
             "pommel": {
                 "key": "tm_arsenal:pommel/round",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/gold"
-                    }
+                    "material": "miapi:metal/gold"
                 },
                 "child": {}
             }
@@ -40,25 +32,19 @@
     "minecraft:diamond_sword": {
         "key": "tm_arsenal:handle/sword",
         "data": {
-            "properties": {
-                "material": "miapi:wood/wood"
-            }
+            "material": "miapi:wood/wood"
         },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/normal",
                 "data": {
-                    "properties": {
-                        "material": "miapi:crystal/diamond"
-                    }
+                    "material": "miapi:crystal/diamond"
                 },
                 "child": {
                     "blade": {
                         "key": "tm_arsenal:blade/normal",
                         "data": {
-                            "properties": {
-                                "material": "miapi:crystal/diamond"
-                            }
+                            "material": "miapi:crystal/diamond"
                         },
                         "child": {}
                     }
@@ -67,9 +53,7 @@
             "pommel": {
                 "key": "tm_arsenal:pommel/round",
                 "data": {
-                    "properties": {
-                        "material": "miapi:crystal/diamond"
-                    }
+                    "material": "miapi:crystal/diamond"
                 },
                 "child": {}
             }
@@ -78,25 +62,19 @@
     "minecraft:iron_sword": {
         "key": "tm_arsenal:handle/sword",
         "data": {
-            "properties": {
-                "material": "miapi:wood/wood"
-            }
+            "material": "miapi:wood/wood"
         },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/normal",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 },
                 "child": {
                     "blade": {
                         "key": "tm_arsenal:blade/normal",
                         "data": {
-                            "properties": {
-                                "material": "miapi:metal/iron"
-                            }
+                            "material": "miapi:metal/iron"
                         },
                         "child": {}
                     }
@@ -105,9 +83,7 @@
             "pommel": {
                 "key": "tm_arsenal:pommel/round",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 },
                 "child": {}
             }
@@ -116,25 +92,19 @@
     "minecraft:wooden_sword": {
         "key": "tm_arsenal:handle/sword",
         "data": {
-            "properties": {
-                "material": "miapi:wood/wood"
-            }
+            "material": "miapi:wood/wood"
         },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/normal",
                 "data": {
-                    "properties": {
-                        "material": "miapi:wood/wood"
-                    }
+                    "material": "miapi:wood/wood"
                 },
                 "child": {
                     "blade": {
                         "key": "tm_arsenal:blade/normal",
                         "data": {
-                            "properties": {
-                                "material": "miapi:wood/wood"
-                            }
+                            "material": "miapi:wood/wood"
                         },
                         "child": {}
                     }
@@ -143,9 +113,7 @@
             "pommel": {
                 "key": "tm_arsenal:pommel/round",
                 "data": {
-                    "properties": {
-                        "material": "miapi:wood/wood"
-                    }
+                    "material": "miapi:wood/wood"
                 },
                 "child": {}
             }
@@ -154,25 +122,19 @@
     "minecraft:stone_sword": {
         "key": "tm_arsenal:handle/sword",
         "data": {
-            "properties": {
-                "material": "miapi:wood/wood"
-            }
+            "material": "miapi:wood/wood"
         },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/normal",
                 "data": {
-                    "properties": {
-                        "material": "miapi:stone/stone"
-                    }
+                    "material": "miapi:stone/stone"
                 },
                 "child": {
                     "blade": {
                         "key": "tm_arsenal:blade/normal",
                         "data": {
-                            "properties": {
-                                "material": "miapi:stone/stone"
-                            }
+                            "material": "miapi:stone/stone"
                         },
                         "child": {}
                     }
@@ -181,9 +143,7 @@
             "pommel": {
                 "key": "tm_arsenal:pommel/round",
                 "data": {
-                    "properties": {
-                        "material": "miapi:stone/stone"
-                    }
+                    "material": "miapi:stone/stone"
                 },
                 "child": {}
             }
@@ -192,25 +152,19 @@
     "minecraft:netherite_sword": {
         "key": "tm_arsenal:handle/sword",
         "data": {
-            "properties": {
-                "material": "miapi:wood/wood"
-            }
+            "material": "miapi:wood/wood"
         },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/normal",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/netherite"
-                    }
+                    "material": "miapi:metal/netherite"
                 },
                 "child": {
                     "blade": {
                         "key": "tm_arsenal:blade/normal",
                         "data": {
-                            "properties": {
-                                "material": "miapi:metal/netherite"
-                            }
+                            "material": "miapi:metal/netherite"
                         },
                         "child": {}
                     }
@@ -219,9 +173,7 @@
             "pommel": {
                 "key": "tm_arsenal:pommel/round",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/netherite"
-                    }
+                    "material": "miapi:metal/netherite"
                 },
                 "child": {}
             }

@@ -1,0 +1,19 @@
+{
+    "minecraft:mace": {
+        "key": "tm_arsenal:handle/tool",
+        "data": {
+            "material": "miapi:rod/breeze_rod"
+        },
+        "child": {
+            "guard": {
+                "key": "tm_arsenal:guard/tool_adapter",
+                "child": {
+                    "tool_head": {
+                        "key": "tm_arsenal:blade/mace",
+                        "data": {"material":"miapi:custom/heavy_core"}
+                    }
+                }
+            }
+        }
+    }
+}
