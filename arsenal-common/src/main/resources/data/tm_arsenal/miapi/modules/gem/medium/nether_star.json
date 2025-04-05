@@ -26,7 +26,7 @@
     "repair_priority": 0,
     "allowed_material": {
         "allowedMaterials": [
-            "nether_star"
+            "miapi:custom/nether_star"
         ],
         "cost": 1
     }

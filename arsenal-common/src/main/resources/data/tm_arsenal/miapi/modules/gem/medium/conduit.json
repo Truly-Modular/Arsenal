@@ -79,7 +79,7 @@
     },
     "allowed_material": {
         "allowedMaterials": [
-            "conduit"
+            "miapi:custom/conduit"
         ],
         "cost": 1
     },

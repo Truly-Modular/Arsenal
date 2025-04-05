@@ -81,18 +81,18 @@ public class GenerateConvertersHelper {
     }
 
     public static ItemStack swordItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "handle/sword")));
+        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/sword")));
         MaterialProperty.setMaterial(handleModule, getWoodMaterial()); // Set material to input material
         // Define the child 'guard' module for the handle
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "guard/normal")));
+        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/normal")));
         MaterialProperty.setMaterial(guardModule, material);
         // Define the child 'blade' module for the guard
-        ModuleInstance bladeModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "blade/normal")));
+        ModuleInstance bladeModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "blade/normal")));
         MaterialProperty.setMaterial(bladeModule, material);
         // Set blade as child of guard
         guardModule.setSubModule("blade", bladeModule);
         // Define the 'pommel' module for the handle
-        ModuleInstance pommelModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "pommel/round")));
+        ModuleInstance pommelModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "pommel/round")));
         MaterialProperty.setMaterial(pommelModule, material); // Set pommel material to gold
         // Set guard and pommel as children of handle
         handleModule.setSubModule("guard", guardModule);
@@ -106,14 +106,14 @@ public class GenerateConvertersHelper {
 
     public static ItemStack shovelItem(Material material) {
         // Handle module for the shovel
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "handle/tool")));
+        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
         // Guard module
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
 
         // Tool head module for shovel
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "tool/shovel")));
+        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/shovel")));
         MaterialProperty.setMaterial(toolHeadModule, material);
 
         // Set hierarchy
@@ -129,15 +129,15 @@ public class GenerateConvertersHelper {
     }
 
     public static ItemStack axeItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "handle/tool")));
+        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
 
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "tool/axe_front")));
+        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/axe_front")));
         MaterialProperty.setMaterial(toolHeadModule, material);
 
-        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "tool/tool_back")));
+        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/tool_back")));
         MaterialProperty.setMaterial(toolBackModule, material);
 
         toolHeadModule.setSubModule("tool_back", toolBackModule);
@@ -152,15 +152,15 @@ public class GenerateConvertersHelper {
     }
 
     public static ItemStack pickaxeItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "handle/tool")));
+        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
 
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "tool/pickaxe_front")));
+        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/pickaxe_front")));
         MaterialProperty.setMaterial(toolHeadModule, material);
 
-        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "tool/pickaxe_back")));
+        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/pickaxe_back")));
         MaterialProperty.setMaterial(toolBackModule, material);
 
         toolHeadModule.setSubModule("tool_back", toolBackModule);
@@ -175,15 +175,15 @@ public class GenerateConvertersHelper {
     }
 
     public static ItemStack hoeItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "handle/tool")));
+        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
 
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "tool/hoe_front")));
+        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/hoe_front")));
         MaterialProperty.setMaterial(toolHeadModule, material);
 
-        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_arsenal", "tool/tool_back")));
+        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/tool_back")));
         MaterialProperty.setMaterial(toolBackModule, material);
 
         toolHeadModule.setSubModule("tool_back", toolBackModule);
@@ -198,7 +198,7 @@ public class GenerateConvertersHelper {
     }
 
     public static Material getWoodMaterial() {
-        return MaterialProperty.materials.get(Miapi.id("wood/wood"));
+        return RegistryInventory.MATERIAL_REGISTRY.get(Miapi.id("wood/wood"));
     }
 
 

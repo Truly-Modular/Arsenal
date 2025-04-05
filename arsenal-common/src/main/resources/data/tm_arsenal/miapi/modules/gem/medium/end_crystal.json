@@ -88,7 +88,7 @@
     },
     "allowed_material": {
         "allowedMaterials": [
-            "end_crystal"
+            "miapi:custom/end_crystal"
         ],
         "cost": 1
     }
