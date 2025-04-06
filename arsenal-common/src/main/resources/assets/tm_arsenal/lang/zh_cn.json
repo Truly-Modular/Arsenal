@@ -52,163 +52,163 @@
     "miapi.ability.throw.lore": "可抛出",
 
     "miapi.module.tm_arsenal.blade.dagger": "匕首刃",
-    "miapi.module.tm_arsenal.blade.dagger.name": "[translation.[material.translation]]匕首",
+    "miapi.module.tm_arsenal.blade.dagger.name": "%s匕首",
     "miapi.module.tm_arsenal.blade.dagger.description": "一种常见的刀头，经常被盗贼和流氓使用。",
 
     "miapi.module.tm_arsenal.blade.greatsword": "巨剑刃",
-    "miapi.module.tm_arsenal.blade.greatsword.name": "[translation.[material.translation]]巨剑",
+    "miapi.module.tm_arsenal.blade.greatsword.name": "%s巨剑",
     "miapi.module.tm_arsenal.blade.greatsword.description": "一种巨大的双手剑，用于猛烈的打击。",
 
     "miapi.module.tm_arsenal.blade.zweihaender": "双手剑刃",
-    "miapi.module.tm_arsenal.blade.zweihaender.name": "[translation.[material.translation]]双手剑",
+    "miapi.module.tm_arsenal.blade.zweihaender.name": "%s双手剑",
     "miapi.module.tm_arsenal.blade.zweihaender.description": "一种中等的德国刀刃，非常适合抵挡，其薄刃可以刺穿盔甲。",
 
     "miapi.module.tm_arsenal.blade.katana": "武士刀刃",
-    "miapi.module.tm_arsenal.blade.katana.name": "[translation.[material.translation]]武士刀",
+    "miapi.module.tm_arsenal.blade.katana.name": "%s武士刀",
     "miapi.module.tm_arsenal.blade.katana.description": "日本的一种传统剑，以锋利和精确著称。",
 
     "miapi.module.tm_arsenal.blade.longsword": "长剑刃",
-    "miapi.module.tm_arsenal.blade.longsword.name": "[translation.[material.translation]]长剑",
+    "miapi.module.tm_arsenal.blade.longsword.name": "%s长剑",
     "miapi.module.tm_arsenal.blade.longsword.description": "一把多功能且平衡的剑，在速度和力量之间提供了良好的平衡。",
 
     "miapi.module.tm_arsenal.blade.rapier": "迅捷剑刃",
-    "miapi.module.tm_arsenal.blade.rapier.name": "[translation.[material.translation]]迅捷剑",
+    "miapi.module.tm_arsenal.blade.rapier.name": "%s迅捷剑",
     "miapi.module.tm_arsenal.blade.rapier.description": "一种细长而敏捷的剑，设计用于猛攻和快速机动。",
 
     "miapi.module.tm_arsenal.blade.normal": "剑刃",
-    "miapi.module.tm_arsenal.blade.normal.name": "[translation.[material.translation]]剑",
+    "miapi.module.tm_arsenal.blade.normal.name": "%s剑",
     "miapi.module.tm_arsenal.blade.normal.description": "一种经典而通用的剑，被不同文化的战士所使用。",
 
     "miapi.module.tm_arsenal.blade.throwing_knife": "投刀刃",
-    "miapi.module.tm_arsenal.blade.throwing_knife.name": "[translation.[material.translation]]投刀",
+    "miapi.module.tm_arsenal.blade.throwing_knife.name": "%s投刀",
     "miapi.module.tm_arsenal.blade.throwing_knife.description": "一种小巧轻便的刀，专为准确投掷而设计。",
 
     "miapi.module.tm_arsenal.blade.sickle": "镰刀刃",
-    "miapi.module.tm_arsenal.blade.sickle.name": "[translation.[material.translation]]镰刀",
+    "miapi.module.tm_arsenal.blade.sickle.name": "%s镰刀",
     "miapi.module.tm_arsenal.blade.sickle.description": "一个小型镰刀头部。可能有一些象征意义。",
 
     "miapi.module.tm_arsenal.blade.scythe": "钐镰刃",
-    "miapi.module.tm_arsenal.blade.scythe.name": "[translation.[material.translation]]钐镰",
+    "miapi.module.tm_arsenal.blade.scythe.name": "%s钐镰",
     "miapi.module.tm_arsenal.blade.scythe.description": "一个长型钐镰头部。通常用来割倒草或人",
 
     "miapi.module.tm_arsenal.guard.blocking": "大型护手",
-    "miapi.module.tm_arsenal.guard.blocking.name": "[translation.[material.translation]]大型护手",
+    "miapi.module.tm_arsenal.guard.blocking.name": "%s大型护手",
     "miapi.module.tm_arsenal.guard.blocking.description": "专为阻挡而设计的防护组件",
 
     "miapi.module.tm_arsenal.guard.katana": "武士刀护手",
-    "miapi.module.tm_arsenal.guard.katana.name": "[translation.[material.translation]]武士刀",
+    "miapi.module.tm_arsenal.guard.katana.name": "%s武士刀",
     "miapi.module.tm_arsenal.guard.katana.description": "一种专门设计用于武士刀的护手。",
 
     "miapi.module.tm_arsenal.guard.normal": "普通护手",
-    "miapi.module.tm_arsenal.guard.normal.name": "[translation.[material.translation]]普通护手",
+    "miapi.module.tm_arsenal.guard.normal.name": "%s普通护手",
     "miapi.module.tm_arsenal.guard.normal.description": "适用于大多数剑类的标准护手。",
 
     "miapi.module.tm_arsenal.guard.slim": "纤细护手",
-    "miapi.module.tm_arsenal.guard.slim.name": "[translation.[material.translation]]纤细护手",
+    "miapi.module.tm_arsenal.guard.slim.name": "%s纤细护手",
     "miapi.module.tm_arsenal.guard.slim.description": "一种细长的护手，可减轻重量，加快攻击速度。",
 
     "miapi.module.tm_arsenal.guard.socket": "护手槽",
-    "miapi.module.tm_arsenal.guard.socket.name": "[translation.[material.translation]]护手槽",
+    "miapi.module.tm_arsenal.guard.socket.name": "%s护手槽",
     "miapi.module.tm_arsenal.guard.socket.description": "为宝石或神器添加插槽的护手。",
 
     "miapi.module.tm_arsenal.guard.dual_socket": "复式护手槽",
-    "miapi.module.tm_arsenal.guard.dual_socket.name": "[translation.[material.translation]]复式护手槽",
+    "miapi.module.tm_arsenal.guard.dual_socket.name": "%s复式护手槽",
     "miapi.module.tm_arsenal.guard.dual_socket.description": "一个护手，增加位置来插入两颗宝石或神器。",
 
     "miapi.module.tm_arsenal.guard.winged": "翼型护手",
-    "miapi.module.tm_arsenal.guard.winged.name": "[translation.[material.translation]]翼型护手",
+    "miapi.module.tm_arsenal.guard.winged.name": "%s翼型护手",
     "miapi.module.tm_arsenal.guard.winged.description": "带有装饰性的翅膀状延伸的护手，具有美观上的吸引力和更好的平衡性。",
 
     "miapi.module.tm_arsenal.pommel.socket": "剑首槽",
-    "miapi.module.tm_arsenal.pommel.socket.name": "[translation.[material.translation]]剑首槽",
+    "miapi.module.tm_arsenal.pommel.socket.name": "%s剑首槽",
     "miapi.module.tm_arsenal.pommel.socket.description": "具有宝石槽的剑首",
 
     "miapi.module.tm_arsenal.pommel.cross": "十字剑首",
-    "miapi.module.tm_arsenal.pommel.cross.name": "[translation.[material.translation]]十字剑首",
+    "miapi.module.tm_arsenal.pommel.cross.name": "%s十字剑首",
     "miapi.module.tm_arsenal.pommel.cross.description": "采用十字形设计的剑首，增加抓握和美观性。",
 
     "miapi.module.tm_arsenal.pommel.round": "圆形剑首",
-    "miapi.module.tm_arsenal.pommel.round.name": "[translation.[material.translation]]圆形剑首",
+    "miapi.module.tm_arsenal.pommel.round.name": "%s圆形剑首",
     "miapi.module.tm_arsenal.pommel.round.description": "球形剑首，提供平衡的重量分布和舒适的抓握。",
 
     "miapi.module.tm_arsenal.pommel.spike": "钉刺剑首",
-    "miapi.module.tm_arsenal.pommel.spike.name": "[translation.[material.translation]]钉刺剑",
+    "miapi.module.tm_arsenal.pommel.spike.name": "%s钉刺剑",
     "miapi.module.tm_arsenal.pommel.spike.description": "一种具有尖刺状突起的剑首，可提高穿刺能力。",
 
     "miapi.module.tm_arsenal.handle.polearm": "长兵器手柄",
-    "miapi.module.tm_arsenal.handle.polearm.name": "[translation.[material.translation]]长兵器手柄",
+    "miapi.module.tm_arsenal.handle.polearm.name": "%s长兵器手柄",
     "miapi.module.tm_arsenal.handle.polearm.description": "一种适用于长兵器的长手柄，提供范围和杠杆作用。",
 
     "miapi.module.tm_arsenal.handle.tool": "工具手柄",
-    "miapi.module.tm_arsenal.handle.tool.name": "[translation.[material.translation]]工具手柄",
+    "miapi.module.tm_arsenal.handle.tool.name": "%s工具手柄",
     "miapi.module.tm_arsenal.handle.tool.description": "坚固的手柄，专为类似工具的武器设计，提供耐久和功能。",
 
     "miapi.module.tm_arsenal.handle.sword": "普通手柄",
-    "miapi.module.tm_arsenal.handle.sword.name": "[translation.[material.translation]]普通手柄",
+    "miapi.module.tm_arsenal.handle.sword.name": "%s普通手柄",
     "miapi.module.tm_arsenal.handle.sword.description": "适用于大多数剑型的标准尺寸手柄。",
     
 
     "miapi.module.tm_arsenal.handle.twin": "双联手柄",
-    "miapi.module.tm_arsenal.handle.twin.name": "[translation.[material.translation]]双联手柄",
+    "miapi.module.tm_arsenal.handle.twin.name": "%s双联手柄",
     "miapi.module.tm_arsenal.handle.twin.description": "不切实际的双联手柄，用于双刃部。\n 但看起来很酷。",
 
     "miapi.module.tm_arsenal.tool.axe_throwing": "飞斧头",
-    "miapi.module.tm_arsenal.tool.axe_throwing.name": "[translation.[material.translation]]飞斧",
+    "miapi.module.tm_arsenal.tool.axe_throwing.name": "%s飞斧",
     "miapi.module.tm_arsenal.tool.axe_throwing.description": "飞斧主要是用来投掷的，也可以用作近战武器。",
 
     "miapi.module.tm_arsenal.tool.axe_front": "斧头部",
-    "miapi.module.tm_arsenal.tool.axe_front.name": "[translation.[material.translation]]斧",
+    "miapi.module.tm_arsenal.tool.axe_front.name": "%s斧",
     "miapi.module.tm_arsenal.tool.axe_front.description": "斧头的前部，用于切割和剥皮木头。也可以用于战斗。",
 
     "miapi.module.tm_arsenal.tool.hammer": "锤头",
-    "miapi.module.tm_arsenal.tool.hammer.name": "[translation.[material.translation]]锤",
+    "miapi.module.tm_arsenal.tool.hammer.name": "%s锤",
     "miapi.module.tm_arsenal.tool.hammer.description": "一个巨大的锤子，可以开采3x3的范围。",
 
     "miapi.module.tm_arsenal.tool.axe_cutter": "伐木斧",
-    "miapi.module.tm_arsenal.tool.axe_cutter.name": "[translation.[material.translation]]伐木斧",
+    "miapi.module.tm_arsenal.tool.axe_cutter.name": "%s伐木斧",
     "miapi.module.tm_arsenal.tool.axe_cutter.description": "伐木工的斧头，可以一举砍下整棵树。",
 
     "miapi.module.tm_arsenal.tool.axe_back": "斧尾部",
-    "miapi.module.tm_arsenal.tool.axe_back.name": "[translation.[material.translation]]斧",
+    "miapi.module.tm_arsenal.tool.axe_back.name": "%s斧",
     "miapi.module.tm_arsenal.tool.axe_back.description": "斧头的后部，用于切割和剥皮木头。也可以用于战斗。",
 
     "miapi.module.tm_arsenal.tool.pickaxe_front": "镐头部",
-    "miapi.module.tm_arsenal.tool.pickaxe_front.name": "[translation.[material.translation]]镐",
+    "miapi.module.tm_arsenal.tool.pickaxe_front.name": "%s镐",
     "miapi.module.tm_arsenal.tool.pickaxe_front.description": "镐的前部，用于破碎和挖掘石块。",
 
     "miapi.module.tm_arsenal.tool.pickaxe_back": "镐尾部",
-    "miapi.module.tm_arsenal.tool.pickaxe_back.name": "[translation.[material.translation]]镐尾部",
+    "miapi.module.tm_arsenal.tool.pickaxe_back.name": "%s镐尾部",
     "miapi.module.tm_arsenal.tool.pickaxe_back.description": "镐的后部，用于撬动和凿削。",
 
     "miapi.module.tm_arsenal.tool.shovel": "锹头部",
-    "miapi.module.tm_arsenal.tool.shovel.name": "[translation.[material.translation]]锹",
+    "miapi.module.tm_arsenal.tool.shovel.name": "%s锹",
     "miapi.module.tm_arsenal.tool.shovel.description": "一种有宽铲头的工具，用于挖掘和移动泥土。",
 
     "miapi.module.tm_arsenal.tool.tool_back": "工具尾部",
-    "miapi.module.tm_arsenal.tool.tool_back.name": "[translation.[material.translation]]工具尾部",
+    "miapi.module.tm_arsenal.tool.tool_back.name": "%s工具尾部",
     "miapi.module.tm_arsenal.tool.tool_back.description": "工具的后部，用于平衡工具头部的重量。",
 
     "miapi.module.tm_arsenal.tool.hoe_front": "锄头",
-    "miapi.module.tm_arsenal.tool.hoe_front.name": "[translation.[material.translation]]锄",
+    "miapi.module.tm_arsenal.tool.hoe_front.name": "%s锄",
     "miapi.module.tm_arsenal.tool.hoe_front.description": "锄的前部，用于耕作土壤。",
 
     "miapi.module.tm_arsenal.blade.trident": "三叉戟头部",
-    "miapi.module.tm_arsenal.blade.trident.name": "[translation.[material.translation]]三叉戟",
+    "miapi.module.tm_arsenal.blade.trident.name": "%s三叉戟",
     "miapi.module.tm_arsenal.blade.trident.description": "一个三叉戟头部，有时也叫做叉。",
 
-    "miapi.module.tm_arsenal.tool.mattock.name": "[translation.[material.translation]]鹤嘴锄",
-    "miapi.module.tm_arsenal.blade.naginata.name": "[translation.[material.translation]]薙刀",
+    "miapi.module.tm_arsenal.tool.mattock.name": "%s鹤嘴锄",
+    "miapi.module.tm_arsenal.blade.naginata.name": "%s薙刀",
 
     "miapi.module.tm_arsenal.gem.large.gemstone": "",
-    "miapi.module.tm_arsenal.gem.large.gemstone.name": "[translation.[material.translation]]大型宝石",
+    "miapi.module.tm_arsenal.gem.large.gemstone.name": "%s大型宝石",
     "miapi.module.tm_arsenal.gem.large.gemstone.description": "一颗强大的魔法宝石。",
 
     "miapi.module.tm_arsenal.gem.medium.gemstone": "中型宝石",
-    "miapi.module.tm_arsenal.gem.medium.gemstone.name": "[translation.[material.translation]]中型宝石",
+    "miapi.module.tm_arsenal.gem.medium.gemstone.name": "%s中型宝石",
     "miapi.module.tm_arsenal.gem.medium.gemstone.description": "一颗中型宝石",
 
     "miapi.module.tm_arsenal.gem.small.gemstone": "小型宝石",
-    "miapi.module.tm_arsenal.gem.small.gemstone.name": "[translation.[material.translation]]小型宝石",
+    "miapi.module.tm_arsenal.gem.small.gemstone.name": "%s小型宝石",
     "miapi.module.tm_arsenal.gem.small.gemstone.description": "一颗力量微弱的魔法宝石。",
 
     "miapi.tm_arsenal.tree_mining": "伐木",
