@@ -1,0 +1,46 @@
+{
+    "path": "skyrim/goldbrand",
+    "module": "tm_arsenal:blade/katana",
+    "replace": {
+        "model": [
+            {
+                "path": "miapi:skin/goldbrand.json",
+                "color": "[model.color]",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": 2.0,
+                        "y": 2.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            }
+        ],
+        "guiOffset": {
+            "sizeX": 5,
+            "sizeY": 5
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["user","supporter","skyrim","goldbrand"]
+    },
+    "texture": {
+        "texture": "miapi:textures/skin/skyrim/goldbrand.png",
+        "color": "004489",
+        "scale": 0,
+        "borderSize": 0
+    },
+    "hover": {
+        "text": "By Ace"
+    }
+}

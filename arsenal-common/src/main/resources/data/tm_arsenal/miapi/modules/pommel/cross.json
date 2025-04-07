@@ -38,7 +38,8 @@
             "bone",
             "stone",
             "rod",
-            "crystal"
+            "crystal",
+            "glass"
         ],
         "cost": 1
     },

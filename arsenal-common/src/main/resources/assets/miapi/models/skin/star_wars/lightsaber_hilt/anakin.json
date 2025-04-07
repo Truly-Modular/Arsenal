@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "miapi:skin/star_wars/lightsaber_hilt/lightsaber",
-		"texture": "miapi:skin/star_wars/lightsaber_hilt/lightsaber"
+		"particle": "miapi:item/skin/star_wars/lightsaber_hilt/lightsaber",
+		"texture": "miapi:item/skin/star_wars/lightsaber_hilt/lightsaber"
 	},
 	"elements": [
 		{
