@@ -81,7 +81,7 @@
     },
     "mining_level": {
         "pickaxe": {
-            "blocks": "minecraft:mineable/pickaxe",
+            "allowed": ["#minecraft:mineable/pickaxe"],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }

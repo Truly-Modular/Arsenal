@@ -34,19 +34,19 @@
     },
     "mining_level": {
         "pickaxe": {
-            "blocks": "minecraft:mineable/pickaxe"
+            "allowed": ["#minecraft:mineable/pickaxe"]
         },
         "axe": {
-            "blocks": "minecraft:mineable/axe"
+            "allowed": ["#minecraft:mineable/axe"]
         },
         "shovel": {
-            "blocks": "minecraft:mineable/shovel"
+            "allowed": ["#minecraft:mineable/shovel"]
         },
         "hoe": {
-            "blocks": "minecraft:mineable/hoe"
+            "allowed": ["#minecraft:mineable/hoe"]
         },
         "sword": {
-            "blocks": "minecraft:mineable/sword"
+            "allowed": ["#minecraft:mineable/sword"]
         }
     },
     "allowed_in_slots": [

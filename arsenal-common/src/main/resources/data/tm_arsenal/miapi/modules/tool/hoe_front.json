@@ -121,7 +121,7 @@
     },
     "mining_level": {
         "hoe": {
-            "blocks": "minecraft:mineable/hoe",
+            "allowed": ["#minecraft:mineable/hoe"],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }

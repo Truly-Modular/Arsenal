@@ -247,35 +247,35 @@
     ],
     "mining_level": {
         "pickaxe": {
-            "blocks": "minecraft:mineable/pickaxe",
+            "allowed": ["#minecraft:mineable/pickaxe"],
             "speed": {
                 "operation": "**",
                 "value": "-0.50"
             }
         },
         "axe": {
-            "blocks": "minecraft:mineable/axe",
+            "allowed": ["#minecraft:mineable/axe"],
             "speed": {
                 "operation": "**",
                 "value": "-0.50"
             }
         },
         "shovel": {
-            "blocks": "minecraft:mineable/shovel",
+            "allowed": ["#minecraft:mineable/shovel"],
             "speed": {
                 "operation": "**",
                 "value": "-0.50"
             }
         },
         "hoe": {
-            "blocks": "minecraft:mineable/hoe",
+            "allowed": ["#minecraft:mineable/hoe"],
             "speed": {
                 "operation": "**",
                 "value": "-0.50"
             }
         },
         "sword": {
-            "blocks": "minecraft:mineable/sword",
+            "allowed": ["#minecraft:mineable/sword"],
             "speed": {
                 "operation": "**",
                 "value": "-0.50"

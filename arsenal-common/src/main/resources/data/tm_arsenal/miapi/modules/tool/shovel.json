@@ -71,7 +71,7 @@
     },
     "mining_level": {
         "shovel": {
-            "blocks": "minecraft:mineable/shovel",
+            "allowed": ["#minecraft:mineable/shovel"],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }

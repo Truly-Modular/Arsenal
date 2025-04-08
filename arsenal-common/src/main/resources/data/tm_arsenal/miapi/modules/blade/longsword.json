@@ -111,14 +111,12 @@
     ],
     "mining_level": {
         "sword": {
-            "blocks": "minecraft:sword_efficient",
+            "allowed": ["#minecraft:sword_efficient"],
             "use_material": false,
             "speed": "1.5"
         },
         "cobweb": {
-            "block_list": [
-                "minecraft:cobweb"
-            ],
+            "allowed": [["minecraft:cobweb"]],
             "use_material": false,
             "correct_for_drops": true,
             "speed": "15"
