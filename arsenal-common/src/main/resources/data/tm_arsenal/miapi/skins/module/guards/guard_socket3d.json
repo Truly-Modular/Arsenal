@@ -1,0 +1,25 @@
+{
+    "path": "guard_socket_3d",
+    "module": "tm_arsenal:guard/socket",
+    "replace": {
+        "model": {
+            "path": "miapi:models/item/sword/guard/socket/[material.texture].json",
+            "transform": {
+                "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -4.0, "z": -8.001}, "scale": {"x": 1.0, "y": 1.0, "z": 2.0}
+            }
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "user",
+            "supporter",
+            "buster"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}
