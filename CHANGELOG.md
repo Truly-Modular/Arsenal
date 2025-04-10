@@ -1,6 +1,3 @@
-## v1.9 (1.20.1)
-- added missing translations
-- rebalanced handhelds
-- added knife skin
-- added katar skins
-- added es-es by potato
+## v2.0 (1.21)
+- ported to 1.21
+- added mace support
