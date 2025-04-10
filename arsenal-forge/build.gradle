@@ -8,7 +8,7 @@ architectury {
 
 repositories {
     maven {
-        url 'http://trulymodular.duckdns.org/maven'
+        url 'http://trulymodular.dedyn.io/maven'
         allowInsecureProtocol = true
     }
     maven { url "https://maven.neoforged.net/releases/" }
