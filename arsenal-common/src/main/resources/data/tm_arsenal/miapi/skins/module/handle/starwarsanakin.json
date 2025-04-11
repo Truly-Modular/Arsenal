@@ -74,6 +74,10 @@
                     }
                 }
             }
+        },
+        "gui_offset": {
+            "sizeX": 4,
+            "sizeY": 4
         }
     },
     "condition": {

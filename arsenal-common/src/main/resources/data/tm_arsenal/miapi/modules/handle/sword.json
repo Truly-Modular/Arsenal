@@ -273,13 +273,6 @@
                 "operation": "**",
                 "value": "-0.50"
             }
-        },
-        "sword": {
-            "allowed": ["#minecraft:mineable/sword"],
-            "speed": {
-                "operation": "**",
-                "value": "-0.50"
-            }
         }
     },
     "material_indication": {

@@ -1,3 +1,3 @@
-## v2.0 (1.21)
-- ported to 1.21
-- added mace support
+## v2.1 (1.21)
+- fixed mipmap issues
+- adjusted star wars handle size
