@@ -171,7 +171,7 @@
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
         }
     ],
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]* 0.66",
     "displayName": "miapi.module.axe_front.name",
     "tag": [
         "tool_head"

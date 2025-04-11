@@ -87,5 +87,5 @@
     "tag": [
         "tool_head"
     ],
-    "durability": "[material.durability]* 0.5"
+    "durability": "[material.durability]* 0.33"
 }
