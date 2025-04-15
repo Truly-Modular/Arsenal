@@ -76,10 +76,10 @@
             "min": 0,
             "max": 20,
             "header": {
-                "translate": "miapi.arsenal.tree_mining"
+                "translate": "miapi.tm_arsenal.tree_mining"
             },
             "description": {
-                "translate": "miapi.arsenal.tree_mining.description"
+                "translate": "miapi.tm_arsenal.tree_mining.description"
             }
         }
     },
