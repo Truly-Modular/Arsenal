@@ -59,6 +59,9 @@
     "mining_level": {
         "axe": "[material.mining_level]-1"
     },
+    "abilities": [
+        "axe_ability"
+    ],
     "attributes": [
         {
             "attribute": "miapi:generic.mining_speed.axe",

@@ -1,4 +1,2 @@
-## v1.13 (1.20.1)
-- changed mod id to prevent crash with "arsenal"
-- fixed mipmap issues
-- added medium shields
+## v1.14 (1.20.1)
+- added axe right click behaviour to axe back module
