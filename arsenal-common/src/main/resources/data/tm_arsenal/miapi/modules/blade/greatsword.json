@@ -136,5 +136,9 @@
             "speed": "15"
         }
     },
-    "item_id": "miapi:modular_greatsword"
+    "item_id": "miapi:modular_greatsword",
+    "fake_item_tag": [
+        "mincraft:swords",
+        "c:swords"
+    ]
 }

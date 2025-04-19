@@ -134,5 +134,11 @@
         }
     },
     "display_name": "miapi.module.tm_arsenal.blade.dagger.name",
-    "item_id": "miapi:modular_dagger"
+    "item_id": "miapi:modular_dagger",
+    "fake_item_tag": [
+        "mincraft:swords",
+        "c:swords",
+        "c:tools/knife",
+        "c:knife"
+    ]
 }

@@ -100,5 +100,9 @@
     },
     "durability": "[material.durability]* 0.25",
     "display_name": "miapi.module.tm_arsenal.blade.normal.name",
-    "item_id": "miapi:modular_sword"
+    "item_id": "miapi:modular_sword",
+    "fake_item_tag": [
+        "mincraft:swords",
+        "c:swords"
+    ]
 }

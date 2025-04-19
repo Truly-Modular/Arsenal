@@ -65,5 +65,11 @@
             "crystal"
         ],
         "cost": 1
-    }
+    },
+    "fake_item_tag": [
+        "mincraft:pickaxes",
+        "c:pickaxe",
+        "c:tools",
+        "c:tool/pickaxe"
+    ]
 }

@@ -183,5 +183,11 @@
     "tag": [
         "tool_head"
     ],
-    "item_id": "miapi:modular_axe"
+    "item_id": "miapi:modular_axe",
+    "fake_item_tag": [
+        "mincraft:axes",
+        "c:axes",
+        "c:tools",
+        "c:tool/axe"
+    ]
 }

@@ -128,5 +128,11 @@
         "tool_head"
     ],
     "display_name": "miapi.module.tm_arsenal.tool.hammer.name",
-    "item_id": "miapi:modular_hammer"
+    "item_id": "miapi:modular_hammer",
+    "fake_item_tag": [
+        "mincraft:pickaxes",
+        "c:pickaxe",
+        "c:tools",
+        "c:tool/pickaxe"
+    ]
 }

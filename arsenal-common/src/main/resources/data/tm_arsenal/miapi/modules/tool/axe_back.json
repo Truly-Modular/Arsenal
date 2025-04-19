@@ -82,5 +82,15 @@
         "durability": 1,
         "mining_speed": 1
     },
-    "durability": "[material.durability]* 0.33"
+    "durability": "[material.durability]* 0.33",
+    "ability_context": {
+        "axe_ability": {
+        }
+    },
+    "fake_item_tag": [
+        "mincraft:axes",
+        "c:axes",
+        "c:tools",
+        "c:tool/axe"
+    ]
 }

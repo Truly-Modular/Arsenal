@@ -123,5 +123,11 @@
     "tag": [
         "tool_head"
     ],
-    "item_id": "miapi:modular_shovel"
+    "item_id": "miapi:modular_shovel",
+    "fake_item_tag": [
+        "mincraft:shovels",
+        "c:shovels",
+        "c:tools",
+        "c:tool/shovel"
+    ]
 }

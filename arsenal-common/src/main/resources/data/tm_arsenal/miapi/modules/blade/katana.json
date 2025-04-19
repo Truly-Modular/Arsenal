@@ -112,5 +112,9 @@
     },
     "slashing": "[material.hardness] * 0.6 /  [collect.add.module.blade_size]",
     "display_name": "miapi.module.tm_arsenal.blade.katana.name",
-    "item_id": "miapi:modular_katana"
+    "item_id": "miapi:modular_katana",
+    "fake_item_tag": [
+        "mincraft:swords",
+        "c:swords"
+    ]
 }

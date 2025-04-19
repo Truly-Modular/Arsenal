@@ -169,5 +169,11 @@
     "tag": [
         "tool_head"
     ],
-    "item_id": "miapi:modular_hoe"
+    "item_id": "miapi:modular_hoe",
+    "fake_item_tag": [
+        "mincraft:hoes",
+        "c:hoes",
+        "c:tools",
+        "c:tool/hoe"
+    ]
 }

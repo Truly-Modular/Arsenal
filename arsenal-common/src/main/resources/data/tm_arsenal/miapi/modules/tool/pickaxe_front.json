@@ -159,5 +159,11 @@
     "tag": [
         "tool_head"
     ],
-    "item_id": "miapi:modular_pickaxe"
+    "item_id": "miapi:modular_pickaxe",
+    "fake_item_tag": [
+        "mincraft:pickaxes",
+        "c:pickaxe",
+        "c:tools",
+        "c:tool/pickaxe"
+    ]
 }
