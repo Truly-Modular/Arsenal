@@ -1,4 +1,2 @@
-## v2.1 (1.21)
-- fixed mipmap issues
-- adjusted star wars handle size
-- buffed lumber axe
+## v2.2 (1.21)
+- added log-strip(axe rightclick) to axe back module
