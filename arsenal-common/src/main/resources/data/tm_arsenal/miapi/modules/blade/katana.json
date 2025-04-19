@@ -32,7 +32,6 @@
     "repair_priority": -1,
     "enchantments": {
         "allowed": [
-
             "minecraft:enchantable/sword",
             "minecraft:enchantable/fire_aspect",
             "minecraft:enchantable/sharp_weapon",

@@ -47,6 +47,7 @@
                 "ShowBottom": false
             },
             "full_bright": true,
+            "tick": true,
             "transform": {
                 "rotation": {
                     "x": 0.0,

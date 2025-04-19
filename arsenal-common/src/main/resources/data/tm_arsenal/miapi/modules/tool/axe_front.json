@@ -89,6 +89,9 @@
             "minecraft:enchantable/mining_loot",
             "c:enchtantable/axe",
             "minecraft:axes"
+        ],
+        "allowed_anvil": [
+            "minecraft:sharpness"
         ]
     },
     "slots": {
@@ -130,7 +133,9 @@
     },
     "mining_level": {
         "axe": {
-            "allowed": ["#minecraft:mineable/axe"],
+            "allowed": [
+                "#minecraft:mineable/axe"
+            ],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }

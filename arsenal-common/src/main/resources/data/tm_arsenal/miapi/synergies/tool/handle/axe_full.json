@@ -5,7 +5,7 @@
         "type": "parent",
         "condition": {
             "type": "module",
-            "module": "axe_front"
+            "module": "tm_arsenal:tool/axe_front"
         }
     },
     "properties": {

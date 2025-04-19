@@ -68,6 +68,9 @@
             "minecraft:enchantable/mining_loot",
             "c:enchtantable/axe",
             "minecraft:axes"
+        ],
+        "allowed_anvil": [
+            "minecraft:sharpness"
         ]
     },
     "gui_stat": {
