@@ -1,0 +1,45 @@
+{
+    "path": "player/gcat",
+    "module": "tm_arsenal:blade/normal",
+    "replace": {
+        "model": [
+            {
+                "path": "miapi:models/item/sword/blade/sword/gcat/default.json",
+                "color": "[model.color]",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -45.0
+                    },
+                    "translation": {
+                        "x": 2.0,
+                        "y": 2.0,
+                        "z": 8.0
+                    },
+                    "scale": {
+                        "x": 0.6,
+                        "y": 0.6,
+                        "z": 0.6
+                    }
+                }
+            }
+        ],
+        "gui_offset": {
+            "sizeX": 7,
+            "sizeY": 7
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "7cc0530c-2b0c-40b6-b9e0-dafb8f72a9d6",
+            "supporter"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}
