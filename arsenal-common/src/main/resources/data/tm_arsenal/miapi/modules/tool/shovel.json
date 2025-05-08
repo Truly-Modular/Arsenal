@@ -121,7 +121,8 @@
     },
     "display_name": "miapi.module.tm_arsenal.tool.shovel.name",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "shovel_head"
     ],
     "item_id": "miapi:modular_shovel",
     "fake_item_tag": [

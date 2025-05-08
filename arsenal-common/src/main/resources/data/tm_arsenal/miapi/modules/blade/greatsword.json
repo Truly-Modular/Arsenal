@@ -29,7 +29,6 @@
     "repair_priority": -1,
     "enchantments": {
         "allowed": [
-
             "minecraft:enchantable/sword",
             "minecraft:enchantable/fire_aspect",
             "minecraft:enchantable/sharp_weapon",
@@ -56,9 +55,9 @@
         ],
         "cost": 3
     },
-    "better_combat_config":"bettercombat:claymore",
+    "better_combat_config": "bettercombat:claymore",
     "module_stats": {
-        "blade_size": 1.5
+        "blade_size": 1.2
     },
     "material_indication": {
         "hardness": {
@@ -82,7 +81,7 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "-0.5",
+            "value": "-0.5 * (1.2/[collect.add.module.blade_size])",
             "operation": "+",
             "slot": "mainhand"
         },
@@ -125,12 +124,18 @@
     },
     "mining_level": {
         "sword": {
-            "allowed": ["#minecraft:sword_efficient"],
+            "allowed": [
+                "#minecraft:sword_efficient"
+            ],
             "use_material": false,
             "speed": "1.5"
         },
         "cobweb": {
-            "allowed": [["minecraft:cobweb"]],
+            "allowed": [
+                [
+                    "minecraft:cobweb"
+                ]
+            ],
             "use_material": false,
             "correct_for_drops": true,
             "speed": "15"

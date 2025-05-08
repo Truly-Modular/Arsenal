@@ -2,21 +2,21 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "shield_base"
+		"0": "miapi:item/handheld/shield/tower_shield/tower_shield_base"
 	},
 	"elements": [
 		{
-			"name": "handle",
-			"from": [7, 8, 8.3],
-			"to": [9, 14, 14.3],
+			"name": "plate",
+			"from": [3, 1, 7.3],
+			"to": [13, 21, 8.3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 9.55]},
 			"faces": {
-				"north": {"uv": [8, 1.5, 8.5, 3], "texture": "#0"},
-				"east": {"uv": [6.5, 1.5, 8, 3], "texture": "#0"},
-				"south": {"uv": [10, 1.5, 10.5, 3], "texture": "#0"},
-				"west": {"uv": [8.5, 1.5, 10, 3], "texture": "#0"},
-				"up": {"uv": [8.5, 1.5, 8, 0], "texture": "#0"},
-				"down": {"uv": [9, 0, 8.5, 1.5], "texture": "#0"}
+				"north": {"uv": [0.5, 0.5, 3, 5.5], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.25, 5.5], "texture": "#0"},
+				"south": {"uv": [3.75, 0.5, 6.25, 5.5], "texture": "#0"},
+				"west": {"uv": [3.25, 0.5, 3.5, 5.5], "texture": "#0"},
+				"up": {"uv": [3, 0.25, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 3.5, 0.25], "texture": "#0"}
 			}
 		}
 	],
@@ -55,7 +55,8 @@
 			"name": "handle",
 			"origin": [8, 11, 7],
 			"color": 0,
-			"children": [0]
-		}
+			"children": []
+		},
+		0
 	]
 }

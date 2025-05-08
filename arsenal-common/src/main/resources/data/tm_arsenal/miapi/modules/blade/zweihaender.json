@@ -44,7 +44,8 @@
     "tag": [
         "blade",
         "blade_large",
-        "polearm_glaive"
+        "polearm_glaive",
+        "piercing_blade"
     ],
     "allowed_material": {
         "allowedMaterials": [

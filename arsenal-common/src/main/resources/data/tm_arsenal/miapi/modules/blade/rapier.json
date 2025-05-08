@@ -44,7 +44,8 @@
     "tag": [
         "blade",
         "blade_medium",
-        "polearm_halberd"
+        "polearm_halberd",
+        "piercing_blade"
     ],
     "better_combat_config": "bettercombat:rapier",
     "allowed_material": {

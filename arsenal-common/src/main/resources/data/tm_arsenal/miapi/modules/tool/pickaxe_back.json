@@ -43,7 +43,7 @@
         "pickaxe": {
             "allowed": ["#minecraft:mineable/pickaxe"],
             "use_material": true,
-            "speed": "[material.mining_speed]/2"
+            "speed": "[material.mining_speed]/1.5"
         }
     },
     "material_indication": {
@@ -52,7 +52,8 @@
     },
     "durability": "[material.durability]* 0.33",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "pickaxe_head"
     ],
     "allowed_material": {
         "allowedMaterials": [

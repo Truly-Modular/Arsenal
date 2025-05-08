@@ -1,0 +1,17 @@
+{
+    "type": "module",
+    "module": "tm_arsenal:handheld/handle",
+    "condition": {
+        "type": "other_module",
+        "condition": {
+            "type": "tag",
+            "tag": "custom_handle"
+        }
+    },
+    "properties": {
+        "replace": {
+            "model": [
+            ]
+        }
+    }
+}

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "tm_shields_v3:tower_shield/tower_shield_reinforcing",
-		"particle": "tm_shields_v3:tower_shield/tower_shield_reinforcing"
+		"1": "miapi:item/handheld/shield/tower_shield/tower_shield_reinforcing",
+		"particle": "miapi:item/handheld/shield/tower_shield/tower_shield_reinforcing"
 	},
 	"elements": [
 		{

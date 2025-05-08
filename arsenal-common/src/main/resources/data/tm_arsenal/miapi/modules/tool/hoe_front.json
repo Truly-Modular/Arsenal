@@ -167,7 +167,8 @@
     },
     "display_name": "miapi.module.tm_arsenal.tool.hoe_front.name",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "hoe_head"
     ],
     "item_id": "miapi:modular_hoe",
     "fake_item_tag": [

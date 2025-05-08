@@ -179,7 +179,8 @@
     "durability": "[material.durability]* 0.66",
     "display_name": "miapi.module.tm_arsenal.tool.axe_front.name",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "axe_head"
     ],
     "item_id": "miapi:modular_axe",
     "fake_item_tag": [

@@ -82,7 +82,7 @@
         "cost": 2
     },
     "module_stats": {
-        "blade_size": 1.2
+        "blade_size": 1.15
     },
     "material_indication": {
         "hardness": {
@@ -98,7 +98,7 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "-0.2",
+            "value": "-0.2 * (1.15/[collect.add.module.blade_size])",
             "operation": "+",
             "slot": "mainhand"
         },

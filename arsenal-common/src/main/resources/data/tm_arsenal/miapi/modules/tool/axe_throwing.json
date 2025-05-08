@@ -181,7 +181,10 @@
     "durability": "[material.durability]* 0.5",
     "display_name": "miapi.module.tm_arsenal.tool.axe_throwing.name",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "axe_head",
+        "throwing_module",
+        "throwing_axe"
     ],
     "item_id": "miapi:modular_axe",
     "fake_item_tag": [

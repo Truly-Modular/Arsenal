@@ -20,7 +20,7 @@
         }
     },
     "module_stats": {
-        "blade_size": 1.2
+        "blade_size": 1.1
     },
     "priority": 2,
     "material_property": [
@@ -41,7 +41,8 @@
     "tag": [
         "blade",
         "blade_medium",
-        "polearm_glaive"
+        "polearm_glaive",
+        "slashing_blade"
     ],
     "allowed_in_slots": [
         "sword_blade_large"

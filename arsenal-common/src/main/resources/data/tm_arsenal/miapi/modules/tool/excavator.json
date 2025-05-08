@@ -26,7 +26,11 @@
         "sizeY": 1
     },
     "module_stats": {
-        "blade_size": 1
+        "blade_size": 1,
+        "depth": 1,
+        "width": 3,
+        "height": 3,
+        "speed": 5
     },
     "priority": 1,
     "repair_priority": -1,
@@ -54,20 +58,22 @@
         {
             "condition": {
                 "type": "block_tag",
-                "tags": ["mineable/shovel"]
+                "tags": [
+                    "mineable/shovel"
+                ]
             },
             "modifier": {
                 "require_same": true
             },
             "mode": {
                 "type": "staggered",
-                "speed": 5
+                "speed": "[module.speed]"
             },
             "shape": {
                 "type": "cube",
-                "width": 3,
-                "height": 3,
-                "depth": 1
+                "width": "[module.width]",
+                "height": "[module.height]",
+                "depth": "[module.depth]"
             }
         }
     ],
@@ -89,7 +95,9 @@
     },
     "mining_level": {
         "shovel": {
-            "allowed": ["#minecraft:mineable/shovel"],
+            "allowed": [
+                "#minecraft:mineable/shovel"
+            ],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }
@@ -116,7 +124,9 @@
     ],
     "durability": "[material.durability]* 0.5",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "shovel_head",
+        "excavator"
     ],
     "display_name": "miapi.module.tm_arsenal.tool.excavator.name",
     "item_id": "miapi:modular_shovel",

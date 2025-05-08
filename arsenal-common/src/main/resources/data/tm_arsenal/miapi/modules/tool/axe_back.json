@@ -76,7 +76,8 @@
         "x": -1
     },
     "tag": [
-        "tool_head"
+        "tool_head",
+        "axe_head"
     ],
     "material_indication": {
         "durability": 1,

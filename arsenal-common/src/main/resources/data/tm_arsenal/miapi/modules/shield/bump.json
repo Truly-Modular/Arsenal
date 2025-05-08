@@ -1,0 +1,9 @@
+{
+	"allowedInSlots": ["shield_attachment_bump"],
+	"allowedMaterial": {
+		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
+		"cost": 1
+	},
+	"durability": "[material.durability]/4"
+}
+

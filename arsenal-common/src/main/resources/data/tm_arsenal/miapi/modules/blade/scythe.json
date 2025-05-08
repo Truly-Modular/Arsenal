@@ -140,7 +140,7 @@
     "better_combat_config": "bettercombat:scythe",
     "ability_context": {
         "area_harvest_ability": {
-            "block_range": "[material.tier]-1"
+            "range": "[material.tier]-1"
         },
         "hoe_ability": {
         }

@@ -115,7 +115,7 @@
         "pickaxe": {
             "allowed": ["#minecraft:mineable/pickaxe"],
             "use_material": true,
-            "speed": "[material.mining_speed]/2"
+            "speed": "[material.mining_speed]/1.5"
         }
     },
     "attributes": [
@@ -157,7 +157,8 @@
     },
     "display_name": "miapi.module.tm_arsenal.tool.pickaxe_front.name",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "pickaxe_head"
     ],
     "item_id": "miapi:modular_pickaxe",
     "fake_item_tag": [

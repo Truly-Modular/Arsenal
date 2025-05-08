@@ -41,7 +41,8 @@
     "slots": {
         "0": {
             "allowed": [
-                "handheld_blade"
+                "handheld_blade",
+                "handheld_shield"
             ],
             "translationKey": "miapi.slot.guard.name",
             "transform": {

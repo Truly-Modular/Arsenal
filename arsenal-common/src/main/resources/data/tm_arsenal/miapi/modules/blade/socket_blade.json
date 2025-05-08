@@ -1,0 +1,115 @@
+{
+    "model": {
+        "path": "miapi:models/item/sword/blade/socket_blade/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": -1.0,
+                "y": -1.0,
+                "z": -0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "slots": {
+        "socket_medium": {
+            "allowed": ["gem_melee_medium"],
+            "translationKey": "miapi.slot.gem.name",
+            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -3.0, "y": -3.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+        }
+    },
+    "material_indication": {
+        "hardness": {
+            "strength": 3,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        },
+        "durability": 1
+    },
+    "priority": 0,
+    "repair_priority": -1,
+    "material_property": [
+        "default",
+        "handheld",
+        "blade",
+        "blade_medium",
+        "head"
+    ],
+    "enchantments": {
+        "allowed": [
+
+            "minecraft:enchantable/sword",
+            "minecraft:enchantable/fire_aspect",
+            "minecraft:enchantable/sharp_weapon",
+            "minecraft:enchantable/weapon"
+        ]
+    },
+    "module_stats": {
+        "blade_size": 1
+    },
+    "tag": [
+        "blade",
+        "polearm_spear"
+    ],
+    "allowed_in_slots": [
+        "sword_blade"
+    ],
+    "better_combat_config": "bettercombat:sword",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 2
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "-0.2",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*0.95",
+            "operation": "+",
+            "slot": "mainhand"
+        }
+    ],
+    "mining_level": {
+        "sword": {
+            "allowed": ["#minecraft:sword_efficient"],
+            "use_material": false,
+            "speed": "1.5"
+        },
+        "cobweb": {
+            "allowed": [["minecraft:cobweb"]],
+            "use_material": false,
+            "correct_for_drops": true,
+            "speed": "15"
+        }
+    },
+    "durability": "[material.durability]* 0.15",
+    "display_name": "miapi.module.tm_arsenal.blade.normal.name",
+    "item_id": "miapi:modular_sword",
+    "fake_item_tag": [
+        "mincraft:swords",
+        "c:swords"
+    ]
+}

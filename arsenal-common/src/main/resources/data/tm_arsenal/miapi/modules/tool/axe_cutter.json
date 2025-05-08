@@ -43,7 +43,8 @@
         }
     ],
     "module_stats": {
-        "blade_size": 1
+        "blade_size": 1,
+        "cutter_blocks": "min(200,(([material.tier] * 1.5 + [material.hardness] / 10 ) ^ 3 + 2))"
     },
     "priority": 1,
     "repair_priority": -1,
@@ -114,8 +115,8 @@
             },
             "shape": {
                 "type": "vein",
-                "size": 50,
-                "max": " min(200,(([material.tier] * 1.5 + [material.hardness] / 10 ) ^ 3 + 2))"
+                "size": 100,
+                "max": "[module.cutter_blocks]"
             }
         }
     ],
@@ -167,7 +168,9 @@
     "durability": "[material.durability]* 0.5",
     "display_name": "miapi.module.tm_arsenal.tool.axe_cutter.name",
     "tag": [
-        "tool_head"
+        "tool_head",
+        "axe_head",
+        "cutter_axe"
     ],
     "item_id": "miapi:modular_axe",
     "fake_item_tag": [

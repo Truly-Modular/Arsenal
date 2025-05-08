@@ -181,6 +181,10 @@
     "miapi.module.tm_arsenal.blade.normal.name": "%s Sword",
     "miapi.module.tm_arsenal.blade.normal.description": "A classic and versatile sword used by warriors across various cultures.",
 
+    "miapi.module.tm_arsenal.blade.socket_blade": "Socket Blade",
+    "miapi.module.tm_arsenal.blade.socket_blade.name": "%s Sword",
+    "miapi.module.tm_arsenal.blade.socket_blade.description": "A place for a socket,\nSlightly hindering the blades performance.",
+
     "miapi.module.tm_arsenal.blade.throwing_knife": "Throwing Knife Blade",
     "miapi.module.tm_arsenal.blade.throwing_knife.name": "%s Throwing Knife",
     "miapi.module.tm_arsenal.blade.throwing_knife.description": "A small and lightweight knife designed for throwing with accuracy.",
