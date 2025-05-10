@@ -76,13 +76,13 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "+0.5",
+            "value": "+0.4",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness]*0.8",
+            "value": "[material.hardness]*0.8 + [material.density]*0.2",
             "operation": "+",
             "slot": "mainhand"
         },
@@ -114,7 +114,6 @@
     "durability": "[material.durability]* 0.65",
     "ability_context": {
         "throw": {
-
         }
     },
     "water_drag": "0.95",

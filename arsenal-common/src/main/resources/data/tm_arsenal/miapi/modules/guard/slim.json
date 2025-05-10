@@ -2,16 +2,57 @@
     "model": {
         "path": "miapi:models/item/sword/guard/slim/[material.texture].json",
         "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -4.0, "z": 0.001}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": -4.0,
+                "y": -4.0,
+                "z": 0.001
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
         }
     },
-    "allowed_in_slots": ["sword_guard","polearm_blade"],
+    "allowed_in_slots": [
+        "sword_guard",
+        "polearm_blade"
+    ],
     "slots": {
         "blade": {
-            "allowed": ["sword_blade","sword_blade_small","sword_blade_large"],
-            "allowedMerge": ["small_blade","medium_blade","large_blade"],
+            "allowed": [
+                "sword_blade",
+                "sword_blade_small",
+                "sword_blade_large"
+            ],
+            "allowedMerge": [
+                "small_blade",
+                "medium_blade",
+                "large_blade"
+            ],
             "translationKey": "miapi.slot.sword_blade.name",
-            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 2.0, "y": 2.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
         }
     },
     "material_property": [
@@ -25,7 +66,7 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "0.10",
+            "value": "0.10+[material.density]/7",
             "operation": "+",
             "slot": "mainhand"
         }

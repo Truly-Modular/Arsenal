@@ -107,7 +107,7 @@
         }
     },
     "durability": "[material.durability]* 0.2",
-    "armor_pen": "[material.hardness]*2.0 + 20 / [collect.add.module.blade_size]",
+    "armor_pen": "[material.hardness]*3.0 + 20 / [collect.add.module.blade_size]",
     "display_name": "miapi.module.tm_arsenal.blade.rapier.name",
     "item_id": "miapi:modular_rapier",
     "fake_item_tag": [

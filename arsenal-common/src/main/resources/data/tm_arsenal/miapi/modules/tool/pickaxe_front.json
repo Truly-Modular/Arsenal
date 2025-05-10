@@ -115,7 +115,7 @@
         "pickaxe": {
             "allowed": ["#minecraft:mineable/pickaxe"],
             "use_material": true,
-            "speed": "[material.mining_speed]/1.5"
+            "speed": "[material.mining_speed]/1.3"
         }
     },
     "attributes": [
@@ -128,6 +128,12 @@
         {
             "attribute": "miapi:generic.attack_range",
             "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.tier]",
             "operation": "+",
             "slot": "mainhand"
         },

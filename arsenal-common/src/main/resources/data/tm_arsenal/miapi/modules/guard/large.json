@@ -45,7 +45,7 @@
     },
     "ability_context": {
         "block": {
-            "blocking": "58 + ceil([material.flexibility])"
+            "blocking": "60 + ceil([material.flexibility]*1.5)"
         }
     },
     "tag": [

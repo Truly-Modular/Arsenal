@@ -228,7 +228,7 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "-2.5",
+            "value": "-2.85+[material.flexibility]/20",
             "operation": "+",
             "slot": "mainhand"
         },
@@ -250,28 +250,28 @@
             "allowed": ["#minecraft:mineable/pickaxe"],
             "speed": {
                 "operation": "**",
-                "value": "-0.50"
+                "value": "-0.15"
             }
         },
         "axe": {
             "allowed": ["#minecraft:mineable/axe"],
             "speed": {
                 "operation": "**",
-                "value": "-0.50"
+                "value": "-0.15"
             }
         },
         "shovel": {
             "allowed": ["#minecraft:mineable/shovel"],
             "speed": {
                 "operation": "**",
-                "value": "-0.50"
+                "value": "-0.15"
             }
         },
         "hoe": {
             "allowed": ["#minecraft:mineable/hoe"],
             "speed": {
                 "operation": "**",
-                "value": "-0.50"
+                "value": "-0.15"
             }
         }
     },

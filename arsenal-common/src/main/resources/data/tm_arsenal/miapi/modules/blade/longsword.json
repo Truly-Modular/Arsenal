@@ -40,26 +40,6 @@
             "minecraft:enchantable/weapon"
         ]
     },
-    "keybind_ability_context": {
-        "miapi:test": {
-            "miapi:heavy_attack": {
-                "damage": 2,
-                "sweeping": 3,
-                "range": 5,
-                "minHold": 15,
-                "cooldown": 60,
-                "particle": {
-                    "emit": {
-                        "type": "minecraft:angry_villager"
-                    },
-                    "frequency": 1,
-                    "count": 5,
-                    "speed": 3,
-                    "startAfter": 0
-                }
-            }
-        }
-    },
     "tag": [
         "blade",
         "blade_large",
@@ -99,6 +79,12 @@
         {
             "attribute": "generic.attack_speed",
             "value": "-0.2 * (1.15/[collect.add.module.blade_size])",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "0.15",
             "operation": "+",
             "slot": "mainhand"
         },

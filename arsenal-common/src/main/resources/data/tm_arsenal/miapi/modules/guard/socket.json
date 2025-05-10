@@ -29,7 +29,7 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "-0.1",
+            "value": "-0.08",
             "operation": "*",
             "slot": "mainhand"
         }
@@ -39,7 +39,7 @@
     "material_indication": {
         "durability": 1
     },
-    "durability": "[material.durability]* 0.05",
+    "durability": "[material.durability]* 0.2",
     "allowed_material": {
         "allowedMaterials": [
             "wood",
