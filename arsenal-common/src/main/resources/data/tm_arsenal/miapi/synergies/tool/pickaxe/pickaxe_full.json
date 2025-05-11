@@ -5,7 +5,7 @@
         "type": "parent",
         "condition": {
             "type": "module",
-            "module": "pickaxe_front"
+            "module": "tm_arsenal:tool/pickaxe_front"
         }
     },
     "properties": {

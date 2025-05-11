@@ -5,7 +5,7 @@
         "type": "child",
         "condition": {
             "type": "module",
-            "module": "pickaxe_back"
+            "module": "tm_arsenal:tool/pickaxe_back"
         }
     },
     "properties": {
