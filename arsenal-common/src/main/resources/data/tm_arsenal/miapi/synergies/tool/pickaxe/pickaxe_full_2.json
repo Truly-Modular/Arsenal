@@ -11,7 +11,7 @@
     "properties": {
         "replace": {
             "mining_level": {
-                "axe": {
+                "pickaxe": {
                     "blocks": "minecraft:mineable/pickaxe",
                     "use_material": true,
                     "speed": "[material.mining_speed]/2"
