@@ -171,7 +171,7 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "( ( ceil( ( [material.mining_speed]-6 ) ^ (1/5) -0.5 ) )/10 ) - 0.1 - 0.5",
+            "value": "( ( ceil( ( [material.mining_speed]-6 ) ^ (1/5) -0.5 ) )/10 ) - 0.1 - 0.8",
             "operation": "+",
             "slot": "mainhand"
         }

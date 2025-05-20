@@ -141,7 +141,7 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "min(4,([material.hardness]-2)) - ceil(max(0,min(1, ([material.density] - [material.hardness]) ))) - 1.5",
+            "value": "min(4,([material.hardness]-2)) - ceil(max(0,min(1, ([material.density] - [material.hardness]) ))) - 1.8",
             "operation": "+",
             "slot": "mainhand"
         },

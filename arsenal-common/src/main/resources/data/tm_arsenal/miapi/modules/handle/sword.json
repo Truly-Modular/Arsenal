@@ -228,7 +228,7 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "-2.85+[material.flexibility]/20",
+            "value": "-2.65+[material.flexibility]/20",
             "operation": "+",
             "slot": "mainhand"
         },
