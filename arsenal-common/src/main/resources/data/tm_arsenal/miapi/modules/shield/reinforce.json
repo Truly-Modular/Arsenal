@@ -1,0 +1,26 @@
+{
+    "allowedMaterial": {
+        "allowedMaterials": [
+            "fabric",
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 2
+    },
+    "allowedInSlots": [
+        "shield_attachment_reinforce"
+    ],
+    "materialProperty": [
+        "default",
+        "handheld",
+        "shield",
+        "reinforce"
+    ],
+    "durability": "[material.durability]/3"
+}
+

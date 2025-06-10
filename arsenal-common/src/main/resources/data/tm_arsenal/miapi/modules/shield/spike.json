@@ -1,0 +1,25 @@
+{
+    "allowedInSlots": [
+        "shield_attachment_spike"
+    ],
+    "allowedMaterial": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    },
+    "materialProperty": [
+        "default",
+        "handheld",
+        "shield",
+        "spike"
+    ],
+    "durability": "[material.durability]/4"
+}
+

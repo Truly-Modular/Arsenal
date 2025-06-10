@@ -1,0 +1,42 @@
+{
+    "type": "module",
+    "module": "tm_arsenal:shield/spike",
+    "condition": {
+        "type": "other_module",
+        "condition": {
+            "type": "tag",
+            "tag": "round_shield"
+        }
+    },
+    "properties": {
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/handheld/shield/round_shield/round_shield_spikes.json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "translation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                }
+            ],
+            "ability_context": {
+                "parry_block": {
+                    "damage_return_percent": "20+log([material.hardness])*3"
+                }
+            }
+        }
+    }
+}

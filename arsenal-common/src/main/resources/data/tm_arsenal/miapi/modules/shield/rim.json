@@ -1,0 +1,30 @@
+{
+    "tag": [
+        "shield_rim"
+    ],
+    "priority": -3,
+    "repairPriority": -1,
+    "allowedInSlots": [
+        "shield_rim"
+    ],
+    "allowedMaterial": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 2
+    },
+    "materialProperty": [
+        "default",
+        "handheld",
+        "shield",
+        "rim"
+    ],
+    "durability": "[material.durability]/2"
+}
+
