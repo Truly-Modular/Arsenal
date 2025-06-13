@@ -31,7 +31,12 @@
                         }
                     }
                 }
-            ]
+            ],
+            "ability_context": {
+                "parry_block": {
+                    "damage_return_percent": "20+log([material.hardness])*3"
+                }
+            }
         }
     }
 }

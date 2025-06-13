@@ -2,11 +2,23 @@
     "type": "module",
     "module": "tm_arsenal:shield/reinforce",
     "condition": {
-        "type": "other_module",
-        "condition": {
-            "type": "tag",
-            "tag": "tower_shield"
-        }
+        "type": "and",
+        "conditions": [
+            {
+                "type": "other_module",
+                "condition": {
+                    "type": "tag",
+                    "tag": "tower_shield"
+                }
+            },
+            {
+                "type": "other_module",
+                "condition": {
+                    "type": "tag",
+                    "tag": "shield_rim"
+                }
+            }
+        ]
     },
     "properties": {
         "replace": {
@@ -21,12 +33,12 @@
                         },
                         "translation": {
                             "x": 1.0,
-                            "y": 0.75,
+                            "y": 1.0,
                             "z": 0.0
                         },
                         "scale": {
-                            "x": 0.875,
-                            "y": 0.95,
+                            "x": 1.0,
+                            "y": 1.0,
                             "z": 1.0
                         }
                     }

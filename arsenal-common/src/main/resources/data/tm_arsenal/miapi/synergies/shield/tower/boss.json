@@ -5,14 +5,14 @@
         "type": "other_module",
         "condition": {
             "type": "tag",
-            "tag": "round_shield"
+            "tag": "tower_shield"
         }
     },
     "properties": {
         "replace": {
-            "model:": [
+            "model": [
                 {
-                    "path": "miapi:models/item/handheld/shield/round_shield/round_shield_stun.json",
+                    "path": "miapi:models/item/handheld/shield/tower_shield/tower_shield_boss.json",
                     "transform": {
                         "rotation": {
                             "x": 0.0,

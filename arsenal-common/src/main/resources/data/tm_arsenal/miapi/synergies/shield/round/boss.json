@@ -5,14 +5,14 @@
         "type": "other_module",
         "condition": {
             "type": "tag",
-            "tag": "heater_shield"
+            "tag": "round_shield"
         }
     },
     "properties": {
         "replace": {
-            "model:": [
+            "model": [
                 {
-                    "path": "miapi:models/item/handheld/shield/heater_shield/heater_shield_stun.json",
+                    "path": "miapi:models/item/handheld/shield/round_shield/round_shield_boss.json",
                     "transform": {
                         "rotation": {
                             "x": 0.0,

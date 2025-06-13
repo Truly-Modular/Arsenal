@@ -5,7 +5,7 @@
         "type": "other_module",
         "condition": {
             "type": "tag",
-            "tag": "heater_shield"
+            "tag": "tower_shield"
         }
     },
     "properties": {
@@ -22,7 +22,7 @@
                         "translation": {
                             "x": 0.0,
                             "y": 0.0,
-                            "z": 0.0
+                            "z": 1.0
                         },
                         "scale": {
                             "x": 1.0,
