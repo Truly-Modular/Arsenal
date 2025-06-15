@@ -5,3 +5,4 @@
 - buffed Dagger, Greatsword ,Katana, Longsword, Rapier, Socket Blade, Zweihänder, Scythes and Sickles,
 Slim Guards and Axe-Butt, Pickaxe front and back modules
 - removed Greatswords Heavy Attack (this will be added to TM Next Level)
+- added sockets to polearms

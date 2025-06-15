@@ -11,6 +11,7 @@
         "gem_melee_handheld",
         "gem_melee_generic"
     ],
+    "mining_telekinesis": true,
     "module_stats": {
         "gem_power": 2
     },
