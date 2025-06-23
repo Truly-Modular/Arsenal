@@ -10,14 +10,14 @@
                     "z": 0.0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": -3.2,
+                    "y": -3.2,
+                    "z": -3.2
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1.4,
+                    "y": 1.4,
+                    "z": 1.4
                 }
             }
         },
@@ -281,7 +281,7 @@
         "parry_block": {
             "blocking": 100,
             "pose_id": "miapi:medium_shield_block",
-            "max_hold_time": "7200",
+            "max_hold": "7200",
             "cooldown_attacker_weapon": "0",
             "cooldown": "60",
             "cooldown_miss_time": "0",
