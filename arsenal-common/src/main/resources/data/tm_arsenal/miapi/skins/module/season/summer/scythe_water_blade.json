@@ -1,6 +1,7 @@
 {
     "path": "summer/scythe-water_blade",
     "module": "tm_arsenal:blade/scythe",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/scythe/water_blade/[material.texture].json",

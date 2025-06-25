@@ -104,6 +104,7 @@
     "miapi.create_item.polearm": "Polearm",
     "miapi.create_item.tool": "Tool",
     "miapi.create_item.handheld": "Handheld",
+    "miapi.create_item.twin": "Twin Handle",
 
     "tm_arsenal.material_indication.blade.damage": "Attack damage scales with directly with this",
     "tm_arsenal.material_indication.blade.attack_speed": "Attack speed scales with directly with this",

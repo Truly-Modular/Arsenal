@@ -1,6 +1,7 @@
 {
     "path": "gladius",
     "module": "tm_arsenal:blade/longsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/longsword/gladius/[material.texture].json",

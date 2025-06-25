@@ -1,6 +1,7 @@
 {
     "path": "skyrim/goldbrand",
     "module": "tm_arsenal:blade/katana",
+    "type": "model",
     "replace": {
         "model": [
             {

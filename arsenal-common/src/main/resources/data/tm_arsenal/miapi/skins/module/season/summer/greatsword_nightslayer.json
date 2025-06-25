@@ -1,6 +1,7 @@
 {
     "path": "summer/greatsword-nightslayer",
     "module": "tm_arsenal:blade/greatsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/nightslayer/[material.texture].json",

@@ -1,6 +1,7 @@
 {
     "path": "winter/sword-frostblade",
     "module": "tm_arsenal:blade/normal",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/sword/frostblade/[material.texture].json",

@@ -1,6 +1,7 @@
 {
     "path": "bday/greatsword-cake_knife",
     "module": "tm_arsenal:blade/greatsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/cake_knife/[material.texture].json",

@@ -1,0 +1,5 @@
+{
+    "module": "tm_arsenal:handheld/twin",
+    "translation": "miapi.create_item.twin",
+    "priority":-5
+}

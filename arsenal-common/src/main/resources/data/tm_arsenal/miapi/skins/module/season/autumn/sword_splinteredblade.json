@@ -1,6 +1,7 @@
 {
     "path": "autumn/sword-splinteredblade",
     "module": "tm_arsenal:blade/normal",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/sword/splintered_blade/[material.texture].json",

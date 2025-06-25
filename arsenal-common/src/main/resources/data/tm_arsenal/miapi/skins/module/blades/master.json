@@ -1,6 +1,7 @@
 {
     "path": "master",
     "module": "tm_arsenal:blade/longsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/longsword/master/[material.texture].json",

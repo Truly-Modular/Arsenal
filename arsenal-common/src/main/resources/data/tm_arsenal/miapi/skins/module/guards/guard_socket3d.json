@@ -1,6 +1,7 @@
 {
     "path": "guard_socket_3d",
     "module": "tm_arsenal:guard/socket",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/guard/socket/[material.texture].json",

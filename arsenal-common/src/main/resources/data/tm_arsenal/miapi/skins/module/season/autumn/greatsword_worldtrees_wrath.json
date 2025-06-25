@@ -1,6 +1,7 @@
 {
     "path": "autumn/greatsword-worldtrees_wrath",
     "module": "tm_arsenal:blade/greatsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/worldtrees_wrath/[material.texture].json",

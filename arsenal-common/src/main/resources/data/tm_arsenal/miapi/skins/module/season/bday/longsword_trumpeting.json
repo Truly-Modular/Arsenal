@@ -1,6 +1,7 @@
 {
     "path": "bday/longsword-trumpeting",
     "module": "tm_arsenal:blade/longsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/longsword/trumpeting/[material.texture].json",

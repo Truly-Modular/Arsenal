@@ -1,6 +1,7 @@
 {
     "path": "dragon_slayer",
     "module": "tm_arsenal:blade/greatsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/dragonslayer/[material.texture].json",

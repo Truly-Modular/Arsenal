@@ -1,6 +1,7 @@
 {
     "path": "omens",
     "module": "tm_arsenal:blade/longsword",
+    "type": "model",
     "replace": {
         "model": [
             {

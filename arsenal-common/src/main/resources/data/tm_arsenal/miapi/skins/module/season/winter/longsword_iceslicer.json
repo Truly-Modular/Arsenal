@@ -1,6 +1,7 @@
 {
     "path": "winter/longsword-iceslicer",
     "module": "tm_arsenal:blade/longsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/longsword/iceslicer/[material.texture].json",

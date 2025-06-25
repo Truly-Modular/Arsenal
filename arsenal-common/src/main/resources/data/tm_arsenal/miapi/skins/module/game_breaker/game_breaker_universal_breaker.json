@@ -1,6 +1,7 @@
 {
     "path": "game_breaker/universal_breaker_mindfaer",
     "module": "tm_arsenal:blade/greatsword",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/greatsword/game_breaker_universal_breaker/[material.texture].json",

@@ -1,6 +1,7 @@
 {
     "path": "winter/rapier-flaming_ice",
     "module": "tm_arsenal:blade/rapier",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/rapier/flaming_ice/[material.texture].json",

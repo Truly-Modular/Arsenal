@@ -1,6 +1,7 @@
 {
     "path": "summer/sword-flamming_snake",
     "module": "tm_arsenal:blade/normal",
+    "type": "model",
     "replace": {
         "model": {
             "path": "miapi:models/item/sword/blade/sword/flamming_snake/[material.texture].json",

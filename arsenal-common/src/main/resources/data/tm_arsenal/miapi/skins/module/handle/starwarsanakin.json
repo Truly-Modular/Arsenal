@@ -1,6 +1,7 @@
 {
     "path": "star_wars/anakin_hilt",
     "module": "tm_arsenal:handle/sword",
+    "type": "model",
     "replace": {
         "model": [
             {

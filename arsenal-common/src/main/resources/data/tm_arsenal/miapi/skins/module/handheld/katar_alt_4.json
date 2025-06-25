@@ -1,6 +1,7 @@
 {
     "path": "katar_alt_4",
     "module": "tm_arsenal:handheld/katar",
+    "type": "model",
     "replace": {
         "model": [
             {

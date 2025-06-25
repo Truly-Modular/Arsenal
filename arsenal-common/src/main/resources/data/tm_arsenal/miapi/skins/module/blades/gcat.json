@@ -1,6 +1,7 @@
 {
     "path": "player/gcat",
     "module": "tm_arsenal:blade/normal",
+    "type": "model",
     "replace": {
         "model": [
             {
