@@ -43,7 +43,7 @@
             }
         }
     ],
-    "displayName": "miapi.module.tm_arsenal.handheld.shield.round.name",
+    "displayName": "miapi.module.tm_arsenal.shield.round.plate.name",
     "itemId": "miapi:modular_round_shield",
     "enchantments": {
         "allowed": [
@@ -75,7 +75,7 @@
         ],
         "cost": 1
     },
-    "materialProperty": [
+    "material_property": [
         "default",
         "handheld",
         "dual_wield",
@@ -83,7 +83,7 @@
         "shield_plate",
         "round_shield"
     ],
-    "modelTransform": {
+    "model_transform": {
         "thirdperson_righthand": {
             "rotation": {
                 "x": 0,
@@ -108,9 +108,9 @@
                 "z": 0
             },
             "translation": {
-                "x": 3,
+                "x": -3,
                 "y": -4,
-                "z": 2.5
+                "z": 2.0
             },
             "scale": {
                 "x": 0.8,
@@ -171,19 +171,19 @@
         },
         "fixed": {
             "translation": {
-                "x": 1.5,
-                "y": -1.5,
-                "z": -0.5
+                "x": 0.0,
+                "y": -2.0,
+                "z": -1.0
             },
             "rotation": {
                 "x": 0,
                 "y": 0,
-                "z": 45
+                "z": 0
             },
             "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
+                "x": 0.375,
+                "y": 0.375,
+                "z": 0.375
             }
         },
         "gui": {
@@ -211,7 +211,7 @@
     "slots": {
         "attachment": {
             "allowed": [
-                "shield_attachment_bump",
+                "shield_attachment_boss",
                 "shield_attachment_reinforce",
                 "shield_attachment_spike"
             ],
@@ -285,9 +285,9 @@
     "ability_context": {
         "parry_block": {
             "blocking": 100,
-            "pose_id": "miapi:medium_shield_block",
             "max_hold": "20",
-            "cooldown_attacker_weapon": "0",
+            "pose_id": "miapi:medium_shield_block",
+            "cooldown_attacker_weapon": "20",
             "cooldown": "40",
             "cooldown_miss_time": "40",
             "sound_volume": 0.7,

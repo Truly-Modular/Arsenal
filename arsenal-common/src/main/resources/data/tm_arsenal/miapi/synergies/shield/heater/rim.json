@@ -10,6 +10,7 @@
     },
     "properties": {
         "replace": {
+            "durability": "[material.durability]* 0.25",
             "model": [
                 {
                     "path": "miapi:models/item/handheld/shield/heater_shield/heater_shield_rim.json",

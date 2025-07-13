@@ -5,6 +5,10 @@
         "type": "mod_loaded",
         "mod": "treechop"
     },
+    "load_condition": {
+        "type": "mod_loaded",
+        "mod": "treechop"
+    },
     "properties": {
         "remove": [
             "mining_shape"

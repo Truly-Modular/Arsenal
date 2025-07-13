@@ -336,6 +336,35 @@
     "miapi.tm_arsenal.compat.ht_treechop": "Lumbering",
     "miapi.tm_arsenal.compat.ht_treechop.description": "Amount of Cuts done cutting down a tree",
 
+    "miapi.module.tm_arsenal.shield.heater.plate": "Heater Shield Plate",
+    "miapi.module.tm_arsenal.shield.heater.plate.name": "%s Heater Shield Plate",
+    "miapi.module.tm_arsenal.shield.heater.plate.description": "Does not fully block damage, but does not go on cooldown by default.",
+
+    "miapi.module.tm_arsenal.shield.tower.plate": "Tower Shield Plate",
+    "miapi.module.tm_arsenal.shield.tower.plate.name": "%s Tower Shield Plate",
+    "miapi.module.tm_arsenal.shield.tower.plate.description": "Fully blocks attacks but triggers a cooldown.",
+
+    "miapi.module.tm_arsenal.shield.round.plate": "Round Shield Plate",
+    "miapi.module.tm_arsenal.shield.round.plate.name": "%s Round Shield Plate",
+    "miapi.module.tm_arsenal.shield.round.plate.description": "High skill, high reward. Reflects damage with low cooldown, but can only be raised briefly before cooldown.",
+
+    "miapi.module.tm_arsenal.shield.boss": "Shield Boss",
+    "miapi.module.tm_arsenal.shield.boss.name": "%s Shield Boss",
+    "miapi.module.tm_arsenal.shield.boss.description": "Slightly stuns attackers on block.",
+
+    "miapi.module.tm_arsenal.shield.reinforce": "Reinforcement",
+    "miapi.module.tm_arsenal.shield.reinforce.name": "%s Reinforcement",
+    "miapi.module.tm_arsenal.shield.reinforce.description": "Reduces shield cooldown time.",
+
+    "miapi.module.tm_arsenal.shield.rim": "Rim",
+    "miapi.module.tm_arsenal.shield.rim.name": "%s Rim",
+    "miapi.module.tm_arsenal.shield.rim.description": "Increases shield durability.",
+
+    "miapi.module.tm_arsenal.shield.spike": "Spikes",
+    "miapi.module.tm_arsenal.shield.spike.name": "%s Spikes",
+    "miapi.module.tm_arsenal.shield.spike.description": "Returns damage to attackers.",
+
+
     "miapi.module.tm_arsenal.gem.medium.end_crystal": "End Crystal",
     "miapi.module.tm_arsenal.gem.medium.end_crystal.description": "Highly unstable Crystal harnessed to explode killed Enemies",
     "miapi.module.tm_arsenal.gem.medium.heart_of_the_sea": "Heart of the Sea",

@@ -1,5 +1,5 @@
 {
-	"allowedInSlots": ["shield_attachment_bump"],
+	"allowedInSlots": ["shield_attachment_boss"],
 	"allowedMaterial": {
 		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
 		"cost": 1

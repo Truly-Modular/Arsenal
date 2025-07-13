@@ -1,6 +1,6 @@
 {
     "type": "module",
-    "module": "tm_arsenal:shield/bump",
+    "module": "tm_arsenal:shield/boss",
     "condition": {
         "type": "other_module",
         "condition": {
@@ -31,7 +31,12 @@
                         }
                     }
                 }
-            ]
+            ],
+            "ability_context": {
+                "parry_block": {
+                    "cooldown_attacker_weapon": "20+log([material.hardness])*3"
+                }
+            }
         }
     }
 }

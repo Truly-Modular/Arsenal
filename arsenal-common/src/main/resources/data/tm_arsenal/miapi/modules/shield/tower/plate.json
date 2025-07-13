@@ -12,12 +12,12 @@
                 "translation": {
                     "x": -3.2,
                     "y": -3.2,
-                    "z": -3.2
+                    "z": 2.5
                 },
                 "scale": {
                     "x": 1.4,
                     "y": 1.4,
-                    "z": 1.4
+                    "z": 0.75
                 }
             }
         },
@@ -43,7 +43,7 @@
             }
         }
     ],
-    "displayName": "miapi.module.tm_arsenal.handheld.shield.tower.name",
+    "display_name": "miapi.module.tm_arsenal.shield.tower.plate.name",
     "itemId": "miapi:modular_tower_shield",
     "enchantments": {
         "allowed": [
@@ -58,11 +58,11 @@
         "tower_shield"
     ],
     "priority": -3,
-    "repairPriority": -1,
-    "allowedInSlots": [
+    "repair_priority": -1,
+    "allowed_in_slots": [
         "handheld_shield"
     ],
-    "allowedMaterial": {
+    "allowed_material": {
         "allowedMaterials": [
             "wood",
             "metal",
@@ -74,14 +74,14 @@
         ],
         "cost": 1
     },
-    "materialProperty": [
+    "material_property": [
         "default",
         "blade",
         "handheld",
         "dual_wield",
         "head"
     ],
-    "modelTransform": {
+    "model_transform": {
         "thirdperson_righthand": {
             "rotation": {
                 "x": 0,
@@ -106,9 +106,9 @@
                 "z": 0
             },
             "translation": {
-                "x": 3,
-                "y": -4,
-                "z": 2.5
+                "x": -3,
+                "y": -4.5,
+                "z": 2.0
             },
             "scale": {
                 "x": 0.8,
@@ -128,9 +128,9 @@
                 "z": 2
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 0.4,
+                "y": 0.4,
+                "z": 0.4
             }
         },
         "firstperson_lefthand": {
@@ -145,9 +145,9 @@
                 "z": 2
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 0.4,
+                "y": 0.4,
+                "z": 0.4
             }
         },
         "ground": {
@@ -158,30 +158,30 @@
             },
             "translation": {
                 "x": 0,
-                "y": 5,
+                "y": 0,
                 "z": 0
             },
             "scale": {
-                "x": 0.5,
-                "y": 0.5,
-                "z": 0.5
+                "x": 0.15,
+                "y": 0.15,
+                "z": 0.15
             }
         },
         "fixed": {
             "translation": {
-                "x": 1.5,
-                "y": -1.5,
-                "z": -0.5
+                "x": 0.0,
+                "y": -2.0,
+                "z": -1.0
             },
             "rotation": {
                 "x": 0,
                 "y": 0,
-                "z": 45
+                "z": 0
             },
             "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
+                "x": 0.375,
+                "y": 0.375,
+                "z": 0.375
             }
         },
         "gui": {
@@ -191,14 +191,14 @@
                 "z": 0
             },
             "rotation": {
-                "x": -20,
-                "y": 140,
-                "z": 10
+                "x": 10,
+                "y": 150,
+                "z": 5
             },
             "scale": {
-                "x": 0.8,
-                "y": 0.8,
-                "z": 0.8
+                "x": 0.45,
+                "y": 0.45,
+                "z": 0.45
             }
         }
     },
@@ -206,7 +206,7 @@
     "slots": {
         "attachment": {
             "allowed": [
-                "shield_attachment_bump",
+                "shield_attachment_boss",
                 "shield_attachment_reinforce",
                 "shield_attachment_spike"
             ],
@@ -267,12 +267,12 @@
                 "translation": {
                     "x": 8.0,
                     "y": 15.7,
-                    "z": 7.2
+                    "z": 5.2
                 },
                 "scale": {
                     "x": 1.75,
                     "y": 1.75,
-                    "z": 1.5
+                    "z": 0.75
                 }
             }
         }
@@ -280,10 +280,10 @@
     "ability_context": {
         "parry_block": {
             "blocking": 100,
-            "pose_id": "miapi:medium_shield_block",
             "max_hold": "7200",
+            "pose_id": "miapi:medium_shield_block",
             "cooldown_attacker_weapon": "0",
-            "cooldown": "60",
+            "cooldown": "100",
             "cooldown_miss_time": "0",
             "sound_volume": 0.7,
             "sound_pitch": 0.5,

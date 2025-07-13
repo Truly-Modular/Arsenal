@@ -10,6 +10,7 @@
     },
     "properties": {
         "replace": {
+            "durability": "[material.durability]* 0.25",
             "model": [
                 {
                     "path": "miapi:models/item/handheld/shield/round_shield/round_shield_rim.json",

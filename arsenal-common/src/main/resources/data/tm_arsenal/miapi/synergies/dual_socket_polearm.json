@@ -1,6 +1,6 @@
 {
     "type": "module",
-    "module": "tm_arsenal:guard_dual_socket",
+    "module": "tm_arsenal:guard/dual_socket",
     "condition": {
         "type": "other_module",
         "condition": {

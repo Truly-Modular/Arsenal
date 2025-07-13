@@ -1,6 +1,6 @@
 {
     "type": "module",
-    "module": "tm_arsenal:shield/bump",
+    "module": "tm_arsenal:shield/boss",
     "condition": {
         "type": "other_module",
         "condition": {
