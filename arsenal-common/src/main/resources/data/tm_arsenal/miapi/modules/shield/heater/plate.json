@@ -279,8 +279,8 @@
     },
     "ability_context": {
         "parry_block": {
-            "blocking": 60,
-            "pose_id": "miapi:medium_shield_block",
+            "blocking": "55+[material.density]",
+            "pose": "miapi:medium_shield_block",
             "max_hold": "7200",
             "cooldown_attacker_weapon": "0",
             "cooldown": "00",

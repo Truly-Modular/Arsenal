@@ -285,11 +285,11 @@
     "ability_context": {
         "parry_block": {
             "blocking": 100,
-            "max_hold": "20",
-            "pose_id": "miapi:medium_shield_block",
+            "max_hold": "20+[material.hardness]/5",
+            "pose": "miapi:medium_shield_block",
             "cooldown_attacker_weapon": "20",
-            "cooldown": "40",
-            "cooldown_miss_time": "40",
+            "cooldown": "40-[material.hardness]/5-[material.density]/2",
+            "cooldown_miss_time": "40+[material.hardness]/5-[material.flexibility]/2",
             "sound_volume": 0.7,
             "sound_pitch": 0.5,
             "sound": "minecraft:item.shield.block"

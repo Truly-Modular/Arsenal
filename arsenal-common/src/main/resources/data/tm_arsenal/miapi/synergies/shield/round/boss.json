@@ -31,7 +31,12 @@
                         }
                     }
                 }
-            ]
+            ],
+            "ability_context": {
+                "parry_block": {
+                    "cooldown_attacker_weapon": "20+log([material.hardness])*3"
+                }
+            }
         }
     }
 }
