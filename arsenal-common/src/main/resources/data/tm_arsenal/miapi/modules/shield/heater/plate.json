@@ -281,12 +281,12 @@
         "parry_block": {
             "blocking": "55+[material.density]",
             "pose": "miapi:medium_shield_block",
-            "max_hold": "7200",
             "cooldown_attacker_weapon": "0",
             "cooldown": "00",
             "cooldown_miss_time": "0",
             "sound_volume": 0.7,
             "sound_pitch": 0.5,
+            "respect_attacker_weapon_ratio": "0.3",
             "sound": "minecraft:item.shield.block"
         }
     }

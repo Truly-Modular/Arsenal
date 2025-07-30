@@ -280,7 +280,6 @@
     "ability_context": {
         "parry_block": {
             "blocking": 100,
-            "max_hold": "7200",
             "pose": "miapi:medium_shield_block",
             "cooldown_attacker_weapon": "0",
             "cooldown_miss_time": "0",

@@ -45,8 +45,10 @@
                     }
                 }
             ],
-            "parry_block": {
-                "cooldown": "-5-log([material.hardness])"
+            "ability_context": {
+                "parry_block": {
+                    "cooldown": "-5-log([material.hardness])"
+                }
             }
         }
     }
