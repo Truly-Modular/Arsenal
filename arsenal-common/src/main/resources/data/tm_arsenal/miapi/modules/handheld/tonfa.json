@@ -24,7 +24,8 @@
     "item_id": "miapi:modular_tonfa",
     "enchantments": {
         "allowed": [
-            "miapi:weapon"
+            "minecraft:enchantable/fire_aspect",
+            "minecraft:enchantable/weapon"
         ]
     },
     "tag": [

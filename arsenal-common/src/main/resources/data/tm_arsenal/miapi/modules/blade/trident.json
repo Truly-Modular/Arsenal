@@ -102,13 +102,13 @@
     ],
     "durability": "[material.durability]* 0.5",
     "ability_context": {
-        "throw": {
-        },
         "riptide": {
             "needsWater": true,
             "allowLava": false,
             "needRiptideEnchant": true,
             "riptideStrength": 3
+        },
+        "throw": {
         }
     },
     "gui_offset": {

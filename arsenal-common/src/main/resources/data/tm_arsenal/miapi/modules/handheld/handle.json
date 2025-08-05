@@ -26,6 +26,7 @@
         "default",
         "handheld"
     ],
+
     "allowed_in_slots": [
         "melee"
     ],
@@ -35,7 +36,9 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:basic"
+            "minecraft:enchantable/durability",
+            "minecraft:enchantable/equippable",
+            "minecraft:enchantable/vanishing"
         ]
     },
     "slots": {

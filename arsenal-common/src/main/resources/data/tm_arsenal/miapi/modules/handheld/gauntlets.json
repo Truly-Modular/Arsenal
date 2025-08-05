@@ -26,7 +26,8 @@
     "item_id": "miapi:modular_gauntlets",
     "enchantments": {
         "allowed": [
-            "miapi:weapon"
+            "minecraft:enchantable/fire_aspect",
+            "minecraft:enchantable/weapon"
         ]
     },
     "tag": [
