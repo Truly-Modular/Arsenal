@@ -1,7 +1,7 @@
 {
     "path": "star_wars",
     "header": {
-        "texture": "miapi:textures/item/skin/star_wars/tab_header.png",
+        "texture": "miapi:textures/gui/skin/star_wars/tab_header.png",
         "color": "00004489"
     }
 }

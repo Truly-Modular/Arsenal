@@ -36,7 +36,7 @@
         "perms": ["user","supporter","skyrim","goldbrand"]
     },
     "texture": {
-        "texture": "miapi:textures/skin/skyrim/goldbrand.png",
+        "texture": "miapi:textures/gui/skin/skyrim/goldbrand.png",
         "color": "004489",
         "scale": 0,
         "borderSize": 0

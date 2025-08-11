@@ -53,7 +53,7 @@
             "crystal",
             "glass"
         ],
-        "cost": 1
+        "cost": 2
     },
     "fake_enchants": {
         "minecraft:sweeping": 3
