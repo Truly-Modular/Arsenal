@@ -44,7 +44,7 @@
         }
     ],
     "display_name": "miapi.module.tm_arsenal.shield.tower.plate.name",
-    "itemId": "miapi:modular_tower_shield",
+    "item_id": "miapi:modular_tower_shield",
     "enchantments": {
         "allowed": [
             "miapi:basic",

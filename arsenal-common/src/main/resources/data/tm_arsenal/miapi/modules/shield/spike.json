@@ -1,8 +1,8 @@
 {
-    "allowedInSlots": [
+    "allowed_in_slots": [
         "shield_attachment_spike"
     ],
-    "allowedMaterial": {
+    "allowed_material": {
         "allowedMaterials": [
             "wood",
             "metal",
@@ -14,7 +14,7 @@
         ],
         "cost": 3
     },
-    "materialProperty": [
+    "material_property": [
         "default",
         "handheld",
         "shield",

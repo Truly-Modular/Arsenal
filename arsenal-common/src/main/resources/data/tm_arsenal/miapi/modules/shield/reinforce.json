@@ -1,5 +1,5 @@
 {
-    "allowedMaterial": {
+    "allowed_material": {
         "allowedMaterials": [
             "fabric",
             "wood",
@@ -12,10 +12,10 @@
         ],
         "cost": 2
     },
-    "allowedInSlots": [
+    "allowed_in_slots": [
         "shield_attachment_reinforce"
     ],
-    "materialProperty": [
+    "material_property": [
         "default",
         "handheld",
         "shield",

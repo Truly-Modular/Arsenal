@@ -25,7 +25,7 @@
             }
         }
     }],
-    "allowedMaterial": {
+    "allowed_material": {
         "allowedMaterials": [
             "banner"
         ],

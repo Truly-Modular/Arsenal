@@ -3,11 +3,11 @@
         "shield_rim"
     ],
     "priority": -3,
-    "repairPriority": -1,
-    "allowedInSlots": [
+    "repair_priority": -1,
+    "allowed_in_slots": [
         "shield_rim"
     ],
-    "allowedMaterial": {
+    "allowed_material": {
         "allowedMaterials": [
             "wood",
             "metal",
@@ -19,7 +19,7 @@
         ],
         "cost": 2
     },
-    "materialProperty": [
+    "material_property": [
         "default",
         "handheld",
         "shield",
