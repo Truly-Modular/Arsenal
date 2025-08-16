@@ -31,7 +31,9 @@
         "default",
         "handheld",
         "blade",
-        "head"
+        "head",
+        "spear",
+        "throwing_weapon"
     ],
     "enchantments": {
         "allowed": [

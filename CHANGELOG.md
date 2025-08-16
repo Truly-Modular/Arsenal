@@ -12,3 +12,4 @@ Slim Guards and Axe-Butt, Pickaxe front and back modules
 - buffed spears projectile damage
 - buffed throwing axes projectile damage
 - nerved socket blade
+- added more material property keys (scythe, sickle, combat_hoe, throwing_weapon, spear, trident)

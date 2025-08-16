@@ -28,6 +28,8 @@
         "default",
         "handheld",
         "blade",
+        "sickle",
+        "combat_hoe",
         "head"
     ],
     "enchantments": {

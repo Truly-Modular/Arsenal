@@ -28,7 +28,9 @@
         "default",
         "handheld",
         "blade",
-        "head"
+        "head",
+        "scythe",
+        "combat_hoe"
     ],
     "enchantments": {
         "allowed": [

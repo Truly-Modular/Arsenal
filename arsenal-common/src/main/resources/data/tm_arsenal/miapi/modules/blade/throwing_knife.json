@@ -25,7 +25,9 @@
         "default",
         "handheld",
         "blade",
-        "head"
+        "head",
+        "blade_short",
+        "throwing_weapon"
     ],
     "enchantments": {
         "allowed": [

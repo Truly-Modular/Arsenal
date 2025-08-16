@@ -43,7 +43,9 @@
         "default",
         "handheld",
         "blade",
-        "head"
+        "head",
+        "throwing_weapon",
+        "trident"
     ],
     "allowed_material": {
         "allowedMaterials": [
