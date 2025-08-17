@@ -16,7 +16,10 @@
     },
     "condition": {
         "type": "miapi_perm",
-        "perms": ["pride","supporter"]
+        "perms": [
+            "pride",
+            "supporter"
+        ]
     },
     "model": {
         "color": "FFFFFF",

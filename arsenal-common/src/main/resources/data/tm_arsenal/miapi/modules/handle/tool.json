@@ -3,28 +3,24 @@
         "path": "miapi:models/item/tool/handle/tool/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         }
     },
     "priority": 3,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "handheld"
-    ],
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/durability",
@@ -34,19 +30,29 @@
     },
     "mining_level": {
         "pickaxe": {
-            "allowed": ["#minecraft:mineable/pickaxe"]
+            "allowed": [
+                "#minecraft:mineable/pickaxe"
+            ]
         },
         "axe": {
-            "allowed": ["#minecraft:mineable/axe"]
+            "allowed": [
+                "#minecraft:mineable/axe"
+            ]
         },
         "shovel": {
-            "allowed": ["#minecraft:mineable/shovel"]
+            "allowed": [
+                "#minecraft:mineable/shovel"
+            ]
         },
         "hoe": {
-            "allowed": ["#minecraft:mineable/hoe"]
+            "allowed": [
+                "#minecraft:mineable/hoe"
+            ]
         },
         "sword": {
-            "allowed": ["#minecraft:mineable/sword"]
+            "allowed": [
+                "#minecraft:mineable/sword"
+            ]
         }
     },
     "allowed_in_slots": [
@@ -61,19 +67,19 @@
             "translationKey": "miapi.slot.tool_head.name",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 8.0,
-                    "y": 7.0,
-                    "z": 0.0
+                    "x": 8,
+                    "y": 7,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         }
@@ -87,7 +93,7 @@
             },
             "translation": {
                 "x": 0,
-                "y": 4.0,
+                "y": 4,
                 "z": 0.5
             },
             "scale": {
@@ -104,7 +110,7 @@
             },
             "translation": {
                 "x": 0,
-                "y": 4.0,
+                "y": 4,
                 "z": 0.5
             },
             "scale": {
@@ -251,5 +257,9 @@
     },
     "is_weapon": false,
     "display_name": "miapi.module.tm_arsenal.handle.tool.name",
-    "item_id": "miapi:modular_handle"
+    "item_id": "miapi:modular_handle",
+    "module_tag": [
+        "default",
+        "handheld"
+    ]
 }

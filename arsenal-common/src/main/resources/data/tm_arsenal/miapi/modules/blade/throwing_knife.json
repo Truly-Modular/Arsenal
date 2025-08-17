@@ -3,13 +3,13 @@
         "path": "miapi:models/item/sword/blade/throwing_knife/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": -2.0,
-                "y": -2.0,
+                "x": -2,
+                "y": -2,
                 "z": -0.001
             },
             "scale": {
@@ -21,14 +21,6 @@
     },
     "priority": 7,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "blade",
-        "head",
-        "blade_short",
-        "throwing_weapon"
-    ],
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/sword",
@@ -42,11 +34,6 @@
         "sword_blade_small"
     ],
     "better_combat_config": "bettercombat:dagger",
-    "tag": [
-        "blade",
-        "blade_short",
-        "polearm_spear"
-    ],
     "water_drag": "0.89",
     "allowed_material": {
         "allowedMaterials": [
@@ -141,9 +128,7 @@
         "blade_size": 1
     },
     "ability_context": {
-        "throw": {
-
-        }
+        "throw": {}
     },
     "display_name": "miapi.module.tm_arsenal.blade.throwing_knife.name",
     "item_id": "miapi:modular_throwing_knife",
@@ -152,5 +137,16 @@
         "c:swords",
         "c:tools/knife",
         "c:knife"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "blade",
+        "head",
+        "blade_short",
+        "throwing_weapon",
+        "blade",
+        "blade_short",
+        "polearm_spear"
     ]
 }

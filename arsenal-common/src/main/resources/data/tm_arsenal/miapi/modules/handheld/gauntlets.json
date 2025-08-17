@@ -4,19 +4,19 @@
             "path": "miapi:models/item/handheld/gauntlets/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         }
@@ -30,11 +30,6 @@
             "minecraft:enchantable/weapon"
         ]
     },
-    "tag": [
-        "gauntlets",
-        "bludgening",
-        "handheld"
-    ],
     "priority": 0,
     "repair_priority": -1,
     "allowed_in_slots": [
@@ -105,13 +100,6 @@
             "slot": "mainhand"
         }
     ],
-    "material_property": [
-        "default",
-        "blade",
-        "handheld",
-        "dual_wield",
-        "head"
-    ],
     "model_transform": {
         "thirdperson_righthand": {
             "rotation": {
@@ -154,14 +142,14 @@
                 "z": 0
             },
             "translation": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         },
         "firstperson_lefthand": {
@@ -171,14 +159,14 @@
                 "z": 0
             },
             "translation": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         },
         "ground": {
@@ -252,5 +240,15 @@
         "fix_left": true
     },
     "durability": "[material.durability]* 0.5",
-    "better_combat_config": "bettercombat:fist"
+    "better_combat_config": "bettercombat:fist",
+    "module_tag": [
+        "default",
+        "blade",
+        "handheld",
+        "dual_wield",
+        "head",
+        "gauntlets",
+        "bludgening",
+        "handheld"
+    ]
 }

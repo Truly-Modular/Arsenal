@@ -7,13 +7,13 @@
             "path": "miapi:models/item/sword/blade/greatsword/trunk/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -5.0,
-                    "y": -4.0,
+                    "x": -5,
+                    "y": -4,
                     "z": 0.01
                 },
                 "scale": {

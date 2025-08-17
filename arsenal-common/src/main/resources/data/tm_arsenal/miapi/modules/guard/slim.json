@@ -3,19 +3,19 @@
         "path": "miapi:models/item/sword/guard/slim/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": -4.0,
-                "y": -4.0,
+                "x": -4,
+                "y": -4,
                 "z": 0.001
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         }
     },
@@ -38,31 +38,23 @@
             "translationKey": "miapi.slot.sword_blade.name",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 2.0,
-                    "y": 2.0,
-                    "z": 0.0
+                    "x": 2,
+                    "y": 2,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         }
     },
-    "material_property": [
-        "default",
-        "handheld"
-    ],
-    "tag": [
-        "guard",
-        "guard_normal"
-    ],
     "attributes": [
         {
             "attribute": "generic.attack_speed",
@@ -88,5 +80,11 @@
     "material_indication": {
         "durability": 1
     },
-    "durability": "[material.durability]* 0.02"
+    "durability": "[material.durability]* 0.02",
+    "module_tag": [
+        "default",
+        "handheld",
+        "guard",
+        "guard_normal"
+    ]
 }

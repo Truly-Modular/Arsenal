@@ -3,28 +3,30 @@
     "allowedInSlots": [
         "banner_cosmetic"
     ],
-    "banner": [{
-        "type": "module_data",
-        "model": "model",
-        "modelType": "parent",
-        "transform": {
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "translation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "scale": {
-                "x": 4.0,
-                "y": 4.0,
-                "z": 4.0
+    "banner": [
+        {
+            "type": "module_data",
+            "model": "model",
+            "modelType": "parent",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 4,
+                    "y": 4,
+                    "z": 4
+                }
             }
         }
-    }],
+    ],
     "allowed_material": {
         "allowedMaterials": [
             "banner"

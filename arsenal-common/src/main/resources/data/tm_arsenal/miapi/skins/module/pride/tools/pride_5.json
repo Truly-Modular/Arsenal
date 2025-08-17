@@ -16,7 +16,13 @@
     },
     "condition": {
         "type": "miapi_perm",
-        "perms": ["pride","supporter","winter","spring","autumn"]
+        "perms": [
+            "pride",
+            "supporter",
+            "winter",
+            "spring",
+            "autumn"
+        ]
     },
     "model": {
         "color": "FFFFFF",

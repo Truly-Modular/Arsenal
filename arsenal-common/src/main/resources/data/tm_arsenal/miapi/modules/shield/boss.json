@@ -1,9 +1,18 @@
 {
-	"allowed_in_slots": ["shield_attachment_boss"],
-	"allowed_material": {
-		"allowedMaterials": ["wood", "metal", "flint", "bone", "stone", "crystal", "glass"],
-		"cost": 1
-	},
-	"durability": "[material.durability]/4"
+    "allowed_in_slots": [
+        "shield_attachment_boss"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 1
+    },
+    "durability": "[material.durability]/4"
 }
-

@@ -5,13 +5,13 @@
             "color_provider": "parent",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 2.0,
-                    "y": 2.0,
+                    "x": 2,
+                    "y": 2,
                     "z": 0.001
                 },
                 "scale": {
@@ -25,14 +25,14 @@
             "path": "miapi:models/item/tool/head/axe_cutter/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -8.0,
-                    "y": -7.0,
-                    "z": 0.0
+                    "x": -8,
+                    "y": -7,
+                    "z": 0
                 },
                 "scale": {
                     "x": 1,
@@ -48,20 +48,12 @@
     },
     "priority": 1,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "axe",
-        "tool",
-        "head"
-    ],
     "better_combat_config": "bettercombat:axe",
     "allowed_in_slots": [
         "tool_head"
     ],
     "ability_context": {
-        "axe_ability": {
-        }
+        "axe_ability": {}
     },
     "enchantments": {
         "allowed": [
@@ -134,7 +126,9 @@
     },
     "mining_level": {
         "axe": {
-            "allowed": ["#minecraft:mineable/axe"],
+            "allowed": [
+                "#minecraft:mineable/axe"
+            ],
             "use_material": true,
             "speed": "[material.mining_speed]/2"
         }
@@ -167,16 +161,21 @@
     ],
     "durability": "[material.durability]* 0.5",
     "display_name": "miapi.module.tm_arsenal.tool.axe_cutter.name",
-    "tag": [
-        "tool_head",
-        "axe_head",
-        "cutter_axe"
-    ],
     "item_id": "miapi:modular_axe",
     "fake_item_tag": [
         "mincraft:axes",
         "c:axes",
         "c:tools",
         "c:tool/axe"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "axe",
+        "tool",
+        "head",
+        "tool_head",
+        "axe_head",
+        "cutter_axe"
     ]
 }

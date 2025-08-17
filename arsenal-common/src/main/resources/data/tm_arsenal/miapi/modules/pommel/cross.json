@@ -3,33 +3,28 @@
         "path": "miapi:models/item/sword/pommel/cross/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": -4.0,
-                "y": -5.0,
+                "x": -4,
+                "y": -5,
                 "z": 0.001
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         }
     },
     "priority": 2,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "handheld"
-    ],
     "allowed_in_slots": [
         "sword_pommel"
     ],
-    "slots": {
-    },
+    "slots": {},
     "allowed_material": {
         "allowedMaterials": [
             "wood",
@@ -74,5 +69,9 @@
         "y": 1,
         "sizeX": 1,
         "sizeY": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "handheld"
+    ]
 }

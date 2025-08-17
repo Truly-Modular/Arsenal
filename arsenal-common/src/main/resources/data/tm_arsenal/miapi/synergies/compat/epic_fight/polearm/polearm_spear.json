@@ -25,5 +25,8 @@
                 }
             }
         }
-    }
+    },
+    "module_tag": [
+        "polearm_spear"
+    ]
 }

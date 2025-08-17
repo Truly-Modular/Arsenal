@@ -1,38 +1,31 @@
 {
-    "model": [{
-        "path": "miapi:models/item/handheld/handle/[material.texture].json",
-        "transform": {
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "translation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+    "model": [
+        {
+            "path": "miapi:models/item/handheld/handle/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
             }
         }
-    }],
-    "handheld_item":true,
+    ],
+    "handheld_item": true,
     "priority": 1,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "handheld"
-    ],
-
     "allowed_in_slots": [
         "melee"
-    ],
-    "tag": [
-        "normal_handle",
-        "handheld_handle"
     ],
     "enchantments": {
         "allowed": [
@@ -50,19 +43,19 @@
             "translationKey": "miapi.slot.guard.name",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         }
@@ -80,9 +73,9 @@
                 "z": -2.25
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         },
         "thirdperson_lefthand": {
@@ -97,9 +90,9 @@
                 "z": -2.25
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         },
         "firstperson_righthand": {
@@ -230,5 +223,11 @@
     },
     "is_weapon": true,
     "display_name": "miapi.module.tm_arsenal.handheld.handle.name",
-    "item_id": "miapi:modular_handheld"
+    "item_id": "miapi:modular_handheld",
+    "module_tag": [
+        "default",
+        "handheld",
+        "normal_handle",
+        "handheld_handle"
+    ]
 }

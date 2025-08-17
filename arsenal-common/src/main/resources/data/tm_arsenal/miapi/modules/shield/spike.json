@@ -14,12 +14,11 @@
         ],
         "cost": 3
     },
-    "material_property": [
+    "durability": "[material.durability]/4",
+    "module_tag": [
         "default",
         "handheld",
         "shield",
         "spike"
-    ],
-    "durability": "[material.durability]/4"
+    ]
 }
-

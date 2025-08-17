@@ -3,14 +3,14 @@
         "path": "miapi:models/item/tool/head/axe_back/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": -2.0,
-                "y": -6.0,
-                "z": 0.0
+                "x": -2,
+                "y": -6,
+                "z": 0
             },
             "scale": {
                 "x": 1,
@@ -21,13 +21,6 @@
     },
     "priority": 2,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "axe",
-        "tool",
-        "head"
-    ],
     "allowed_in_slots": [
         "tool_head_back"
     ],
@@ -54,7 +47,9 @@
     "better_combat_config": "bettercombat:double_axe",
     "mining_level": {
         "axe": {
-            "allowed": ["#minecraft:mineable/axe"],
+            "allowed": [
+                "#minecraft:mineable/axe"
+            ],
             "speed": "[material.mining_speed]/1.3"
         }
     },
@@ -75,23 +70,27 @@
     "gui_offset": {
         "x": -1
     },
-    "tag": [
-        "tool_head",
-        "axe_head"
-    ],
     "material_indication": {
         "durability": 1,
         "mining_speed": 1
     },
     "durability": "[material.durability]* 0.33",
     "ability_context": {
-        "axe_ability": {
-        }
+        "axe_ability": {}
     },
     "fake_item_tag": [
         "mincraft:axes",
         "c:axes",
         "c:tools",
         "c:tool/axe"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "axe",
+        "tool",
+        "head",
+        "tool_head",
+        "axe_head"
     ]
 }

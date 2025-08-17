@@ -15,9 +15,9 @@
                     "path": "miapi:models/item/handheld/shield/round_shield/round_shield_spikes.json",
                     "transform": {
                         "rotation": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
                         },
                         "translation": {
                             "x": -3.2,

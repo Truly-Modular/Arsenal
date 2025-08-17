@@ -2,9 +2,21 @@
     "model": {
         "path": "miapi:models/item/sword/handle/two_handed/[material.texture].json",
         "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
-            "translation": {"x": -4.0, "y": -5.0, "z": 0.0},
-            "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": -4,
+                "y": -5,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
         }
     },
     "allowed_in_slots": [
@@ -17,15 +29,8 @@
             "minecraft:enchantable/vanishing"
         ]
     },
-    "material_property": [
-        "default",
-        "handheld"
-    ],
     "priority": 4,
     "repair_priority": 0,
-    "tag": [
-        "twin_handle"
-    ],
     "slots": {
         "guard": {
             "allowed": [
@@ -35,9 +40,21 @@
             "priority": 0,
             "translationKey": "miapi.slot.guard.name",
             "transform": {
-                "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
-                "translation": {"x": 2.0, "y": 2.0, "z": 0.0},
-                "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
             }
         },
         "guard-inverse": {
@@ -49,9 +66,21 @@
             "priority": -1,
             "translationKey": "miapi.slot.guard.name",
             "transform": {
-                "rotation": {"x": 0.0, "y": 0.0, "z": 180.0},
-                "translation": {"x": 4.0, "y": 4.0, "z": 0.0},
-                "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 4,
+                    "y": 4,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
             }
         }
     },
@@ -64,7 +93,7 @@
             },
             "translation": {
                 "x": 0,
-                "y": 4.0,
+                "y": 4,
                 "z": 0.5
             },
             "scale": {
@@ -81,7 +110,7 @@
             },
             "translation": {
                 "x": 0,
-                "y": 4.0,
+                "y": 4,
                 "z": 0.5
             },
             "scale": {
@@ -234,39 +263,54 @@
     },
     "mining_level": {
         "pickaxe": {
-            "allowed": ["#minecraft:mineable/pickaxe"],
+            "allowed": [
+                "#minecraft:mineable/pickaxe"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.60"
             }
         },
         "axe": {
-            "allowed": ["#minecraft:mineable/axe"],
+            "allowed": [
+                "#minecraft:mineable/axe"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.60"
             }
         },
         "shovel": {
-            "allowed": ["#minecraft:mineable/shovel"],
+            "allowed": [
+                "#minecraft:mineable/shovel"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.60"
             }
         },
         "hoe": {
-            "allowed": ["#minecraft:mineable/hoe"],
+            "allowed": [
+                "#minecraft:mineable/hoe"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.60"
             }
         },
         "sword": {
-            "allowed": ["#minecraft:mineable/sword"]
+            "allowed": [
+                "#minecraft:mineable/sword"
+            ]
         }
     },
     "durability": "[material.durability]* 0.25",
     "is_weapon": true,
     "display_name": "miapi.module.tm_arsenal.handle.twin.name",
-    "item_id": "miapi:modular_handle"
+    "item_id": "miapi:modular_handle",
+    "module_tag": [
+        "default",
+        "handheld",
+        "twin_handle"
+    ]
 }

@@ -7,13 +7,13 @@
             "path": "miapi:models/item/sword/blade/dagger/cold_embrace/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -4.0,
-                    "y": -6.0,
+                    "x": -4,
+                    "y": -6,
                     "z": 0.01
                 },
                 "scale": {

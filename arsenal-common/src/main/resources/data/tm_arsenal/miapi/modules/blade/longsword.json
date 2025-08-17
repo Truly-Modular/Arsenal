@@ -3,13 +3,13 @@
         "path": "miapi:models/item/sword/blade/longsword/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": 0.0,
-                "y": 0.0,
+                "x": 0,
+                "y": 0,
                 "z": -0.001
             },
             "scale": {
@@ -20,12 +20,6 @@
         }
     },
     "priority": 1,
-    "material_property": [
-        "default",
-        "handheld",
-        "blade",
-        "head"
-    ],
     "repair_priority": -1,
     "gui_offset": {
         "sizeX": 2,
@@ -33,18 +27,12 @@
     },
     "enchantments": {
         "allowed": [
-
             "minecraft:enchantable/sword",
             "minecraft:enchantable/fire_aspect",
             "minecraft:enchantable/sharp_weapon",
             "minecraft:enchantable/weapon"
         ]
     },
-    "tag": [
-        "blade",
-        "blade_large",
-        "polearm_halberd"
-    ],
     "better_combat_config": "bettercombat:claymore",
     "allowed_in_slots": [
         "sword_blade_large"
@@ -97,12 +85,18 @@
     ],
     "mining_level": {
         "sword": {
-            "allowed": ["#minecraft:sword_efficient"],
+            "allowed": [
+                "#minecraft:sword_efficient"
+            ],
             "use_material": false,
             "speed": "1.5"
         },
         "cobweb": {
-            "allowed": [["minecraft:cobweb"]],
+            "allowed": [
+                [
+                    "minecraft:cobweb"
+                ]
+            ],
             "use_material": false,
             "correct_for_drops": true,
             "speed": "15"
@@ -114,5 +108,14 @@
     "fake_item_tag": [
         "mincraft:swords",
         "c:swords"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "blade",
+        "head",
+        "blade",
+        "blade_large",
+        "polearm_halberd"
     ]
 }

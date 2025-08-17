@@ -4,14 +4,14 @@
             "path": "miapi:models/item/tool/head/hammer/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -7.0,
-                    "y": -7.0,
-                    "z": 0.0
+                    "x": -7,
+                    "y": -7,
+                    "z": 0
                 },
                 "scale": {
                     "x": 1,
@@ -30,14 +30,6 @@
     },
     "priority": 1,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "pickaxe",
-        "hammer",
-        "tool",
-        "head"
-    ],
     "better_combat_config": "bettercombat:hammer",
     "allowed_in_slots": [
         "tool_head"
@@ -54,7 +46,9 @@
         {
             "condition": {
                 "type": "block_tag",
-                "tags": ["mineable/pickaxe"]
+                "tags": [
+                    "mineable/pickaxe"
+                ]
             },
             "modifier": {
                 "require_same": true
@@ -85,7 +79,9 @@
     },
     "mining_level": {
         "pickaxe": {
-            "allowed": ["#minecraft:mineable/pickaxe"],
+            "allowed": [
+                "#minecraft:mineable/pickaxe"
+            ],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }
@@ -128,11 +124,6 @@
         }
     ],
     "durability": "[material.durability]* 0.5",
-    "tag": [
-        "tool_head",
-        "pickaxe_head",
-        "hammer"
-    ],
     "display_name": "miapi.module.tm_arsenal.tool.hammer.name",
     "item_id": "miapi:modular_hammer",
     "fake_item_tag": [
@@ -140,5 +131,16 @@
         "c:pickaxe",
         "c:tools",
         "c:tool/pickaxe"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "pickaxe",
+        "hammer",
+        "tool",
+        "head",
+        "tool_head",
+        "pickaxe_head",
+        "hammer"
     ]
 }

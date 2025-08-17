@@ -7,14 +7,14 @@
             "path": "miapi:models/item/sword/blade/katana/game_breaker/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -14.0,
-                    "y": -14.0,
-                    "z": 0.0
+                    "x": -14,
+                    "y": -14,
+                    "z": 0
                 },
                 "scale": {
                     "x": 4,
@@ -30,7 +30,10 @@
     },
     "condition": {
         "type": "miapi_perm",
-        "perms": ["game_breaker","989d88f0-eb7e-436f-b0da-d72b97fa4079"]
+        "perms": [
+            "game_breaker",
+            "989d88f0-eb7e-436f-b0da-d72b97fa4079"
+        ]
     },
     "model": {
         "color": "FFFFFF",

@@ -3,9 +3,9 @@
         {
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
                     "x": 0.39,
@@ -23,20 +23,9 @@
     "allowed_in_slots": [
         "gem_melee_medium"
     ],
-    "material_property": [
-        "default",
-        "gem_melee_handheld",
-        "gem_melee_generic"
-    ],
     "module_stats": {
         "gem_power": 2
     },
-    "tag": [
-        "gem_melee",
-        "gem_melee_medium",
-        "gem_melee_generic",
-        "gem_melee_medium_generic"
-    ],
     "aquatic_damage": "3+[module.gem_power]/2",
     "attributes": [
         {
@@ -85,5 +74,14 @@
     },
     "rarity": "uncommon",
     "priority": 1,
-    "repair_priority": 0
+    "repair_priority": 0,
+    "module_tag": [
+        "default",
+        "gem_melee_handheld",
+        "gem_melee_generic",
+        "gem_melee",
+        "gem_melee_medium",
+        "gem_melee_generic",
+        "gem_melee_medium_generic"
+    ]
 }

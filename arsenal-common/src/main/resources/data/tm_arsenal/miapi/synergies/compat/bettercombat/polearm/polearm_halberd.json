@@ -12,5 +12,8 @@
         "replace": {
             "better_combat_config": "bettercombat:halberd"
         }
-    }
+    },
+    "module_tag": [
+        "polearm_halberd2"
+    ]
 }

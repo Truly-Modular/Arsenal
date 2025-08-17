@@ -5,13 +5,13 @@
             "color": "[material.color]",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -3.0,
-                    "y": -3.0,
+                    "x": -3,
+                    "y": -3,
                     "z": -0.001
                 },
                 "scale": {
@@ -27,14 +27,6 @@
     },
     "priority": 1,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "blade",
-        "head",
-        "spear",
-        "throwing_weapon"
-    ],
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/sword",
@@ -59,11 +51,6 @@
         ],
         "cost": 1
     },
-    "tag": [
-        "blade",
-        "polearm_spear",
-        "spear"
-    ],
     "material_indication": {
         "hardness": {
             "strength": 2,
@@ -115,8 +102,7 @@
     ],
     "durability": "[material.durability]* 0.65",
     "ability_context": {
-        "throw": {
-        }
+        "throw": {}
     },
     "water_drag": "0.97",
     "gui_offset": {
@@ -144,5 +130,16 @@
     },
     "better_combat_config": "bettercombat:spear",
     "display_name": "miapi.module.tm_arsenal.blade.spear.name",
-    "item_id": "miapi:modular_spear"
+    "item_id": "miapi:modular_spear",
+    "module_tag": [
+        "default",
+        "handheld",
+        "blade",
+        "head",
+        "spear",
+        "throwing_weapon",
+        "blade",
+        "polearm_spear",
+        "spear"
+    ]
 }

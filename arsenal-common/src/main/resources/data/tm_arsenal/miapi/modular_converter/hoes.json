@@ -1,18 +1,24 @@
 {
     "minecraft:wooden_hoe": {
         "key": "tm_arsenal:handle/tool",
-        "data": {"material":"miapi:wood/wood"},
+        "data": {
+            "material": "miapi:wood/wood"
+        },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
                         "key": "tm_arsenal:tool/hoe_front",
-                        "data": {"material":"miapi:wood/wood"},
+                        "data": {
+                            "material": "miapi:wood/wood"
+                        },
                         "child": {
                             "tool_back": {
                                 "key": "tm_arsenal:tool/tool_back",
-                                "data": {"material":"miapi:wood/wood"},
+                                "data": {
+                                    "material": "miapi:wood/wood"
+                                },
                                 "child": {}
                             }
                         }
@@ -23,18 +29,24 @@
     },
     "minecraft:stone_hoe": {
         "key": "tm_arsenal:handle/tool",
-        "data": {"material":"miapi:wood/wood"},
+        "data": {
+            "material": "miapi:wood/wood"
+        },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
                         "key": "tm_arsenal:tool/hoe_front",
-                        "data": {"material":"miapi:stone/stone"},
+                        "data": {
+                            "material": "miapi:stone/stone"
+                        },
                         "child": {
                             "tool_back": {
                                 "key": "tm_arsenal:tool/tool_back",
-                                "data": {"material":"miapi:stone/stone"},
+                                "data": {
+                                    "material": "miapi:stone/stone"
+                                },
                                 "child": {}
                             }
                         }
@@ -45,18 +57,24 @@
     },
     "minecraft:iron_hoe": {
         "key": "tm_arsenal:handle/tool",
-        "data": {"material":"miapi:wood/wood"},
+        "data": {
+            "material": "miapi:wood/wood"
+        },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
                         "key": "tm_arsenal:tool/hoe_front",
-                        "data": {"material":"miapi:metal/iron"},
+                        "data": {
+                            "material": "miapi:metal/iron"
+                        },
                         "child": {
                             "tool_back": {
                                 "key": "tm_arsenal:tool/tool_back",
-                                "data": {"material":"miapi:metal/iron"},
+                                "data": {
+                                    "material": "miapi:metal/iron"
+                                },
                                 "child": {}
                             }
                         }
@@ -67,18 +85,24 @@
     },
     "minecraft:golden_hoe": {
         "key": "tm_arsenal:handle/tool",
-        "data": {"material":"miapi:wood/wood"},
+        "data": {
+            "material": "miapi:wood/wood"
+        },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
                         "key": "tm_arsenal:tool/hoe_front",
-                        "data": {"material":"miapi:metal/gold"},
+                        "data": {
+                            "material": "miapi:metal/gold"
+                        },
                         "child": {
                             "tool_back": {
                                 "key": "tm_arsenal:tool/tool_back",
-                                "data": {"material":"miapi:metal/gold"},
+                                "data": {
+                                    "material": "miapi:metal/gold"
+                                },
                                 "child": {}
                             }
                         }
@@ -89,18 +113,24 @@
     },
     "minecraft:diamond_hoe": {
         "key": "tm_arsenal:handle/tool",
-        "data": {"material":"miapi:wood/wood"},
+        "data": {
+            "material": "miapi:wood/wood"
+        },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
                         "key": "tm_arsenal:tool/hoe_front",
-                        "data": {"material":"miapi:crystal/diamond"},
+                        "data": {
+                            "material": "miapi:crystal/diamond"
+                        },
                         "child": {
                             "tool_back": {
                                 "key": "tm_arsenal:tool/tool_back",
-                                "data": {"material":"miapi:crystal/diamond"},
+                                "data": {
+                                    "material": "miapi:crystal/diamond"
+                                },
                                 "child": {}
                             }
                         }
@@ -111,18 +141,24 @@
     },
     "minecraft:netherite_hoe": {
         "key": "tm_arsenal:handle/tool",
-        "data": {"material":"miapi:wood/wood"},
+        "data": {
+            "material": "miapi:wood/wood"
+        },
         "child": {
             "guard": {
                 "key": "tm_arsenal:guard/tool_adapter",
                 "child": {
                     "tool_head": {
                         "key": "tm_arsenal:tool/hoe_front",
-                        "data": {"material":"miapi:metal/netherite"},
+                        "data": {
+                            "material": "miapi:metal/netherite"
+                        },
                         "child": {
                             "tool_back": {
                                 "key": "tm_arsenal:tool/tool_back",
-                                "data": {"material":"miapi:metal/netherite"},
+                                "data": {
+                                    "material": "miapi:metal/netherite"
+                                },
                                 "child": {}
                             }
                         }

@@ -5,19 +5,19 @@
             "banner_mode": "40.banner",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         },
@@ -26,19 +26,19 @@
             "color_provider": "parent",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         }
@@ -51,12 +51,6 @@
             "miapi:shield"
         ]
     },
-    "tag": [
-        "custom_handle",
-        "shield",
-        "handheld",
-        "heater_shield"
-    ],
     "priority": -3,
     "repair_priority": -1,
     "allowed_in_slots": [
@@ -74,13 +68,6 @@
         ],
         "cost": 1
     },
-    "material_property": [
-        "default",
-        "blade",
-        "handheld",
-        "dual_wield",
-        "head"
-    ],
     "model_transform": {
         "thirdperson_righthand": {
             "rotation": {
@@ -108,7 +95,7 @@
             "translation": {
                 "x": -3,
                 "y": -4,
-                "z": 2.0
+                "z": 2
             },
             "scale": {
                 "x": 0.8,
@@ -128,9 +115,9 @@
                 "z": 2
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         },
         "firstperson_lefthand": {
@@ -145,9 +132,9 @@
                 "z": 2
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         },
         "ground": {
@@ -169,9 +156,9 @@
         },
         "fixed": {
             "translation": {
-                "x": 0.0,
-                "y": -2.0,
-                "z": -1.0
+                "x": 0,
+                "y": -2,
+                "z": -1
             },
             "rotation": {
                 "x": 0,
@@ -213,19 +200,19 @@
             "translationKey": "miapi.slot.shield.attachment.name",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         },
@@ -236,9 +223,9 @@
             "translationKey": "miapi.slot.shield.rim.name",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
                     "x": 0,
@@ -246,9 +233,9 @@
                     "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         },
@@ -260,12 +247,12 @@
             "translationKey": "miapi.shield.banner.name",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 8.0,
+                    "x": 8,
                     "y": 15.7,
                     "z": 7.2
                 },
@@ -289,6 +276,16 @@
             "respect_attacker_weapon_ratio": "0.3",
             "sound": "minecraft:item.shield.block"
         }
-    }
+    },
+    "module_tag": [
+        "default",
+        "blade",
+        "handheld",
+        "dual_wield",
+        "head",
+        "custom_handle",
+        "shield",
+        "handheld",
+        "heater_shield"
+    ]
 }
-

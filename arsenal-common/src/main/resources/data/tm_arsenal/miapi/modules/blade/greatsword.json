@@ -3,13 +3,13 @@
         "path": "miapi:models/item/sword/blade/greatsword/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": 1.0,
-                "y": 1.0,
+                "x": 1,
+                "y": 1,
                 "z": -0.001
             },
             "scale": {
@@ -20,12 +20,6 @@
         }
     },
     "priority": 4,
-    "material_property": [
-        "default",
-        "handheld",
-        "blade",
-        "head"
-    ],
     "repair_priority": -1,
     "enchantments": {
         "allowed": [
@@ -37,13 +31,6 @@
     },
     "allowed_in_slots": [
         "sword_blade_large"
-    ],
-    "tag": [
-        "blade",
-        "blade_large",
-        "polearm_glaive",
-        "blade_greatsword",
-        "blade_shield_break"
     ],
     "allowed_material": {
         "allowedMaterials": [
@@ -129,5 +116,16 @@
     "fake_item_tag": [
         "mincraft:swords",
         "c:swords"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "blade",
+        "head",
+        "blade",
+        "blade_large",
+        "polearm_glaive",
+        "blade_greatsword",
+        "blade_shield_break"
     ]
 }

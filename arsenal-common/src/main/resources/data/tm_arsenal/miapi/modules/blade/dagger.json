@@ -5,13 +5,13 @@
             "color": "[material.color]",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -2.0,
-                    "y": -2.0,
+                    "x": -2,
+                    "y": -2,
                     "z": -0.001
                 },
                 "scale": {
@@ -49,11 +49,6 @@
             "minecraft:enchantable/weapon"
         ]
     },
-    "tag": [
-        "blade",
-        "blade_short",
-        "polearm_spear"
-    ],
     "priority": 5,
     "repair_priority": -1,
     "allowed_in_slots": [
@@ -101,12 +96,6 @@
             "slot": "mainhand"
         }
     ],
-    "material_property": [
-        "default",
-        "blade",
-        "handheld",
-        "head"
-    ],
     "durability": "[material.durability]* 0.15",
     "better_combat_config": "bettercombat:dagger",
     "crafting_condition": {
@@ -122,12 +111,18 @@
     },
     "mining_level": {
         "sword": {
-            "allowed": ["#minecraft:sword_efficient"],
+            "allowed": [
+                "#minecraft:sword_efficient"
+            ],
             "use_material": false,
             "speed": "1.5"
         },
         "cobweb": {
-            "allowed": [["minecraft:cobweb"]],
+            "allowed": [
+                [
+                    "minecraft:cobweb"
+                ]
+            ],
             "use_material": false,
             "correct_for_drops": true,
             "speed": "15"
@@ -140,5 +135,14 @@
         "c:swords",
         "c:tools/knife",
         "c:knife"
+    ],
+    "module_tag": [
+        "default",
+        "blade",
+        "handheld",
+        "head",
+        "blade",
+        "blade_short",
+        "polearm_spear"
     ]
 }

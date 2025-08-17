@@ -1,7 +1,4 @@
 {
-    "tag": [
-        "shield_rim"
-    ],
     "priority": -3,
     "repair_priority": -1,
     "allowed_in_slots": [
@@ -19,12 +16,12 @@
         ],
         "cost": 2
     },
-    "material_property": [
+    "durability": "[material.durability]/2",
+    "module_tag": [
         "default",
         "handheld",
         "shield",
-        "rim"
-    ],
-    "durability": "[material.durability]/2"
+        "rim",
+        "shield_rim"
+    ]
 }
-

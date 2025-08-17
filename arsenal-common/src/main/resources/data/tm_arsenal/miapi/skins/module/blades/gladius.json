@@ -7,14 +7,14 @@
             "path": "miapi:models/item/sword/blade/longsword/gladius/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "scale": {
                     "x": 1,
@@ -26,7 +26,11 @@
     },
     "condition": {
         "type": "miapi_perm",
-        "perms": ["user","supporter","gladius"]
+        "perms": [
+            "user",
+            "supporter",
+            "gladius"
+        ]
     },
     "model": {
         "color": "FFFFFF",

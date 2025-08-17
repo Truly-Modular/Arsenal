@@ -5,13 +5,13 @@
             "color_provider": "parent",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 2.0,
-                    "y": 2.0,
+                    "x": 2,
+                    "y": 2,
                     "z": 0.001
                 },
                 "scale": {
@@ -25,14 +25,14 @@
             "path": "miapi:models/item/tool/head/shovel/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -8.0,
-                    "y": -7.0,
-                    "z": 0.0
+                    "x": -8,
+                    "y": -7,
+                    "z": 0
                 },
                 "scale": {
                     "x": 1,
@@ -47,16 +47,8 @@
     },
     "priority": 2,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "shovel",
-        "tool",
-        "head"
-    ],
     "ability_context": {
-        "shovel_ability": {
-        }
+        "shovel_ability": {}
     },
     "allowed_in_slots": [
         "tool_head"
@@ -71,7 +63,9 @@
     },
     "mining_level": {
         "shovel": {
-            "allowed": ["#minecraft:mineable/shovel"],
+            "allowed": [
+                "#minecraft:mineable/shovel"
+            ],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }
@@ -120,15 +114,20 @@
         "cost": 1
     },
     "display_name": "miapi.module.tm_arsenal.tool.shovel.name",
-    "tag": [
-        "tool_head",
-        "shovel_head"
-    ],
     "item_id": "miapi:modular_shovel",
     "fake_item_tag": [
         "mincraft:shovels",
         "c:shovels",
         "c:tools",
         "c:tool/shovel"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "shovel",
+        "tool",
+        "head",
+        "tool_head",
+        "shovel_head"
     ]
 }

@@ -2,20 +2,9 @@
     "allowed_in_slots": [
         "gem_melee_medium"
     ],
-    "material_property": [
-        "default",
-        "gem_melee_handheld",
-        "gem_melee_generic"
-    ],
     "module_stats": {
         "gem_power": 2
     },
-    "tag": [
-        "gem_melee",
-        "gem_melee_medium",
-        "gem_melee_generic",
-        "gem_melee_medium_generic"
-    ],
     "priority": 4,
     "repair_priority": 0,
     "crafting_condition": {
@@ -50,9 +39,9 @@
             "tick": true,
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": -45.0
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
                 },
                 "translation": {
                     "x": 0.45,
@@ -69,7 +58,7 @@
     ],
     "on_kill_explosion": {
         "destroyBlocks": false,
-        "strength": 3.0,
+        "strength": 3,
         "entityMaxDamage": 12,
         "entityStrength": 15,
         "entityRadius": 7
@@ -92,5 +81,14 @@
             "miapi:custom/end_crystal"
         ],
         "cost": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "gem_melee_handheld",
+        "gem_melee_generic",
+        "gem_melee",
+        "gem_melee_medium",
+        "gem_melee_generic",
+        "gem_melee_medium_generic"
+    ]
 }

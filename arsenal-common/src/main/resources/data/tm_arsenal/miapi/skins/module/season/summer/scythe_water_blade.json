@@ -7,13 +7,13 @@
             "path": "miapi:models/item/sword/blade/scythe/water_blade/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -3.0,
-                    "y": -3.0,
+                    "x": -3,
+                    "y": -3,
                     "z": 0.01
                 },
                 "scale": {

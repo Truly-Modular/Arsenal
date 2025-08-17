@@ -1,25 +1,27 @@
 {
-    "model": [{
-        "path": "miapi:models/item/handheld/knuckles/[material.texture].json",
-        "transform": {
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "translation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+    "model": [
+        {
+            "path": "miapi:models/item/handheld/knuckles/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
             }
         }
-    }],
-    "handheld_item":true,
+    ],
+    "handheld_item": true,
     "display_name": "miapi.module.tm_arsenal.handheld.knuckles.name",
     "item_id": "miapi:modular_knuckles",
     "enchantments": {
@@ -28,11 +30,6 @@
             "minecraft:enchantable/weapon"
         ]
     },
-    "tag": [
-        "knuckles",
-        "bludgening",
-        "handheld"
-    ],
     "priority": 0,
     "repair_priority": -1,
     "allowed_in_slots": [
@@ -95,13 +92,16 @@
         },
         "durability": 1
     },
-    "material_property": [
+    "durability": "[material.durability]* 0.5",
+    "better_combat_config": "bettercombat:fist",
+    "module_tag": [
         "default",
         "blade",
         "handheld",
         "dual_wield",
-        "head"
-    ],
-    "durability": "[material.durability]* 0.5",
-    "better_combat_config": "bettercombat:fist"
+        "head",
+        "knuckles",
+        "bludgening",
+        "handheld"
+    ]
 }

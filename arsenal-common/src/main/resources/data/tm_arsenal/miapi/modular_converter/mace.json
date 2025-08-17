@@ -10,7 +10,9 @@
                 "child": {
                     "tool_head": {
                         "key": "tm_arsenal:blade/mace",
-                        "data": {"material":"miapi:custom/heavy_core"}
+                        "data": {
+                            "material": "miapi:custom/heavy_core"
+                        }
                     }
                 }
             }

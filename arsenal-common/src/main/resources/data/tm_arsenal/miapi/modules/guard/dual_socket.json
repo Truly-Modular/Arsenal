@@ -2,7 +2,21 @@
     "model": {
         "path": "miapi:models/item/sword/guard/dual_socket/[material.texture].json",
         "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -4.0, "z": 0.001}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": -4,
+                "y": -4,
+                "z": 0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
         }
     },
     "allowed_in_slots": [
@@ -11,35 +25,91 @@
     ],
     "slots": {
         "blade": {
-            "allowed": ["sword_blade","sword_blade_small","sword_blade_large"],
-            "allowedMerge": ["small_blade","medium_blade","large_blade"],
+            "allowed": [
+                "sword_blade",
+                "sword_blade_small",
+                "sword_blade_large"
+            ],
+            "allowedMerge": [
+                "small_blade",
+                "medium_blade",
+                "large_blade"
+            ],
             "translationKey": "miapi.slot.sword_blade.name",
             "priority": 0,
-            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 2.0, "y": 2.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
         },
         "socket_small_left": {
-            "allowed": ["gem_melee_small"],
-            "allowedMerge": ["socket_small"],
+            "allowed": [
+                "gem_melee_small"
+            ],
+            "allowedMerge": [
+                "socket_small"
+            ],
             "translationKey": "miapi.slot.gem.name",
             "priority": -10,
-            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -4.0, "y": -5.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": -4,
+                    "y": -5,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
         },
         "socket_right": {
-            "allowed": ["gem_melee_small"],
-            "allowedMerge": ["socket_small"],
+            "allowed": [
+                "gem_melee_small"
+            ],
+            "allowedMerge": [
+                "socket_small"
+            ],
             "translationKey": "miapi.slot.gem.name",
             "priority": -10,
-            "transform": {"rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": -5.0, "y": -4.0, "z": 0.0},"scale": {"x": 1.0, "y": 1.0, "z": 1.0}}
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": -5,
+                    "y": -4,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
         }
     },
-    "tag": [
-        "guard",
-        "guard_normal"
-    ],
-    "material_property": [
-        "default",
-        "handheld"
-    ],
     "attributes": [
         {
             "attribute": "generic.attack_speed",
@@ -65,5 +135,11 @@
             "glass"
         ],
         "cost": 2
-    }
+    },
+    "module_tag": [
+        "default",
+        "handheld",
+        "guard",
+        "guard_normal"
+    ]
 }

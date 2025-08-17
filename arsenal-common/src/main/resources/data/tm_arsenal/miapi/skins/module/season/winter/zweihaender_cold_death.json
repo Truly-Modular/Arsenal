@@ -7,13 +7,13 @@
             "path": "miapi:models/item/sword/blade/zweihaender/cold_death/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -9.0,
-                    "y": -9.0,
+                    "x": -9,
+                    "y": -9,
                     "z": 0.01
                 },
                 "scale": {

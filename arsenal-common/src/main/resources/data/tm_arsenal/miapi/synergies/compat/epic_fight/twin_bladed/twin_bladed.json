@@ -18,12 +18,15 @@
                 "type": "epicfight:sword",
                 "attributes": {
                     "common": {
-                        "armor_negation": 0.0,
+                        "armor_negation": 0,
                         "impact": 1.1,
                         "max_strikes": 1
                     }
                 }
             }
         }
-    }
+    },
+    "module_tag": [
+        "blade"
+    ]
 }

@@ -12,5 +12,8 @@
         "replace": {
             "better_combat_config": "bettercombat:glaive"
         }
-    }
+    },
+    "module_tag": [
+        "polearm_glaive"
+    ]
 }

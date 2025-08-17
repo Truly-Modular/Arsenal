@@ -8,14 +8,14 @@
                 "path": "miapi:models/item/sword/blade/longsword/omens/[material.texture].json",
                 "transform": {
                     "rotation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
                     },
                     "translation": {
-                        "x": -10.0,
-                        "y": -10.0,
-                        "z": 0.0
+                        "x": -10,
+                        "y": -10,
+                        "z": 0
                     },
                     "scale": {
                         "x": 4,
@@ -28,14 +28,14 @@
                 "path": "miapi:models/item/sword/blade/longsword/omens/no_material.json",
                 "transform": {
                     "rotation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
                     },
                     "translation": {
-                        "x": -10.0,
-                        "y": -10.0,
-                        "z": 0.0
+                        "x": -10,
+                        "y": -10,
+                        "z": 0
                     },
                     "scale": {
                         "x": 4,

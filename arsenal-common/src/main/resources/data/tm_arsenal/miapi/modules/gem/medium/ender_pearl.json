@@ -2,25 +2,30 @@
     "model": {
         "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
         "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
         }
     },
-    "allowed_in_slots": ["gem_melee_medium"],
-    "material_property": [
-        "default",
-        "gem_melee_handheld",
-        "gem_melee_generic"
+    "allowed_in_slots": [
+        "gem_melee_medium"
     ],
     "mining_telekinesis": true,
     "module_stats": {
         "gem_power": 2
     },
-    "tag": [
-        "gem_melee",
-        "gem_melee_medium",
-        "gem_melee_generic",
-        "gem_melee_medium_generic"
-    ],
     "on_attack_potion": [
         {
             "potion": "miapi:teleport_block",
@@ -32,7 +37,7 @@
     ],
     "gui_stat": {
         "teleport_block": {
-            "value":"[module.gem_power]+3",
+            "value": "[module.gem_power]+3",
             "min": 0,
             "max": 1,
             "header": {
@@ -51,5 +56,14 @@
             "miapi:custom/ender_pearl"
         ],
         "cost": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "gem_melee_handheld",
+        "gem_melee_generic",
+        "gem_melee",
+        "gem_melee_medium",
+        "gem_melee_generic",
+        "gem_melee_medium_generic"
+    ]
 }

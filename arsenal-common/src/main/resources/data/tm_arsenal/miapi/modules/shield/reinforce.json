@@ -15,12 +15,11 @@
     "allowed_in_slots": [
         "shield_attachment_reinforce"
     ],
-    "material_property": [
+    "durability": "[material.durability]/3",
+    "module_tag": [
         "default",
         "handheld",
         "shield",
         "reinforce"
-    ],
-    "durability": "[material.durability]/3"
+    ]
 }
-

@@ -5,13 +5,13 @@
             "color": "model",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -2.0,
-                    "y": -2.0,
+                    "x": -2,
+                    "y": -2,
                     "z": -0.001
                 },
                 "scale": {
@@ -29,10 +29,6 @@
             "minecraft:enchantable/weapon"
         ]
     },
-    "tag": [
-        "mace",
-        "blunt_weapon"
-    ],
     "priority": 5,
     "repair_priority": -1,
     "allowed_in_slots": [
@@ -75,12 +71,6 @@
             "slot": "mainhand"
         }
     ],
-    "material_property": [
-        "default",
-        "mace",
-        "handheld",
-        "head"
-    ],
     "rarity": "epic",
     "durability": "400",
     "better_combat_config": "bettercombat:mace",
@@ -89,5 +79,13 @@
         "sizeY": -2
     },
     "display_name": "miapi.module.tm_arsenal.blade.mace.name",
-    "item_id": "miapi:modular_mace"
+    "item_id": "miapi:modular_mace",
+    "module_tag": [
+        "default",
+        "mace",
+        "handheld",
+        "head",
+        "mace",
+        "blunt_weapon"
+    ]
 }

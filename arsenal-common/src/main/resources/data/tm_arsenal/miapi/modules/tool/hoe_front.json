@@ -5,13 +5,13 @@
             "color_provider": "parent",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 2.0,
-                    "y": 2.0,
+                    "x": 2,
+                    "y": 2,
                     "z": 0.001
                 },
                 "scale": {
@@ -26,13 +26,13 @@
             "color_provider": "parent",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 2.0,
-                    "y": 2.0,
+                    "x": 2,
+                    "y": 2,
                     "z": 0.001
                 },
                 "scale": {
@@ -46,14 +46,14 @@
             "path": "miapi:models/item/tool/head/hoe_front/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -8.0,
-                    "y": -7.0,
-                    "z": 0.0
+                    "x": -8,
+                    "y": -7,
+                    "z": 0
                 },
                 "scale": {
                     "x": 1,
@@ -68,19 +68,11 @@
     },
     "priority": 3,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "tool",
-        "hoe",
-        "head"
-    ],
     "allowed_in_slots": [
         "tool_head"
     ],
     "ability_context": {
-        "hoe_ability": {
-        }
+        "hoe_ability": {}
     },
     "enchantments": {
         "allowed": [
@@ -102,26 +94,28 @@
             "translationKey": "miapi.slot.tool_back.name",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         }
     },
     "mining_level": {
         "hoe": {
-            "allowed": ["#minecraft:mineable/hoe"],
+            "allowed": [
+                "#minecraft:mineable/hoe"
+            ],
             "use_material": true,
             "speed": "[material.mining_speed]"
         }
@@ -166,15 +160,20 @@
         "cost": 1
     },
     "display_name": "miapi.module.tm_arsenal.tool.hoe_front.name",
-    "tag": [
-        "tool_head",
-        "hoe_head"
-    ],
     "item_id": "miapi:modular_hoe",
     "fake_item_tag": [
         "mincraft:hoes",
         "c:hoes",
         "c:tools",
         "c:tool/hoe"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "tool",
+        "hoe",
+        "head",
+        "tool_head",
+        "hoe_head"
     ]
 }

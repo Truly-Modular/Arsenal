@@ -16,9 +16,9 @@
                     "path": "miapi:models/item/handheld/shield/tower_shield/tower_shield_reinforcing.json",
                     "transform": {
                         "rotation": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
                         },
                         "translation": {
                             "x": -1.32,

@@ -4,14 +4,14 @@
             "path": "miapi:models/item/tool/head/excavator/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -2.0,
-                    "y": -2.0,
-                    "z": 0.0
+                    "x": -2,
+                    "y": -2,
+                    "z": 0
                 },
                 "scale": {
                     "x": 1,
@@ -34,14 +34,6 @@
     },
     "priority": 1,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "shovel",
-        "excavator",
-        "tool",
-        "head"
-    ],
     "better_combat_config": "bettercombat:hammer",
     "allowed_in_slots": [
         "tool_head"
@@ -123,11 +115,6 @@
         }
     ],
     "durability": "[material.durability]* 0.5",
-    "tag": [
-        "tool_head",
-        "shovel_head",
-        "excavator"
-    ],
     "display_name": "miapi.module.tm_arsenal.tool.excavator.name",
     "item_id": "miapi:modular_shovel",
     "fake_item_tag": [
@@ -135,5 +122,16 @@
         "c:shovels",
         "c:tools",
         "c:tool/shovel"
+    ],
+    "module_tag": [
+        "default",
+        "handheld",
+        "shovel",
+        "excavator",
+        "tool",
+        "head",
+        "tool_head",
+        "shovel_head",
+        "excavator"
     ]
 }

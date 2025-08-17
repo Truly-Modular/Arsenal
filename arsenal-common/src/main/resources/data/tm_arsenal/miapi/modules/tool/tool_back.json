@@ -3,14 +3,14 @@
         "path": "miapi:models/item/tool/head/tool_back/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": -8.0,
-                "y": -7.0,
-                "z": 0.0
+                "x": -8,
+                "y": -7,
+                "z": 0
             },
             "scale": {
                 "x": 1,
@@ -21,12 +21,6 @@
     },
     "priority": 0,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "tool",
-        "head"
-    ],
     "allowed_in_slots": [
         "tool_head_back"
     ],
@@ -37,9 +31,6 @@
         ]
     },
     "durability": "[material.durability]* 0.33",
-    "tag": [
-        "tool_head"
-    ],
     "attributes": [
         {
             "attribute": "generic.attack_speed",
@@ -62,5 +53,12 @@
             "crystal"
         ],
         "cost": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "handheld",
+        "tool",
+        "head",
+        "tool_head"
+    ]
 }

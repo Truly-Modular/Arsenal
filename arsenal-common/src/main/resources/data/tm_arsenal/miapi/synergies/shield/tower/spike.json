@@ -15,9 +15,9 @@
                     "path": "miapi:models/item/handheld/shield/tower_shield/tower_shield_spikes.json",
                     "transform": {
                         "rotation": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
                         },
                         "translation": {
                             "x": -3.2,
@@ -27,7 +27,7 @@
                         "scale": {
                             "x": 1.4,
                             "y": 1.4,
-                            "z": 1.0
+                            "z": 1
                         }
                     }
                 }

@@ -14,5 +14,8 @@
             "display_name": "miapi.module.tm_arsenal.twin_blade.name",
             "item_id": "miapi:twin_blade"
         }
-    }
+    },
+    "module_tag": [
+        "blade"
+    ]
 }

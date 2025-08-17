@@ -7,13 +7,13 @@
             "path": "miapi:models/item/sword/blade/greatsword/cake_knife/[material.texture].json",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -7.0,
-                    "y": -6.0,
+                    "x": -7,
+                    "y": -6,
                     "z": 0.01
                 },
                 "scale": {

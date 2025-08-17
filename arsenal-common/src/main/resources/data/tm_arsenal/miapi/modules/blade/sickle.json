@@ -5,13 +5,13 @@
             "color": "[material.color]",
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -3.0,
-                    "y": -3.0,
+                    "x": -3,
+                    "y": -3,
                     "z": -0.001
                 },
                 "scale": {
@@ -24,14 +24,6 @@
     ],
     "priority": 6,
     "repair_priority": -1,
-    "material_property": [
-        "default",
-        "handheld",
-        "blade",
-        "sickle",
-        "combat_hoe",
-        "head"
-    ],
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/sword",
@@ -42,11 +34,6 @@
             "minecraft:enchantable/mining_loot"
         ]
     },
-    "tag": [
-        "blade",
-        "blade_large",
-        "polearm_glaive"
-    ],
     "allowed_in_slots": [
         "sword_blade_small"
     ],
@@ -145,8 +132,7 @@
         "area_harvest_ability": {
             "range": "[material.tier]-1"
         },
-        "hoe_ability": {
-        }
+        "hoe_ability": {}
     },
     "gui_stat": {
         "area_harvest_ability": {
@@ -162,5 +148,16 @@
         }
     },
     "display_name": "miapi.module.tm_arsenal.blade.sickle.name",
-    "item_id": "miapi:modular_sickle"
+    "item_id": "miapi:modular_sickle",
+    "module_tag": [
+        "default",
+        "handheld",
+        "blade",
+        "sickle",
+        "combat_hoe",
+        "head",
+        "blade",
+        "blade_large",
+        "polearm_glaive"
+    ]
 }

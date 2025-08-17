@@ -1,5 +1,5 @@
 {
     "module": "tm_arsenal:handle/sword",
     "translation": "miapi.create_item.sword",
-    "priority":-8
+    "priority": -8
 }

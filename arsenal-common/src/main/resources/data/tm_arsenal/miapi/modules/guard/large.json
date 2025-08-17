@@ -2,9 +2,21 @@
     "model": {
         "path": "miapi:models/item/sword/guard/winged/[material.texture].json",
         "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
-            "translation": {"x": -4.0, "y": -4.0, "z": 0.001},
-            "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": -4,
+                "y": -4,
+                "z": 0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
         }
     },
     "allowed_in_slots": [
@@ -17,19 +29,31 @@
                 "sword_blade_small",
                 "sword_blade_large"
             ],
-            "allowedMerge": ["small_blade","medium_blade","large_blade"],
+            "allowedMerge": [
+                "small_blade",
+                "medium_blade",
+                "large_blade"
+            ],
             "translationKey": "miapi.slot.sword_blade.name",
             "transform": {
-                "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
-                "translation": {"x": 2.0, "y": 2.0, "z": 0.0},
-                "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
             }
         }
     },
-    "material_property": [
-        "default",
-        "handheld"
-    ],
     "priority": -1,
     "repair_priority": 0,
     "material_indication": {
@@ -48,10 +72,6 @@
             "blocking": "60 + ceil([material.flexibility]*1.5)"
         }
     },
-    "tag": [
-        "guard",
-        "guard_large"
-    ],
     "allowed_material": {
         "allowedMaterials": [
             "wood",
@@ -68,5 +88,11 @@
     "gui_offset": {
         "sizeX": 1,
         "sizeY": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "handheld",
+        "guard",
+        "guard_large"
+    ]
 }

@@ -3,34 +3,26 @@
         "path": "miapi:models/item/sword/handle/one_handed_large/[material.texture].json",
         "transform": {
             "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
             },
             "translation": {
-                "x": -4.0,
-                "y": -5.0,
-                "z": 0.0
+                "x": -4,
+                "y": -5,
+                "z": 0
             },
             "scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
+                "x": 1,
+                "y": 1,
+                "z": 1
             }
         }
     },
     "priority": 1,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "handheld"
-    ],
     "allowed_in_slots": [
         "melee"
-    ],
-    "tag": [
-        "two_handed_handle",
-        "normal_handle"
     ],
     "enchantments": {
         "allowed": [
@@ -49,19 +41,19 @@
             "priority": 0,
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": 2.0,
-                    "y": 2.0,
-                    "z": 0.0
+                    "x": 2,
+                    "y": 2,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         },
@@ -73,19 +65,19 @@
             "priority": -1,
             "transform": {
                 "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
-                    "x": -2.0,
-                    "y": -2.0,
-                    "z": 0.0
+                    "x": -2,
+                    "y": -2,
+                    "z": 0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                 }
             }
         }
@@ -99,7 +91,7 @@
             },
             "translation": {
                 "x": 0,
-                "y": 4.0,
+                "y": 4,
                 "z": 0.5
             },
             "scale": {
@@ -116,7 +108,7 @@
             },
             "translation": {
                 "x": 0,
-                "y": 4.0,
+                "y": 4,
                 "z": 0.5
             },
             "scale": {
@@ -247,28 +239,36 @@
     ],
     "mining_level": {
         "pickaxe": {
-            "allowed": ["#minecraft:mineable/pickaxe"],
+            "allowed": [
+                "#minecraft:mineable/pickaxe"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.15"
             }
         },
         "axe": {
-            "allowed": ["#minecraft:mineable/axe"],
+            "allowed": [
+                "#minecraft:mineable/axe"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.15"
             }
         },
         "shovel": {
-            "allowed": ["#minecraft:mineable/shovel"],
+            "allowed": [
+                "#minecraft:mineable/shovel"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.15"
             }
         },
         "hoe": {
-            "allowed": ["#minecraft:mineable/hoe"],
+            "allowed": [
+                "#minecraft:mineable/hoe"
+            ],
             "speed": {
                 "operation": "**",
                 "value": "-0.15"
@@ -281,5 +281,11 @@
     "durability": "[material.durability]* 0.25",
     "is_weapon": true,
     "display_name": "miapi.module.tm_arsenal.handle.sword.name",
-    "item_id": "miapi:modular_handle"
+    "item_id": "miapi:modular_handle",
+    "module_tag": [
+        "default",
+        "handheld",
+        "two_handed_handle",
+        "normal_handle"
+    ]
 }
