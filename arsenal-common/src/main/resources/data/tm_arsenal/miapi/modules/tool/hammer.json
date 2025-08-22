@@ -39,7 +39,8 @@
             "minecraft:enchantable/mining",
             "minecraft:enchantable/mining_loot",
             "c:enchtantable/pickaxe",
-            "minecraft:pickaxes"
+            "minecraft:pickaxes",
+            "minecraft:breach"
         ]
     },
     "mining_shape": [
@@ -123,6 +124,7 @@
             "slot": "mainhand"
         }
     ],
+    "bludgeon": "[material.tier]+[material.density]*0.25",
     "durability": "[material.durability]* 0.5",
     "display_name": "miapi.module.tm_arsenal.tool.hammer.name",
     "item_id": "miapi:modular_hammer",
