@@ -1,6 +1,6 @@
 {
     "inscribe_data_on_craft": "banner",
-    "allowedInSlots": [
+    "allowed_in_slots": [
         "banner_cosmetic"
     ],
     "banner": [

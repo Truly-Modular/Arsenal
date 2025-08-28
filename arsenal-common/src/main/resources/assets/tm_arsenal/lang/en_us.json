@@ -364,6 +364,10 @@
     "miapi.module.tm_arsenal.shield.spike.name": "%s Spikes",
     "miapi.module.tm_arsenal.shield.spike.description": "Returns damage to attackers.",
 
+    "miapi.slot.shield.attachment.name": "Attachment Slot",
+    "miapi.slot.shield.rim.name": "Rim Slot",
+    "miapi.shield.banner.name": "Banner Slot",
+
 
     "miapi.module.tm_arsenal.gem.medium.end_crystal": "End Crystal",
     "miapi.module.tm_arsenal.gem.medium.end_crystal.description": "Highly unstable Crystal harnessed to explode killed Enemies",
