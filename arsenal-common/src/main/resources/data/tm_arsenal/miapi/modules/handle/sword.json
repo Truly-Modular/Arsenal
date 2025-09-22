@@ -278,7 +278,7 @@
     "material_indication": {
         "durability": 1
     },
-    "durability": "[material.durability]* 0.25",
+    "durability": "([material.durability]+1)* 0.25",
     "is_weapon": true,
     "display_name": "miapi.module.tm_arsenal.handle.sword.name",
     "item_id": "miapi:modular_handle",

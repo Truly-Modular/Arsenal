@@ -154,7 +154,7 @@
     "material_indication": {
         "durability": 1
     },
-    "durability": "[material.durability]* 0.25",
+    "durability": "([material.durability]+1)* 0.25",
     "gui_offset": {
         "x": 3,
         "y": 3,
