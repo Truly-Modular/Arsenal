@@ -25,7 +25,8 @@
         "allowed": [
             "minecraft:enchantable/durability",
             "minecraft:enchantable/equippable",
-            "minecraft:enchantable/vanishing"
+            "minecraft:enchantable/vanishing",
+            "c:enchantable/tools"
         ]
     },
     "mining_level": {
