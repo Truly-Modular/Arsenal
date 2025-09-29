@@ -126,6 +126,7 @@
         "blade_large",
         "polearm_glaive",
         "blade_greatsword",
-        "blade_shield_break"
+        "blade_shield_break",
+        "sharp"
     ]
 }

@@ -116,6 +116,8 @@
         "head",
         "blade",
         "blade_large",
-        "polearm_halberd"
+        "polearm_halberd",
+        "sharp",
+        "sweep"
     ]
 }

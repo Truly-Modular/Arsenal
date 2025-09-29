@@ -106,6 +106,8 @@
         "blade_medium",
         "head",
         "blade",
-        "polearm_spear"
+        "polearm_spear",
+        "sharp",
+        "sweep"
     ]
 }

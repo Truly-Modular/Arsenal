@@ -76,8 +76,14 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness] * 0.75 + [material.flexibility] * 0.2",
+            "value": "[material.hardness] * 0.8 + [material.flexibility] * 0.35",
             "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "player.sweeping_damage_ratio",
+            "value": "-0.25",
+            "operation": "**",
             "slot": "mainhand"
         }
     ],
@@ -116,6 +122,7 @@
         "blade",
         "blade_medium",
         "polearm_halberd",
-        "piercing_blade"
+        "piercing_blade",
+        "sharp"
     ]
 }

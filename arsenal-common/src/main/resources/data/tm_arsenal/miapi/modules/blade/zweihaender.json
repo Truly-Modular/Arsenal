@@ -131,6 +131,8 @@
         "blade",
         "blade_large",
         "polearm_glaive",
-        "piercing_blade"
+        "piercing_blade",
+        "sharp",
+        "sweep"
     ]
 }

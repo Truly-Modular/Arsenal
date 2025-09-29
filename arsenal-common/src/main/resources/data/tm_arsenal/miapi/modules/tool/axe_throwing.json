@@ -191,6 +191,7 @@
         "tool_head",
         "axe_head",
         "throwing_module",
-        "throwing_axe"
+        "throwing_axe",
+        "sharp"
     ]
 }

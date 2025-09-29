@@ -120,6 +120,8 @@
         "blade",
         "blade_medium",
         "polearm_glaive",
-        "slashing_blade"
+        "slashing_blade",
+        "sharp",
+        "sweep"
     ]
 }
