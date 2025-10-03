@@ -257,19 +257,6 @@
             "slot": "mainhand"
         }
     ],
-    "gui_stat": {
-        "area_harvest_ability": {
-            "value": "[collect.add.module.blade_size]",
-            "min": 0,
-            "max": 4,
-            "header": {
-                "translate": "test.blade_size"
-            },
-            "description": {
-                "translate": "miapi.ability.area_harvest_ability.description"
-            }
-        }
-    },
     "durability": "[material.durability]* 0.25",
     "isWeapon": true,
     "displayName": "miapi.module.handle_long.name",
