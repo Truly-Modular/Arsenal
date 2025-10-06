@@ -278,13 +278,10 @@
     },
     "module_tag": [
         "default",
-        "blade",
         "handheld",
         "dual_wield",
-        "head",
         "custom_handle",
         "shield",
-        "handheld",
         "tower_shield"
     ]
 }

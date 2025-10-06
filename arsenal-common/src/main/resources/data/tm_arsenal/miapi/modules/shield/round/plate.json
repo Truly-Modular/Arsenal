@@ -287,10 +287,7 @@
         "shield",
         "shield_plate",
         "round_shield",
-        "custom_handle",
-        "shield",
-        "handheld",
-        "round_shield",
-        "parry_shield"
+        "parry_shield",
+        "custom_handle"
     ]
 }
