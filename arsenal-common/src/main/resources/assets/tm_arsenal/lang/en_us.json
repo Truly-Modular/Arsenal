@@ -228,11 +228,11 @@
 
     "miapi.module.tm_arsenal.guard.tool_socket": "Tool Socket Guard",
     "miapi.module.tm_arsenal.guard.tool_socket.name": "%s Tool Socket",
-    "miapi.module.tm_arsenal.guard.tool_socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts for Tools.",
+    "miapi.module.tm_arsenal.guard.tool_socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts for Tools at the cost of durability.",
 
     "miapi.module.tm_arsenal.guard.tool_dual_socket": "Tool Dual Socket Guard",
     "miapi.module.tm_arsenal.guard.tool_dual_socket.name": "%s Tool Dual Socket",
-    "miapi.module.tm_arsenal.guard.tool_dual_socket.description": "A Guard that adds a Position to socket two small Magical Gemstones or Artifacts for Tools.",
+    "miapi.module.tm_arsenal.guard.tool_dual_socket.description": "A Guard that adds a Position to socket two small Magical Gemstones or Artifacts for Tools at the cost of durability.",
 
     "miapi.module.tm_arsenal.guard.winged": "Winged Guard",
     "miapi.module.tm_arsenal.guard.winged.name": "%s Winged Guard",

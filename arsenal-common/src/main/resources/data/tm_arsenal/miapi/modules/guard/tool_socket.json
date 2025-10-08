@@ -87,7 +87,7 @@
     "material_indication": {
         "durability": 1
     },
-    "durability": "*0.5",
+    "durability": "[material.durability]* 0.2",
     "allowed_material": {
         "allowedMaterials": [
             "wood",

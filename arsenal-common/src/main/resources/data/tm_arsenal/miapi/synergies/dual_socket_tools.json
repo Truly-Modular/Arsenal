@@ -1,0 +1,15 @@
+{
+    "type": "module",
+    "module": "tm_arsenal:guard/tool_dual_socket",
+    "condition": {
+        "type": "true"
+    },
+    "properties": {
+        "merge": {
+            "durability": {
+                "operation": "**",
+                "value": "-0.5"
+            }
+        }
+    }
+}
