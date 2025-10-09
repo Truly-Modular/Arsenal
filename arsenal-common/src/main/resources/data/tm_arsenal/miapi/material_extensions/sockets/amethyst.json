@@ -7,7 +7,13 @@
         "gem_melee_generic": {
             "attributes": [
                 {
-                    "attribute": "miapi:generic.attack_range",
+                    "attribute": "player.entity_interaction_range",
+                    "value": "0.1 * [module.gem_power]",
+                    "operation": "+",
+                    "slot": "mainhand"
+                },
+                {
+                    "attribute": "player.block_interaction_range",
                     "value": "0.1 * [module.gem_power]",
                     "operation": "+",
                     "slot": "mainhand"

@@ -3,3 +3,4 @@
 - added twin handle create option
 - buffed rapier damage and nerfed its sweeping
 - added sharp and sweep tag to modules for next level
+- fix some excessive logging

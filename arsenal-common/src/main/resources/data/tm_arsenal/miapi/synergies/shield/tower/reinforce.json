@@ -35,7 +35,7 @@
             ],
             "ability_context": {
                 "parry_block": {
-                    "cooldown": "-5-log([material.hardness])"
+                    "cooldown": "-5-log(max([material.hardness], 0.0001))"
                 }
             }
         }
