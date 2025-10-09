@@ -5,6 +5,23 @@
     ],
     "properties": {
         "gem_melee_generic": {
+            "attributes": [
+                {
+                    "attribute": "miapi:generic.crit_chance",
+                    "value": "([module.gem_power] * 10 + 5)/100",
+                    "operation": "*",
+                    "slot": "mainhand",
+                    "target_operation": "*"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": "[module.gem_power]*2",
+                    "operation": "+",
+                    "slot": "mainhand"
+                }
+            ]
+        },
+        "gem_melee_medium":{
             "fake_enchants": {
                 "minecraft:fortune": "[old_level]+1"
             },
@@ -20,16 +37,7 @@
                         "translate": "miapi.stat.fortune.description"
                     }
                 }
-            },
-            "attributes": [
-                {
-                    "attribute": "miapi:generic.crit_chance",
-                    "value": "([module.gem_power] * 10 + 5)/100",
-                    "operation": "*",
-                    "slot": "mainhand",
-                    "target_operation": "*"
-                }
-            ]
+            }
         }
     }
 }
