@@ -422,6 +422,8 @@
     "miapi.skin.tm_arsenal.name.pride-tool_nb": "Non-Binary Smith",
     "miapi.skin.tm_arsenal.name.pride-tool_trans": "Trans Artisan",
 
+    "miapi.material_property.category.gem_melee_medium": "Medium Gemstone",
+    "miapi.material_property.category.gem_melee_medium.description": "Larger socketable Gemstones for Melee Weapons.",
     "miapi.material_property.category.gem_melee_generic": "Melee Gemstone",
     "miapi.material_property.category.gem_melee_generic.description": "Socketable Gemstone for Melee Weapons."
 }

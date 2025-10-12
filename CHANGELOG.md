@@ -5,3 +5,4 @@
 - added sharp and sweep tag to modules for next level
 - fix some excessive logging
 - rebalanced emeralds to give luck instead of fortune -> moved fortune to medium socket only
+- nerved sickle

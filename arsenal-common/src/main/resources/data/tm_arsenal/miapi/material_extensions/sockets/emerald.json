@@ -12,31 +12,18 @@
                     "operation": "*",
                     "slot": "mainhand",
                     "target_operation": "*"
-                },
-                {
+                },{
                     "attribute": "minecraft:generic.luck",
-                    "value": "[module.gem_power]*2",
-                    "operation": "+",
-                    "slot": "mainhand"
+                    "value": "[module.gem_power] * 2",
+                    "operation": "*",
+                    "slot": "mainhand",
+                    "target_operation": "*"
                 }
             ]
         },
-        "gem_melee_medium":{
+        "gem_melee_medium": {
             "fake_enchants": {
                 "minecraft:fortune": "[old_level]+1"
-            },
-            "gui_stat": {
-                "fortune": {
-                    "value": "1",
-                    "min": 0,
-                    "max": 3,
-                    "header": {
-                        "translate": "miapi.stat.fortune"
-                    },
-                    "description": {
-                        "translate": "miapi.stat.fortune.description"
-                    }
-                }
             }
         }
     }
