@@ -21,6 +21,7 @@
     },
     "priority": 7,
     "repair_priority": -1,
+    "handheld_item": true,
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/sword",

@@ -49,6 +49,8 @@
         ],
         "cost": 1
     },
+    "combo": "5+[material.tier]",
+    "combo_time": 20,
     "attributes": [
         {
             "attribute": "miapi:generic.attack_range",
@@ -58,13 +60,13 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "+0.5",
+            "value": "+0.3",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness]*0.6",
+            "value": "[material.hardness]*0.8",
             "operation": "+",
             "slot": "mainhand"
         }

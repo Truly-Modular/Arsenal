@@ -6,3 +6,12 @@
 - fix some excessive logging
 - rebalanced emeralds to give luck instead of fortune -> moved fortune to medium socket only
 - nerved sickle
+- buffed spears by giving them inertia
+- gave daggers and throwing knifes dual wield bonus as well
+- rebalanced handhelds -> 
+  - nerfed attackspeed to 1.6 attackspeed across the board
+  - reduced attack range by 0.15
+  - dual wielding gives additional attackspeed, up to 2 attackspeed
+  - increased attack damage on katars
+  - added Combo Property to all handhelds, successive hits deal increased damage
+  - with this rebalance dual wielded katars now have some of the highest dps potential
