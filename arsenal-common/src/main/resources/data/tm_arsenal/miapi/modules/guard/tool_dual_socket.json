@@ -1,0 +1,140 @@
+{
+    "model": {
+        "path": "miapi:models/item/sword/guard/dual_socket/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": -4,
+                "y": -4,
+                "z": 0.001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "allowed_in_slots": [
+        "sword_guard",
+        "tool_adapter"
+    ],
+    "slots": {
+        "socket_small_left": {
+            "allowed": [
+                "gem_melee_small"
+            ],
+            "allowedMerge": [
+                "socket_small"
+            ],
+            "translationKey": "miapi.slot.gem.name",
+            "priority": -10,
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": -4,
+                    "y": -5,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        "socket_right": {
+            "allowed": [
+                "gem_melee_small"
+            ],
+            "allowedMerge": [
+                "socket_small"
+            ],
+            "translationKey": "miapi.slot.gem.name",
+            "priority": -10,
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": -5,
+                    "y": -4,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        "tool_head": {
+            "allowed": [
+                "tool_head"
+            ],
+            "allowedMerge": [
+                "tool_head"
+            ],
+            "translationKey": "miapi.slot.tool_head.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "-0.08",
+            "operation": "*",
+            "slot": "mainhand"
+        }
+    ],
+    "priority": -3,
+    "repair_priority": 0,
+    "material_indication": {
+        "durability": 1
+    },
+    "durability": "[material.durability]* 0.2",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 2
+    },
+    "module_tag": [
+        "default",
+        "handheld",
+        "guard",
+        "guard_normal"
+    ]
+}
