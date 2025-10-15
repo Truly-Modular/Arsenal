@@ -1,0 +1,66 @@
+{
+    "parent": "tm_arsenal:guard/socket",
+    "data": {
+        "replace": {
+            "allowed_in_slots": [
+                "tool_socket"
+            ],
+            "slots": {
+                "socket_medium": {
+                    "allowed": [
+                        "gem_melee_medium"
+                    ],
+                    "translationKey": "miapi.slot.gem.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": -4,
+                            "y": -4,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                },
+                "tool_head": {
+                    "allowed": [
+                        "tool_head"
+                    ],
+                    "translationKey": "miapi.slot.tool_head.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 3,
+                            "y": 3,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                }
+            },
+            "gui_offset": {
+                "sizeX": 3,
+                "sizeY": 3
+            }
+        },
+        "durability": {
+            "operation": "**",
+            "value": "-0.40"
+        }
+    }
+}

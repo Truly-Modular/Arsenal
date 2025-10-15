@@ -21,7 +21,7 @@
     },
     "allowed_in_slots": [
         "sword_guard",
-        "polearm_blade"
+        "polearm_guard"
     ],
     "slots": {
         "blade": {

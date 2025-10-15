@@ -36,6 +36,7 @@
         "0": {
             "allowed": [
                 "polearm_blade",
+                "polearm_guard",
                 "tool_adapter"
             ],
             "translationKey": "miapi.slot.sword_blade.name",

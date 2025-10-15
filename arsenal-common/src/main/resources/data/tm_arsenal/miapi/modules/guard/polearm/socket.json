@@ -1,0 +1,65 @@
+{
+    "parent": "tm_arsenal:guard/socket",
+    "data": {
+        "replace": {
+            "priority": -15,
+            "allowed_in_slots": [
+                "polearm_guard"
+            ],
+            "slots": {
+                "socket_medium": {
+                    "allowed": [
+                        "gem_melee_medium"
+                    ],
+                    "translationKey": "miapi.slot.gem.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": -4,
+                            "y": -4,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                },
+                "blade": {
+                    "allowed": [
+                        "sword_blade",
+                        "sword_blade_small",
+                        "polearm_blade"
+                    ],
+                    "translationKey": "miapi.slot.sword_blade.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 3,
+                            "y": 3,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                }
+            },
+            "gui_offset": {
+                "sizeX": 3,
+                "sizeY": 3
+            }
+        }
+    }
+}

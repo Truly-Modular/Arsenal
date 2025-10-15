@@ -8,7 +8,8 @@
     "slots": {
         "tool_head": {
             "allowed": [
-                "tool_head"
+                "tool_head",
+                "tool_socket"
             ],
             "allowedMerge": [
                 "tool_head"

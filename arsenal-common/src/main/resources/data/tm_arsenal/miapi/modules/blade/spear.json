@@ -26,7 +26,7 @@
         "blade_size": 1
     },
     "inertia_damage": "3+[material.density]/2",
-    "priority": 1,
+    "priority": -13,
     "repair_priority": -1,
     "enchantments": {
         "allowed": [
