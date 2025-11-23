@@ -91,15 +91,27 @@
         }
     ],
     "durability": "[material.durability]* 0.5",
-    "ability_context": {
-        "riptide": {
-            "needsWater": true,
-            "allowLava": false,
-            "needRiptideEnchant": true,
-            "riptideStrength": 3
+    "ability_context": [
+        {
+            "id": "tm_arsenal:riptide",
+            "type": "miapi:riptide",
+            "priority": -1,
+            "data": {
+                "needsWater": true,
+                "allowLava": false,
+                "needRiptideEnchant": true,
+                "riptideStrength": 3
+            }
         },
-        "throw": {}
-    },
+        {
+            "id": "tm_arsenal:throw",
+            "priority": 1,
+            "type": "miapi:throw",
+            "data": {
+
+            }
+        }
+    ],
     "gui_offset": {
         "sizeX": -6,
         "sizeY": -6
