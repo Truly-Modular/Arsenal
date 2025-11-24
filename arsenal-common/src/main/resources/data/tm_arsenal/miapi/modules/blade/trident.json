@@ -100,7 +100,7 @@
                 "needsWater": true,
                 "allowLava": false,
                 "needRiptideEnchant": true,
-                "riptideStrength": 3
+                "riptideStrength": 0
             }
         },
         {
