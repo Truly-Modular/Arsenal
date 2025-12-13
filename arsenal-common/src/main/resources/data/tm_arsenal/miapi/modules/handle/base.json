@@ -1,0 +1,164 @@
+{
+    "repair_priority": 0,
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/durability",
+            "minecraft:enchantable/equippable",
+            "minecraft:enchantable/vanishing"
+        ]
+    },
+    "material_indication": {
+        "durability": 1
+    },
+    "durability": "([material.durability]+1)* 0.25",
+    "is_weapon": true,
+    "module_tag": [
+        "default",
+        "handheld"
+    ],
+    "equipment_slot": "mainhand",
+    "item_id": "miapi:modular_handle",
+    "model_transform": {
+        "thirdperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 55
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "thirdperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -45
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "firstperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 25
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "firstperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -65
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "ground": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 2,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        },
+        "head": {
+            "rotation": {
+                "x": 90,
+                "y": 90,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 13,
+                "z": 7
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "fixed": {
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "mining_level": {
+        "pickaxe": {
+            "allowed": [
+                "#minecraft:mineable/pickaxe"
+            ]
+        },
+        "axe": {
+            "allowed": [
+                "#minecraft:mineable/axe"
+            ]
+        },
+        "shovel": {
+            "allowed": [
+                "#minecraft:mineable/shovel"
+            ]
+        },
+        "hoe": {
+            "allowed": [
+                "#minecraft:mineable/hoe"
+            ]
+        },
+        "sword": {
+            "allowed": [
+                "#minecraft:mineable/sword"
+            ]
+        }
+    }
+}

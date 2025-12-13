@@ -149,13 +149,13 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "floor((([material.hardness]-3.4)*2.3)^(5/7))+5 + [material.axe_damage] * 0.8",
+            "value": "[material.hardness] + [material.density] * 0.8",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "miapi:generic.projectile_damage",
-            "value": "floor((([material.hardness]-1.4)*2.3)^(5/7))+5 + [material.axe_damage] * 0.8 ",
+            "value": "[material.hardness] + [material.density] * 0.8 ",
             "operation": "+",
             "slot": "mainhand"
         },

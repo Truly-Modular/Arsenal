@@ -1,290 +1,127 @@
 {
-    "model": {
-        "path": "miapi:models/item/sword/handle/polearm/[material.texture].json",
-        "transform": {
-            "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "translation": {
-                "x": -4,
-                "y": -4,
-                "z": 0
-            },
-            "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-            }
-        }
-    },
-    "priority": 5,
-    "repair_priority": 0,
-    "enchantments": {
-        "allowed": [
-            "minecraft:enchantable/durability",
-            "minecraft:enchantable/equippable",
-            "minecraft:enchantable/vanishing",
-            "c:enchantable/tools"
-        ]
-    },
-    "allowed_in_slots": [
-        "melee"
-    ],
-    "slots": {
-        "0": {
-            "allowed": [
-                "polearm_blade",
-                "polearm_guard",
-                "tool_adapter"
-            ],
-            "translationKey": "miapi.slot.sword_blade.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 9,
-                    "y": 9,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
+    "parent": "tm_arsenal:handle/base",
+    "data": {
+        "merge": {
+            "model": {
+                "path": "miapi:models/item/sword/handle/polearm/[material.texture].json",
+                "transform": {
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "translation": {
+                        "x": -4,
+                        "y": -4,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
                 }
-            }
-        }
-    },
-    "allowed_material": {
-        "allowedMaterials": [
-            "wood",
-            "metal",
-            "flint",
-            "bone",
-            "stone",
-            "rod",
-            "crystal",
-            "glass"
-        ],
-        "cost": 2
-    },
-    "attributes": [
-        {
-            "attribute": "miapi:generic.reach",
-            "value": "+1.0",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.attack_range",
-            "value": "1.0",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "generic.attack_damage",
-            "value": "0.0",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "generic.attack_speed",
-            "value": "-2.6",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "generic.attack_speed",
-            "value": "0.0",
-            "operation": "*",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "generic.attack_damage",
-            "value": "0.0",
-            "operation": "*",
-            "slot": "mainhand"
-        }
-    ],
-    "mining_level": {
-        "pickaxe": {
-            "allowed": [
-                "#minecraft:mineable/pickaxe"
+            },
+            "priority": 5,
+            "allowed_in_slots": [
+                "melee"
             ],
-            "speed": {
-                "operation": "**",
-                "value": "-0.30"
-            }
-        },
-        "axe": {
-            "allowed": [
-                "#minecraft:mineable/axe"
+            "slots": {
+                "0": {
+                    "allowed": [
+                        "polearm_blade",
+                        "polearm_guard",
+                        "tool_adapter"
+                    ],
+                    "translationKey": "miapi.slot.sword_blade.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 9,
+                            "y": 9,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                }
+            },
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "rod",
+                    "crystal",
+                    "glass"
+                ],
+                "cost": 2
+            },
+            "attributes": [
+                {
+                    "attribute": "miapi:generic.reach",
+                    "value": "+1.0",
+                    "operation": "+",
+                    "slot": "mainhand"
+                },
+                {
+                    "attribute": "miapi:generic.attack_range",
+                    "value": "1.0",
+                    "operation": "+",
+                    "slot": "mainhand"
+                },
+                {
+                    "attribute": "generic.attack_speed",
+                    "value": "-2.6",
+                    "operation": "+",
+                    "slot": "mainhand"
+                }
             ],
-            "speed": {
-                "operation": "**",
-                "value": "-0.30"
-            }
-        },
-        "shovel": {
-            "allowed": [
-                "#minecraft:mineable/shovel"
-            ],
-            "speed": {
-                "operation": "**",
-                "value": "-0.30"
-            }
-        },
-        "hoe": {
-            "allowed": [
-                "#minecraft:mineable/hoe"
-            ],
-            "speed": {
-                "operation": "**",
-                "value": "-0.30"
-            }
-        },
-        "sword": {
-            "allowed": [
-                "#minecraft:mineable/sword"
+            "mining_level": {
+                "pickaxe": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.30"
+                    }
+                },
+                "axe": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.30"
+                    }
+                },
+                "shovel": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.30"
+                    }
+                },
+                "hoe": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.30"
+                    }
+                }
+            },
+            "gui_offset": {
+                "x": 3,
+                "y": 3,
+                "sizeX": 13,
+                "sizeY": 13
+            },
+            "display_name": "miapi.module.tm_arsenal.handle.polearm.name",
+            "module_tag": [
+                "polearm_handle"
             ]
         }
-    },
-    "material_indication": {
-        "durability": 1
-    },
-    "durability": "([material.durability]+1)* 0.25",
-    "gui_offset": {
-        "x": 3,
-        "y": 3,
-        "sizeX": 13,
-        "sizeY": 13
-    },
-    "is_weapon": true,
-    "display_name": "miapi.module.tm_arsenal.handle.polearm.name",
-    "item_id": "miapi:modular_handle",
-    "model_transform": {
-        "thirdperson_righthand": {
-            "rotation": {
-                "x": 0,
-                "y": -90,
-                "z": 55
-            },
-            "translation": {
-                "x": 0,
-                "y": 4,
-                "z": 0.5
-            },
-            "scale": {
-                "x": 0.85,
-                "y": 0.85,
-                "z": 0.85
-            }
-        },
-        "thirdperson_lefthand": {
-            "rotation": {
-                "x": -90,
-                "y": -90,
-                "z": -45
-            },
-            "translation": {
-                "x": 0,
-                "y": 4,
-                "z": 0.5
-            },
-            "scale": {
-                "x": 0.85,
-                "y": 0.85,
-                "z": 0.85
-            }
-        },
-        "firstperson_righthand": {
-            "rotation": {
-                "x": 0,
-                "y": -90,
-                "z": 25
-            },
-            "translation": {
-                "x": 1.13,
-                "y": 3.2,
-                "z": 1.13
-            },
-            "scale": {
-                "x": 0.68,
-                "y": 0.68,
-                "z": 0.68
-            }
-        },
-        "firstperson_lefthand": {
-            "rotation": {
-                "x": -90,
-                "y": -90,
-                "z": -65
-            },
-            "translation": {
-                "x": 1.13,
-                "y": 3.2,
-                "z": 1.13
-            },
-            "scale": {
-                "x": 0.68,
-                "y": 0.68,
-                "z": 0.68
-            }
-        },
-        "ground": {
-            "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "translation": {
-                "x": 0,
-                "y": 2,
-                "z": 0
-            },
-            "scale": {
-                "x": 0.5,
-                "y": 0.5,
-                "z": 0.5
-            }
-        },
-        "head": {
-            "rotation": {
-                "x": 90,
-                "y": 90,
-                "z": 0
-            },
-            "translation": {
-                "x": 0,
-                "y": 13,
-                "z": 7
-            },
-            "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-            }
-        },
-        "fixed": {
-            "rotation": {
-                "x": 0,
-                "y": 180,
-                "z": 0
-            },
-            "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-            }
-        }
-    },
-    "module_tag": [
-        "default",
-        "handheld",
-        "polearm_handle"
-    ]
+    }
 }

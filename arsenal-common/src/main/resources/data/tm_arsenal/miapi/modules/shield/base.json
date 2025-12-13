@@ -1,0 +1,34 @@
+{
+    "enchantments": {
+        "allowed": [
+            "miapi:basic",
+            "miapi:shield"
+        ]
+    },
+    "repair_priority": -1,
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 1
+    },
+    "durability": "[material.durability]/4",
+    "module_tag": [
+        "default",
+        "handheld",
+        "dual_wield",
+        "custom_handle",
+        "shield",
+        "shield_plate"
+    ],
+    "better_combat_config": {
+        "parent": "bettercombat:fist"
+    },
+    "equipment_slot": "offhand"
+}
