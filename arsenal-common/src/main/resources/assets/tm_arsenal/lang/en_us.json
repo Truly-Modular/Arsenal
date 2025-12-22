@@ -120,7 +120,11 @@
     "miapi.slot.sword_blade.name": "Empty Blade Slot",
     "miapi.slot.pommel.name" : "Empty Pommel Slot",
     "miapi.slot.guard.name" : "Empty Guard Slot",
+    "miapi.slot.handheld.name": "Empty Handheld Slot",
     "miapi.slot.gem.name" : "Empty Socket",
+
+    "miapi.arsenal.gemstone_melee.radiant": "Radiant",
+    "miapi.arsenal.gemstone_melee.radiant.description": "Applies Glowing to attacked targets",
 
     "miapi.module.tm_arsenal.handheld.gauntlets": "Gauntlets",
     "miapi.module.tm_arsenal.handheld.gauntlets.name": "%s Gauntlets",
@@ -226,21 +230,21 @@
     "miapi.module.tm_arsenal.guard.dual_socket.name": "%s Dual Socket",
     "miapi.module.tm_arsenal.guard.dual_socket.description": "A Guard that adds a Position to socket two small Magical Gemstones or Artifacts.",
 
-    "miapi.module.tm_arsenal.guard.tool/socket": "Tool Socket Guard",
-    "miapi.module.tm_arsenal.guard.tool/socket.name": "%s Tool Socket",
-    "miapi.module.tm_arsenal.guard.tool/socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts for Tools at the cost of durability.",
+    "miapi.module.tm_arsenal.guard.tool.socket": "Tool Socket Guard",
+    "miapi.module.tm_arsenal.guard.tool.socket.name": "%s Tool Socket",
+    "miapi.module.tm_arsenal.guard.tool.socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts for Tools at the cost of durability.",
 
     "miapi.module.tm_arsenal.guard.tool/dual_socket": "Tool Dual Socket Guard",
     "miapi.module.tm_arsenal.guard.tool/dual_socket.name": "%s Tool Dual Socket",
     "miapi.module.tm_arsenal.guard.tool/dual_socket.description": "A Guard that adds a Position to socket two small Magical Gemstones or Artifacts for Tools at the cost of durability.",
 
-    "miapi.module.tm_arsenal.guard.polearm/socket": "Polearm Socket Guard",
-    "miapi.module.tm_arsenal.guard.polearm/socket.name": "%s Polearm Socket",
-    "miapi.module.tm_arsenal.guard.polearm/socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts for Polearms at the cost of durability.",
+    "miapi.module.tm_arsenal.guard.polearm.socket": "Polearm Socket Guard",
+    "miapi.module.tm_arsenal.guard.polearm.socket.name": "%s Polearm Socket",
+    "miapi.module.tm_arsenal.guard.polearm.socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts for Polearms at the cost of durability.",
 
-    "miapi.module.tm_arsenal.guard.polearm/dual_socket": "Polearm Dual Socket Guard",
-    "miapi.module.tm_arsenal.guard.polearm/dual_socket.name": "%s Polearm Dual Socket",
-    "miapi.module.tm_arsenal.guard.polearm/dual_socket.description": "A Guard that adds a Position to socket two small Magical Gemstones or Artifacts for Polearms at the cost of durability.",
+    "miapi.module.tm_arsenal.guard.polearm.dual_socket": "Polearm Dual Socket Guard",
+    "miapi.module.tm_arsenal.guard.polearm.dual_socket.name": "%s Polearm Dual Socket",
+    "miapi.module.tm_arsenal.guard.polearm.dual_socket.description": "A Guard that adds a Position to socket two small Magical Gemstones or Artifacts for Polearms at the cost of durability.",
 
     "miapi.module.tm_arsenal.guard.winged": "Winged Guard",
     "miapi.module.tm_arsenal.guard.winged.name": "%s Winged Guard",

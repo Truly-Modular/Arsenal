@@ -51,7 +51,7 @@
     "repair_priority": 0,
     "allowed_material": {
         "allowedMaterials": [
-            "miapi:custom/ender_pearl"
+            "miapi:custom/ender_eye"
         ],
         "cost": 1
     },

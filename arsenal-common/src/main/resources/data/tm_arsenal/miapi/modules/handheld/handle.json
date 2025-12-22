@@ -35,7 +35,7 @@
                         "handheld_blade",
                         "handheld_shield"
                     ],
-                    "translationKey": "miapi.slot.guard.name",
+                    "translationKey": "miapi.slot.handheld.name",
                     "transform": {
                         "rotation": {
                             "x": 0,
