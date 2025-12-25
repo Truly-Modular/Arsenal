@@ -7,10 +7,6 @@ architectury {
 }
 
 repositories {
-    maven {
-        url 'http://trulymodular.dedyn.io/maven'
-        allowInsecureProtocol = true
-    }
     maven { url "https://maven.neoforged.net/releases/" }
     maven { url 'https://maven.uuid.gg/releases' }
     maven { url 'https://maven.terraformersmc.com/' }
@@ -57,7 +53,7 @@ dependencies {
     //implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
     //modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-forge")
 
-    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-neoforge:${rootProject.miapi_version}-${rootProject.minecraft_version}")
+    modApi( "com.github.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-neoforge:${rootProject.miapi_version}-${rootProject.minecraft_version}")
 
     common(project(path: ":arsenal-common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":arsenal-common", configuration: "transformProductionNeoForge")) { transitive = false }
