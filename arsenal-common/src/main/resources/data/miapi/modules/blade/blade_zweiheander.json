@@ -83,6 +83,9 @@
             "slot": "mainhand"
         }
     ],
+    "abilities": [
+        "block"
+    ],
     "blocking": "([material.flexibility]* 3 + 15) * 1.1 / [collect.add.module.blade_size]",
     "durability": "[material.durability]* 0.25",
     "guiOffset": {
@@ -90,9 +93,6 @@
         "sizeY": 6
     },
     "displayName": "miapi.module.blade_zweihaender.name",
-    "abilities": [
-        "block"
-    ],
     "armor_pen": "([material.hardness]*1.5 + 10) * 1.1 / [collect.add.module.blade_size]",
     "itemId": "miapi:modular_greatsword"
 }
