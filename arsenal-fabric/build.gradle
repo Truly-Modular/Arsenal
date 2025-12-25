@@ -52,7 +52,7 @@ dependencies {
     //modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-fabric")
     //implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 
-    modApi( "com.github.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}-${rootProject.minecraft_version}")
+    modApi( "com.github.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}")
 
     common(project(path: ":arsenal-common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":arsenal-common", configuration: "transformProductionFabric")) { transitive false }

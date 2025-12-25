@@ -53,7 +53,7 @@ dependencies {
     //implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
     //modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-forge")
 
-    modApi( "com.github.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-neoforge:${rootProject.miapi_version}-${rootProject.minecraft_version}")
+    modApi( "com.github.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-neoforge:${rootProject.miapi_version}")
 
     common(project(path: ":arsenal-common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":arsenal-common", configuration: "transformProductionNeoForge")) { transitive = false }
