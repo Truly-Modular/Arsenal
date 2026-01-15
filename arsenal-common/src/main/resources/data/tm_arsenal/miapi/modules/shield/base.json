@@ -30,5 +30,6 @@
     "better_combat_config": {
         "parent": "bettercombat:fist"
     },
+    "handheld_item": false,
     "equipment_slot": "offhand"
 }
