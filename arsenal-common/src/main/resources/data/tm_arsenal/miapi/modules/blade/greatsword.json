@@ -114,7 +114,7 @@
     },
     "item_id": "miapi:modular_greatsword",
     "fake_item_tag": [
-        "mincraft:swords",
+        "minecraft:swords",
         "c:swords"
     ],
     "module_tag": [

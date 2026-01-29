@@ -106,7 +106,7 @@
     "display_name": "miapi.module.tm_arsenal.blade.longsword.name",
     "item_id": "miapi:modular_longsword",
     "fake_item_tag": [
-        "mincraft:swords",
+        "minecraft:swords",
         "c:swords"
     ],
     "module_tag": [

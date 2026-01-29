@@ -120,7 +120,7 @@
     "armor_pen": "[material.hardness]*1.5 + 10 / [collect.add.module.blade_size]",
     "item_id": "miapi:modular_greatsword",
     "fake_item_tag": [
-        "mincraft:swords",
+        "minecraft:swords",
         "c:swords"
     ],
     "module_tag": [

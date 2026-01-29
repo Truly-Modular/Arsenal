@@ -109,7 +109,7 @@
     "slashing": "[material.hardness] * 0.6 /  [collect.add.module.blade_size]",
     "item_id": "miapi:modular_katana",
     "fake_item_tag": [
-        "mincraft:swords",
+        "minecraft:swords",
         "c:swords"
     ],
     "module_tag": [

@@ -59,7 +59,6 @@
                 },
                 "guard-inverse": {
                     "allowed": [
-                        "tool_head",
                         "sword_guard",
                         "sword_blade_small"
                     ],

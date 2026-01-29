@@ -41,13 +41,13 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "-0.2 + [material.density]*0.06",
+            "value": "-0.2 + LOG([material.density]*0.06+1)",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "0.1",
+            "value": "0.025",
             "operation": "*",
             "slot": "mainhand"
         }

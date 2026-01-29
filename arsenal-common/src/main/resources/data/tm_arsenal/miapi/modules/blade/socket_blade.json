@@ -121,7 +121,7 @@
     "display_name": "miapi.module.tm_arsenal.blade.normal.name",
     "item_id": "miapi:modular_sword",
     "fake_item_tag": [
-        "mincraft:swords",
+        "minecraft:swords",
         "c:swords"
     ],
     "module_tag": [
