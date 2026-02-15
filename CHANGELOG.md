@@ -5,4 +5,4 @@
   - shrank model when in air
   - buffed thrown speed
   - nerved shot speed
-- added throwing knife spin
+- added throwing axe spin
