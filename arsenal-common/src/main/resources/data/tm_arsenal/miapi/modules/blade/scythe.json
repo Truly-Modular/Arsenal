@@ -22,6 +22,7 @@
             }
         }
     ],
+    "is_weapon": "true",
     "priority": -10,
     "repair_priority": -1,
     "enchantments": {

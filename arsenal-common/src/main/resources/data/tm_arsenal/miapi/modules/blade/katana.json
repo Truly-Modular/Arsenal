@@ -23,6 +23,7 @@
     "module_stats": {
         "blade_size": 1.1
     },
+    "is_weapon": "true",
     "priority": 2,
     "repair_priority": -1,
     "enchantments": {

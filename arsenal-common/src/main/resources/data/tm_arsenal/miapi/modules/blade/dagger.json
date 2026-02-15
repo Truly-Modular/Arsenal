@@ -80,9 +80,9 @@
         {
             "attribute": "miapi:generic.back_stab",
             "value": "2 / [collect.add.module.blade_size]",
-            "operation": "*",
+            "operation": "**",
             "slot": "mainhand",
-            "target_operation": "*"
+            "target_operation": "**"
         },
         {
             "attribute": "generic.attack_speed",
@@ -146,5 +146,6 @@
         "blade_short",
         "polearm_spear",
         "sharp"
-    ]
+    ],
+    "is_weapon": "true"
 }

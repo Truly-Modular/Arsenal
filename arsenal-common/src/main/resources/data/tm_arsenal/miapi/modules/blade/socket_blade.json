@@ -19,6 +19,7 @@
             }
         }
     },
+    "is_weapon": "true",
     "slots": {
         "socket_medium": {
             "allowed": [

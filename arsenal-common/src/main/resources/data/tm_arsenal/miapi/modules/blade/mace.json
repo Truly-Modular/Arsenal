@@ -78,6 +78,7 @@
         "sizeX": -2,
         "sizeY": -2
     },
+    "is_weapon": "true",
     "display_name": "miapi.module.tm_arsenal.blade.mace.name",
     "item_id": "miapi:modular_mace",
     "module_tag": [

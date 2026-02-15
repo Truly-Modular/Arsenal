@@ -117,6 +117,7 @@
         "minecraft:swords",
         "c:swords"
     ],
+    "is_weapon": "true",
     "module_tag": [
         "default",
         "handheld",

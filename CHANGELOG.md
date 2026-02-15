@@ -1,23 +1,8 @@
-## v2.3 (1.21)
-- fixed missing lang
-- added twin handle create option
-- buffed rapier damage and nerfed its sweeping
-- added sharp and sweep tag to modules for next level
-- fix some excessive logging
-- rebalanced emeralds to give luck instead of fortune -> moved fortune to medium socket only
-- nerved sickle
-- buffed spears by giving them inertia
-- gave daggers and throwing knifes dual wield bonus as well
-- fixed issue where throw ability would overshadow riptide ability
-- changed axe balancing -> axe damage is now simply hardness + density
-- rebalanced handhelds -> 
-  - nerfed attackspeed to 1.6 attackspeed across the board
-  - reduced attack range by 0.15
-  - dual wielding gives additional attackspeed, up to 2 attackspeed
-  - increased attack damage on katars
-  - added Combo Property to all handhelds, successive hits deal increased damage
-  - with this re-balance dual wielded katars now have some of the highest dps potential
-### Technical changes
-- introduced module inheritence for handles and shields
-- added default equipmentslot to all handles
-- bumped miapi requirement to 2.2
+## v2.4 (1.21)
+- throwing knifes:
+  - added spin when thrown
+  - added trail
+  - shrank model when in air
+  - buffed thrown speed
+  - nerved shot speed
+- added throwing knife spin

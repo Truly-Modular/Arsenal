@@ -22,6 +22,7 @@
             }
         }
     ],
+    "is_weapon": "true",
     "module_stats": {
         "blade_size": 1
     },

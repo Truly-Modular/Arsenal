@@ -109,5 +109,6 @@
         "polearm_spear",
         "sharp",
         "sweep"
-    ]
+    ],
+    "is_weapon": "true"
 }

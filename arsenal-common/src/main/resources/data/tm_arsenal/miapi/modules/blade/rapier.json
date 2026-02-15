@@ -111,7 +111,7 @@
     "display_name": "miapi.module.tm_arsenal.blade.rapier.name",
     "item_id": "miapi:modular_rapier",
     "fake_item_tag": [
-        "mincraft:swords",
+        "minecraft:swords",
         "c:swords"
     ],
     "module_tag": [

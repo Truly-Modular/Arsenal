@@ -19,6 +19,62 @@
             }
         }
     },
+    "trail": {
+        "maxPoints": 1000,
+        "pointLifetime": 4,
+        "sampleInterval": 0.0,
+        "thickness": 0.3,
+        "texture": "miapi:item/trail_2",
+        "debug": false,
+        "color_provider": "material",
+        "color": {
+            "r": 255.0,
+            "g": 255.0,
+            "b": 255.0,
+            "a": 70.0
+        },
+        "transform": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": -45
+            },
+            "translation": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "projectile_transform": {
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.6,
+            "y": 0.6,
+            "z": 0.6
+        }
+    },
+    "projectile_animation": {
+        "type": "miapi:simple_rotation",
+        "axis": "Z",
+        "degrees_per_tick": 120,
+        "offset": 15
+    },
+    "is_weapon": "true",
     "priority": 7,
     "repair_priority": -1,
     "handheld_item": true,
@@ -76,7 +132,7 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness]*0.5 + [material.flexibility]*0.4",
+            "value": "[material.hardness]*0.6 + [material.flexibility]*0.4",
             "operation": "+",
             "slot": "mainhand"
         },
@@ -88,13 +144,13 @@
         },
         {
             "attribute": "miapi:generic.projectile_damage",
-            "value": "[material.hardness]*0.5 + [material.flexibility]*0.4",
+            "value": "[material.hardness]*0.7 + [material.flexibility]*0.4",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "miapi:generic.projectile_speed",
-            "value": "1.3",
+            "value": "1.7",
             "operation": "+",
             "slot": "mainhand"
         },
@@ -105,6 +161,7 @@
             "slot": "mainhand"
         }
     ],
+    "shot_velocity": -10.2,
     "mining_level": {
         "sword": {
             "allowed": [

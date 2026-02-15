@@ -19,6 +19,7 @@
             }
         }
     },
+    "is_weapon": "true",
     "priority": 1,
     "repair_priority": -1,
     "gui_offset": {
