@@ -15,9 +15,9 @@
                 },{
                     "attribute": "minecraft:generic.luck",
                     "value": "[module.gem_power] * 2",
-                    "operation": "*",
+                    "operation": "+",
                     "slot": "mainhand",
-                    "target_operation": "*"
+                    "target_operation": "+"
                 }
             ]
         },
