@@ -21,7 +21,7 @@
                 }
             ]
         },
-        "gem_melee_medium": {
+        "gem_melee_medium_generic": {
             "fake_enchants": {
                 "minecraft:fortune": "[old_level]+1"
             }

@@ -71,26 +71,11 @@
             "value": "[material.hardness]*1.0",
             "operation": "+",
             "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.projectile_damage",
-            "value": "[material.hardness]*0.8",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.projectile_speed",
-            "value": "2.0",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.projectile_accuracy",
-            "value": "1.0",
-            "operation": "+",
-            "slot": "mainhand"
         }
     ],
+    "throw_damage": "[material.hardness]*0.8",
+    "throw_speed": "1.9",
+    "projectile_accuracy": "10",
     "durability": "[material.durability]* 0.5",
     "ability_context": [
         {

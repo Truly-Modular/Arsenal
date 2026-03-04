@@ -90,6 +90,32 @@
                     "c:tools"
                 ]
             },
+            "mining_level": {
+                "pickaxe": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.15 + [material.flexibility]/20"
+                    }
+                },
+                "axe": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.15 + [material.flexibility]/20"
+                    }
+                },
+                "shovel": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.15 + [material.flexibility]/20"
+                    }
+                },
+                "hoe": {
+                    "speed": {
+                        "operation": "**",
+                        "value": "-0.15 + [material.flexibility]/20"
+                    }
+                }
+            },
             "display_name": "miapi.module.tm_arsenal.handle.tool.name",
             "module_tag": [
                 "tool_handle"

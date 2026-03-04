@@ -6,3 +6,9 @@
   - buffed thrown speed
   - nerved shot speed
 - added throwing axe spin
+- increased tool and sword handle scaling with flexibility
+- changed so tool socket can replace tool adapter now
+- improved tool socket visuals and feel
+- fixed fortune on emeralds
+- rebalanced spears and throwing axes to fit the new projectile system
+  - throwing axes now support sharpness, it applies to thrown damage too

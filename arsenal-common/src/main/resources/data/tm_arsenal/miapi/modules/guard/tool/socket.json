@@ -2,9 +2,31 @@
     "parent": "tm_arsenal:guard/socket",
     "data": {
         "replace": {
+            "priority": -6,
             "allowed_in_slots": [
-                "tool_socket"
+                "sword_guard",
+                "tool_adapter"
             ],
+            "model": {
+                "path": "miapi:models/item/tool/socket/[material.texture].json",
+                "transform": {
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "translation": {
+                        "x": -4,
+                        "y": -4,
+                        "z": 0.001
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            },
             "slots": {
                 "socket_medium": {
                     "allowed": [
@@ -41,8 +63,8 @@
                             "z": 0
                         },
                         "translation": {
-                            "x": 3,
-                            "y": 3,
+                            "x": 2,
+                            "y": 2,
                             "z": 0
                         },
                         "scale": {
@@ -54,13 +76,18 @@
                 }
             },
             "gui_offset": {
-                "sizeX": 3,
-                "sizeY": 3
+                "sizeX": 2,
+                "sizeY": 2
             }
         },
-        "durability": {
-            "operation": "**",
-            "value": "-0.40"
+        "merge": {
+            "durability": {
+                "operation": "**",
+                "value": "-0.25"
+            },
+            "module_tag": [
+                "short_tool_handle"
+            ]
         }
     }
 }

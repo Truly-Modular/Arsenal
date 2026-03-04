@@ -135,33 +135,13 @@
             "value": "[material.hardness]*0.6 + [material.flexibility]*0.4",
             "operation": "+",
             "slot": "mainhand"
-        },
-        {
-            "attribute": "generic.attack_speed",
-            "value": "0.5",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.projectile_damage",
-            "value": "[material.hardness]*0.7 + [material.flexibility]*0.4",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.projectile_speed",
-            "value": "1.7",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.projectile_accuracy",
-            "value": "1.5",
-            "operation": "+",
-            "slot": "mainhand"
         }
     ],
-    "shot_velocity": -10.2,
+    "throw_damage": "[material.hardness]*0.7 + [material.flexibility]*0.4",
+    "throw_speed": "2",
+    "projectile_accuracy": "-50",
+    "projectile_speed": "-20",
+    "shot_velocity": 0,
     "mining_level": {
         "sword": {
             "allowed": [

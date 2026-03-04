@@ -1,0 +1,65 @@
+{
+    "type": "module",
+    "module": "tm_arsenal:handle/tool",
+    "condition": {
+        "type": "child",
+        "condition": {
+            "type": "tag",
+            "tag": "short_tool_handle"
+        }
+    },
+    "properties": {
+        "replace": {
+            "model": {
+                "path": "miapi:models/item/tool/handle/tool_short/[material.texture].json",
+                "transform": {
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            },
+            "gui_offset": {
+                "sizeX": -2,
+                "sizeY": -2
+            },
+            "slots": {
+                "guard": {
+                    "allowed": [
+                        "sword_guard",
+                        "sword_blade_small"
+                    ],
+                    "translationKey": "miapi.slot.tool_head.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 6,
+                            "y": 5,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
