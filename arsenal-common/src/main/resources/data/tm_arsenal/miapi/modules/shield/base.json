@@ -27,9 +27,7 @@
         "shield",
         "shield_plate"
     ],
-    "better_combat_config": {
-        "parent": "bettercombat:fist"
-    },
+    "better_combat_config": "bettercombat:fist",
     "handheld_item": false,
     "equipment_slot": "offhand"
 }

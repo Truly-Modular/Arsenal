@@ -62,7 +62,7 @@
                         "sword_pommel"
                     ],
                     "translationKey": "miapi.slot.pommel.name",
-                    "priority": -1,
+                    "priority": 1,
                     "transform": {
                         "rotation": {
                             "x": 0,

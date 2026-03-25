@@ -62,7 +62,7 @@
                         "sword_guard",
                         "sword_blade_small"
                     ],
-                    "priority": -1,
+                    "priority": 1,
                     "translationKey": "miapi.slot.guard.name",
                     "transform": {
                         "rotation": {
@@ -121,15 +121,16 @@
                     "operation": "**",
                     "slot": "mainhand",
                     "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
-                },
-                {
-                    "attribute": "miapi:generic.projectile_damage",
-                    "value": "1/[collect.add.module.blade_size]-1",
-                    "operation": "**",
-                    "slot": "mainhand",
-                    "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
                 }
             ],
+            "throw_damage": {
+                "operation": "**",
+                "value": "-0.60"
+            },
+            "throw_speed": {
+                "operation": "**",
+                "value": "-0.60"
+            },
             "mining_level": {
                 "pickaxe": {
                     "speed": {
