@@ -5,7 +5,7 @@ import smartin.miapi.Miapi;
 import smartin.miapi.item.ModularItemStackConverter;
 import smartin.miapi.material.MaterialProperty;
 import smartin.miapi.material.base.Material;
-import smartin.miapi.modules.ModuleInstance;
+import smartin.miapi.modules.MutableModuleInstance;
 import smartin.miapi.modules.properties.ItemIdProperty;
 import smartin.miapi.registries.RegistryInventory;
 
@@ -81,117 +81,117 @@ public class GenerateConvertersHelper {
     }
 
     public static ItemStack swordItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/sword")));
+        MutableModuleInstance handleModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "handle/sword"),Miapi.registryAccess);
         MaterialProperty.setMaterial(handleModule, getWoodMaterial()); // Set material to input material
         // Define the child 'guard' module for the handle
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/normal")));
+        MutableModuleInstance guardModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "guard/normal"),Miapi.registryAccess);
         MaterialProperty.setMaterial(guardModule, material);
         // Define the child 'blade' module for the guard
-        ModuleInstance bladeModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "blade/normal")));
+        MutableModuleInstance bladeModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "blade/normal"),Miapi.registryAccess);
         MaterialProperty.setMaterial(bladeModule, material);
         // Set blade as child of guard
-        guardModule.setSubModule("blade", bladeModule);
+        guardModule.setChild("blade", bladeModule);
         // Define the 'pommel' module for the handle
-        ModuleInstance pommelModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "pommel/round")));
+        MutableModuleInstance pommelModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "pommel/round"),Miapi.registryAccess);
         MaterialProperty.setMaterial(pommelModule, material); // Set pommel material to gold
         // Set guard and pommel as children of handle
-        handleModule.setSubModule("guard", guardModule);
-        handleModule.setSubModule("pommel", pommelModule);
+        handleModule.setChild("guard", guardModule);
+        handleModule.setChild("pommel", pommelModule);
         // Create the ItemStack for the sword with the handle module configured
         ItemStack swordItem = new ItemStack(RegistryInventory.modularItem); // Use the material specified for the sword base
-        handleModule.writeToItem(swordItem);
+        handleModule.toRecord().writeToItem(swordItem);
         swordItem = ItemIdProperty.changeId(swordItem);
         return swordItem;
     }
 
     public static ItemStack shovelItem(Material material) {
         // Handle module for the shovel
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
+        MutableModuleInstance handleModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "handle/tool"),Miapi.registryAccess);
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
         // Guard module
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        MutableModuleInstance guardModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "guard/tool_adapter"),Miapi.registryAccess);
 
         // Tool head module for shovel
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/shovel")));
+        MutableModuleInstance toolHeadModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "tool/shovel"),Miapi.registryAccess);
         MaterialProperty.setMaterial(toolHeadModule, material);
 
         // Set hierarchy
-        guardModule.setSubModule("tool_head", toolHeadModule);
-        handleModule.setSubModule("guard", guardModule);
+        guardModule.setChild("tool_head", toolHeadModule);
+        handleModule.setChild("guard", guardModule);
 
         // Create ItemStack
         ItemStack shovelItem = new ItemStack(RegistryInventory.modularItem);
-        handleModule.writeToItem(shovelItem);
+        handleModule.toRecord().writeToItem(shovelItem);
         shovelItem = ItemIdProperty.changeId(shovelItem);
 
         return shovelItem;
     }
 
     public static ItemStack axeItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
+        MutableModuleInstance handleModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "handle/tool"),Miapi.registryAccess);
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        MutableModuleInstance guardModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "guard/tool_adapter"),Miapi.registryAccess);
 
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/axe_front")));
+        MutableModuleInstance toolHeadModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "tool/axe_front"),Miapi.registryAccess);
         MaterialProperty.setMaterial(toolHeadModule, material);
 
-        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/tool_back")));
+        MutableModuleInstance toolBackModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "tool/tool_back"),Miapi.registryAccess);
         MaterialProperty.setMaterial(toolBackModule, material);
 
-        toolHeadModule.setSubModule("tool_back", toolBackModule);
-        guardModule.setSubModule("tool_head", toolHeadModule);
-        handleModule.setSubModule("guard", guardModule);
+        toolHeadModule.setChild("tool_back", toolBackModule);
+        guardModule.setChild("tool_head", toolHeadModule);
+        handleModule.setChild("guard", guardModule);
 
         ItemStack axeItem = new ItemStack(RegistryInventory.modularItem);
-        handleModule.writeToItem(axeItem);
+        handleModule.toRecord().writeToItem(axeItem);
         axeItem = ItemIdProperty.changeId(axeItem);
 
         return axeItem;
     }
 
     public static ItemStack pickaxeItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
+        MutableModuleInstance handleModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "handle/tool"),Miapi.registryAccess);
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        MutableModuleInstance guardModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "guard/tool_adapter"), Miapi.registryAccess);
 
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/pickaxe_front")));
+        MutableModuleInstance toolHeadModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "tool/pickaxe_front"),Miapi.registryAccess);
         MaterialProperty.setMaterial(toolHeadModule, material);
 
-        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/pickaxe_back")));
+        MutableModuleInstance toolBackModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "tool/pickaxe_back"),Miapi.registryAccess);
         MaterialProperty.setMaterial(toolBackModule, material);
 
-        toolHeadModule.setSubModule("tool_back", toolBackModule);
-        guardModule.setSubModule("tool_head", toolHeadModule);
-        handleModule.setSubModule("guard", guardModule);
+        toolHeadModule.setChild("tool_back", toolBackModule);
+        guardModule.setChild("tool_head", toolHeadModule);
+        handleModule.setChild("guard", guardModule);
 
         ItemStack pickaxeItem = new ItemStack(RegistryInventory.modularItem);
-        handleModule.writeToItem(pickaxeItem);
+        handleModule.toRecord().writeToItem(pickaxeItem);
         pickaxeItem = ItemIdProperty.changeId(pickaxeItem);
 
         return pickaxeItem;
     }
 
     public static ItemStack hoeItem(Material material) {
-        ModuleInstance handleModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "handle/tool")));
+        MutableModuleInstance handleModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "handle/tool"),Miapi.registryAccess);
         MaterialProperty.setMaterial(handleModule, getWoodMaterial());
 
-        ModuleInstance guardModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "guard/tool_adapter")));
+        MutableModuleInstance guardModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "guard/tool_adapter"),Miapi.registryAccess);
 
-        ModuleInstance toolHeadModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/hoe_front")));
+        MutableModuleInstance toolHeadModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "tool/hoe_front"), Miapi.registryAccess);
         MaterialProperty.setMaterial(toolHeadModule, material);
 
-        ModuleInstance toolBackModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_arsenal", "tool/tool_back")));
+        MutableModuleInstance toolBackModule = new MutableModuleInstance(Miapi.id("tm_arsenal", "tool/tool_back"),Miapi.registryAccess);
         MaterialProperty.setMaterial(toolBackModule, material);
 
-        toolHeadModule.setSubModule("tool_back", toolBackModule);
-        guardModule.setSubModule("tool_head", toolHeadModule);
-        handleModule.setSubModule("guard", guardModule);
+        toolHeadModule.setChild("tool_back", toolBackModule);
+        guardModule.setChild("tool_head", toolHeadModule);
+        handleModule.setChild("guard", guardModule);
 
         ItemStack hoeItem = new ItemStack(RegistryInventory.modularItem);
-        handleModule.writeToItem(hoeItem);
+        handleModule.toRecord().writeToItem(hoeItem);
         hoeItem = ItemIdProperty.changeId(hoeItem);
 
         return hoeItem;

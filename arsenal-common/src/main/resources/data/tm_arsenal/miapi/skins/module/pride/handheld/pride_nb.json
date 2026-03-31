@@ -1,7 +1,7 @@
 {
     "path": "pride/pride-handheld_nb",
     "module_tags": [
-        "handheld"
+        "handheld_item"
     ],
     "type": "overlay",
     "replace": {
