@@ -159,7 +159,7 @@
             "slot": "mainhand"
         }
     ],
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]* 1.25",
     "display_name": "miapi.module.tm_arsenal.tool.axe_cutter.name",
     "item_id": "miapi:modular_axe",
     "fake_item_tag": [

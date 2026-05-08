@@ -1,14 +1,2 @@
-## v2.4 (1.21)
-- throwing knifes:
-  - added spin when thrown
-  - added trail
-  - shrank model when in air
-  - buffed thrown speed
-  - nerved shot speed
-- added throwing axe spin
-- increased tool and sword handle scaling with flexibility
-- changed so tool socket can replace tool adapter now
-- improved tool socket visuals and feel
-- fixed fortune on emeralds
-- rebalanced spears and throwing axes to fit the new projectile system
-  - throwing axes now support sharpness, it applies to thrown damage too
+## v2.5 (1.21)
+- buffed durability of lumber axes, excavators nad hammers significantly

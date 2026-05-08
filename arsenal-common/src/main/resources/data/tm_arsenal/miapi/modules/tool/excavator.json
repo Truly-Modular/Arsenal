@@ -114,7 +114,7 @@
             "slot": "mainhand"
         }
     ],
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]* 1.5",
     "display_name": "miapi.module.tm_arsenal.tool.excavator.name",
     "item_id": "miapi:modular_shovel",
     "fake_item_tag": [

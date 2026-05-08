@@ -125,7 +125,7 @@
         }
     ],
     "bludgeon": "[material.tier]+[material.density]*0.25",
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]* 1.5",
     "display_name": "miapi.module.tm_arsenal.tool.hammer.name",
     "item_id": "miapi:modular_hammer",
     "fake_item_tag": [
