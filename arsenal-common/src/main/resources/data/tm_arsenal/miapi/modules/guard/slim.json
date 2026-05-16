@@ -58,7 +58,7 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "0.10+[material.density]/7",
+            "value": "0.10-[material.density]/100+[material.flexibility]/40",
             "operation": "+",
             "slot": "mainhand"
         }

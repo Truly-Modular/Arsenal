@@ -83,10 +83,7 @@
             "type": "miapi:riptide",
             "priority": -1,
             "data": {
-                "needsWater": true,
-                "allowLava": false,
-                "needRiptideEnchant": true,
-                "riptideStrength": 0
+                "require_fluid": true
             }
         },
         {
