@@ -3,3 +3,4 @@
 - nerfed slim guards (no more +0.8 attackspeed)
 - adjusted socket guards
 - fixed end crystals being usable on all materials
+- buffed greatsword damage
