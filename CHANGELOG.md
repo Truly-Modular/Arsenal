@@ -4,3 +4,4 @@
 - adjusted socket guards
 - fixed end crystals being usable on all materials
 - buffed greatsword damage
+- adjusted sword handle attackspeed scaling to promote the usage of rod handle materials
