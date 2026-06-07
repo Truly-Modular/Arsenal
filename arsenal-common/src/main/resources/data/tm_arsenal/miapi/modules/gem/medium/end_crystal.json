@@ -9,10 +9,13 @@
     "repair_priority": 0,
     "crafting_condition": {
         "craftAble": {
-            "type": "material",
-            "material": "stone_obsidian",
-            "error": {
-                "translate": "miapi.crafting_condition.require_obsidian_socket"
+            "type": "parent",
+            "condition": {
+                "type": "material",
+                "material": "miapi:stone/obsidian",
+                "error": {
+                    "translate": "miapi.crafting_condition.require_obsidian_socket"
+                }
             }
         }
     },
