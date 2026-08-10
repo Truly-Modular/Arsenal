@@ -1,0 +1,27 @@
+{
+    "ability_context": [
+        {
+            "id": "tmarsenal:throw",
+            "type": "miapi:throw",
+            "data": {
+                "min_hold_time": "2",
+                "auto_release": true,
+                "animation": "none",
+                "pose_charge": "miapi:throwing_knife_alt",
+                "pose_throw": "none",
+                "cooldown": "15",
+                "throw_position": {
+                    "translation": [0,0,1],
+                    "rotation": [0,0,0],
+                    "scale": [1,1,1]
+                }
+            }
+        }
+    ],
+    "projectile_animation": {
+        "type": "miapi:simple_rotation",
+        "axis": "Z",
+        "degrees_per_tick": 0,
+        "offset": 0
+    }
+}

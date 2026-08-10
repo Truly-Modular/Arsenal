@@ -68,11 +68,30 @@
             "z": 0.8
         }
     },
+    "ability_context": [
+        {
+            "id": "tmarsenal:throw",
+            "type": "miapi:throw",
+            "data": {
+                "min_hold_time": "2",
+                "auto_release": true,
+                "animation": "none",
+                "pose_charge": "miapi:throwing_knife_alt",
+                "pose_throw": "none",
+                "cooldown": "15",
+                "throw_position": {
+                    "translation": [0,0,1],
+                    "rotation": [0,0,0],
+                    "scale": [1,1,1]
+                }
+            }
+        }
+    ],
     "projectile_animation": {
         "type": "miapi:simple_rotation",
         "axis": "Z",
-        "degrees_per_tick": 120,
-        "offset": 15
+        "degrees_per_tick": 0,
+        "offset": 0
     },
     "is_weapon": "true",
     "priority": 7,
@@ -164,9 +183,6 @@
     "durability": "[material.durability]* 0.15",
     "module_stats": {
         "blade_size": 1
-    },
-    "ability_context": {
-        "throw": {}
     },
     "display_name": "miapi.module.tm_arsenal.blade.throwing_knife.name",
     "item_id": "miapi:modular_throwing_knife",

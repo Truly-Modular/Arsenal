@@ -51,7 +51,7 @@
         "cost": 2
     },
     "fake_enchants": {
-        "minecraft:sweeping": 3
+        "minecraft:sweeping_edge": "[old_level]+3"
     },
     "module_stats": {
         "blade_size": 1
