@@ -81,18 +81,6 @@
             "slot": "mainhand"
         },
         {
-            "attribute": "miapi:generic.true_damage",
-            "value": "[material.hardness] * 0.4 + [material.flexibility] * 0.2",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.armor_pierce_damage",
-            "value": "[material.hardness] * 0.4 + [material.flexibility] * 0.2",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
             "attribute": "player.sweeping_damage_ratio",
             "value": "-0.25",
             "operation": "**",
