@@ -76,7 +76,8 @@
             },
             "description": {
                 "translate": "miapi.tm_arsenal.tree_mining.description"
-            }
+            },
+            "group": "miapi:mining"
         }
     },
     "material_indication": {
