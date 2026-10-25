@@ -1,0 +1,26 @@
+{
+    "type": "module",
+    "module": "tm_arsenal:tool/hoe_front",
+    "condition": {
+        "type": "parent",
+        "condition": {
+            "type": "parent",
+            "condition": {
+                "type": "module",
+                "module": "miapi:handle/tool"
+            }
+        }
+    },
+    "properties": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "generic.attack_speed",
+                    "value": "1",
+                    "operation": "+",
+                    "slot": "mainhand"
+                }
+            ]
+        }
+    }
+}
